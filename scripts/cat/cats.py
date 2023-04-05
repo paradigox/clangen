@@ -237,6 +237,7 @@ class Cat():
         self.white_patches_tint = None
         self.eye_colour = eye_colour
         self.eye_colour2 = None
+        self.eye_colour3 = None
         self.scars = []
         self.former_mentor = []
         self.patrol_with_mentor = 0
@@ -732,6 +733,7 @@ class Cat():
 
         if self.status in ['leader', 'deputy']:
             self.status_change('warrior')
+            self.status = 'warrior'
         elif self.status == 'apprentice' and self.moons >= 15:
             self.status_change('warrior')
             involved_cats = [self.ID]
@@ -817,6 +819,7 @@ class Cat():
             self.update_mentor()
 
             if old_status == 'leader':
+                game.clan.leader_lives = 0
                 self.died_by = []  # Clear their deaths.
                 if game.clan.leader:
                     if game.clan.leader.ID == self.ID:
@@ -843,6 +846,7 @@ class Cat():
             self.retired = True
 
             if old_status == 'leader':
+                game.clan.leader_lives = 0
                 self.died_by = []  # Clear their deaths.
                 if game.clan.leader:
                     if game.clan.leader.ID == self.ID:
@@ -963,6 +967,7 @@ class Cat():
     def describe_eyes(self):
         colour = str(self.eye_colour).lower()
         colour2 = str(self.eye_colour2).lower()
+        colour3 = str(self.eye_colour3).lower()
 
         if colour == 'palegreen':
             colour = 'pale green'
@@ -996,6 +1001,24 @@ class Cat():
             if colour2 == 'greenyellow':
                 colour2 = 'green-yellow'
             colour = colour + ' and ' + colour2
+        if self.eye_colour3 != None:
+            if colour3 == 'palegreen':
+                colour3 = 'pale green'
+            if colour3 == 'darkblue':
+                colour3 = 'dark blue'
+            if colour3 == 'paleblue':
+                colour3 = 'pale blue'
+            if colour3 == 'paleyellow':
+                colour3 = 'pale yellow'
+            if colour3 == 'heatherblue':
+                colour3 = 'heather blue'
+            if colour3 == 'blue2':
+                colour3 = 'blue'
+            if colour3 == 'sunlitice':
+                colour3 = 'sunlit ice'
+            if colour3 == 'greenyellow':
+                colour3 = 'green-yellow'
+            colour = colour + ' and half ' + colour3
         return colour
 
     # ---------------------------------------------------------------------------- #
@@ -2105,8 +2128,12 @@ class Cat():
         # if the cat has a mate, they are not open for a new mate
         if for_patrol:
             if self.mate or other_cat.mate:
-                if not for_love_interest or not affair:
+                if not for_love_interest:
                     return False
+                elif not affair:
+                    return False
+                else:
+                    return True
         else:
             if self.mate or other_cat.mate and not for_love_interest:
                 return False

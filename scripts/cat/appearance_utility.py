@@ -18,14 +18,14 @@ from .pelts import (
     mostly_white,
     pelt_categories,
     pelt_length,
-    plain,
+
     plant_accessories,
     point_markings,
     scars1,
     scars3,
     skin_sprites,
-    spotted,
-    tabbies,
+
+
     tortiebases,
     torties,
     vit,
@@ -34,6 +34,26 @@ from .pelts import (
     yellow_eyes,
     pelt_colours,
     tortiepatterns,
+    red_eyes,
+    grey_eyes,
+    purple_eyes,
+    swirls,
+    points,
+    fire_colours,
+    cream_colours,
+    gold_colours,
+    gray_colours,
+    blue_colours,
+    coolbrown_colours,
+    lavender_colours,
+    warmbrown_colours,
+    points,
+    spots,
+    swirls,
+    flats,
+    stripes,
+    splotches,
+    exotic
     )
 from scripts.cat.sprites import Sprites
 from scripts.game_structure.game_essentials import game
@@ -64,29 +84,58 @@ def init_eyes(cat):
                 choice(eye_colours)
             ])
         num = game.config["cat_generation"]["base_heterochromia"]
-        if cat.white_patches in [high_white, mostly_white, 'FULLWHITE'] or cat.pelt.colour == 'WHITE':
+        if cat.white_patches in [high_white, mostly_white,
+                                 'FULLWHITE'] or cat.pelt.colour == 'WHITE' or cat.pelt.colour == 'SNOW WHITE':
             num = num - 90
-        if cat.white_patches == 'FULLWHITE' or cat.pelt.colour == 'WHITE':
+        if cat.white_patches == 'FULLWHITE' or cat.pelt.colour == 'WHITE' or cat.pelt.colour == 'SNOW WHITE':
             num -= 10
         if par1:
-            if par1.eye_colour2:
+            if par1.eye_colour2 or par1.eye_colour3:
                 num -= 10
         if par2:
-            if par2.eye_colour2:
+            if par2.eye_colour2 or par2.eye_colour3:
                 num -= 10
         if num < 0:
-            num = 1
+            num = 2
         hit = randint(0, num)
         if hit == 0:
             if cat.eye_colour in yellow_eyes:
-                eye_choice = choice([blue_eyes, green_eyes])
+                eye_choice = choice([blue_eyes, green_eyes, red_eyes, grey_eyes, purple_eyes])
                 cat.eye_colour2 = choice(eye_choice)
             elif cat.eye_colour in blue_eyes:
-                eye_choice = choice([yellow_eyes, green_eyes])
+                eye_choice = choice([yellow_eyes, green_eyes, red_eyes, grey_eyes, purple_eyes])
                 cat.eye_colour2 = choice(eye_choice)
             elif cat.eye_colour in green_eyes:
-                eye_choice = choice([yellow_eyes, blue_eyes])
+                eye_choice = choice([yellow_eyes, blue_eyes, red_eyes, grey_eyes, purple_eyes])
                 cat.eye_colour2 = choice(eye_choice)
+            if cat.eye_colour in red_eyes:
+                eye_choice = choice([blue_eyes, blue_eyes, green_eyes, grey_eyes, purple_eyes])
+                cat.eye_colour2 = choice(eye_choice)
+            elif cat.eye_colour in grey_eyes:
+                eye_choice = choice([yellow_eyes, blue_eyes, green_eyes, red_eyes, purple_eyes])
+                cat.eye_colour2 = choice(eye_choice)
+            elif cat.eye_colour in purple_eyes:
+                eye_choice = choice([yellow_eyes, blue_eyes, green_eyes, red_eyes, grey_eyes])
+                cat.eye_colour2 = choice(eye_choice)
+        if hit == 1:
+            if cat.eye_colour in yellow_eyes:
+                eye_choice = choice([blue_eyes, green_eyes, red_eyes, grey_eyes, purple_eyes])
+                cat.eye_colour3 = choice(eye_choice)
+            elif cat.eye_colour in blue_eyes:
+                eye_choice = choice([yellow_eyes, green_eyes, red_eyes, grey_eyes, purple_eyes])
+                cat.eye_colour3 = choice(eye_choice)
+            elif cat.eye_colour in green_eyes:
+                eye_choice = choice([yellow_eyes, blue_eyes, red_eyes, grey_eyes, purple_eyes])
+                cat.eye_colour3 = choice(eye_choice)
+            if cat.eye_colour in red_eyes:
+                eye_choice = choice([blue_eyes, blue_eyes, green_eyes, grey_eyes, purple_eyes])
+                cat.eye_colour3 = choice(eye_choice)
+            elif cat.eye_colour in grey_eyes:
+                eye_choice = choice([yellow_eyes, blue_eyes, green_eyes, red_eyes, purple_eyes])
+                cat.eye_colour3 = choice(eye_choice)
+            elif cat.eye_colour in purple_eyes:
+                eye_choice = choice([yellow_eyes, blue_eyes, green_eyes, red_eyes, grey_eyes])
+                cat.eye_colour3 = choice(eye_choice)
 
 
 def pelt_inheritance(cat, parents: tuple):
@@ -145,27 +194,34 @@ def pelt_inheritance(cat, parents: tuple):
     # ------------------------------------------------------------------------------------------------------------#
 
     # Determine pelt.
-    weights = [0, 0, 0, 0]  #Weights for each pelt group. It goes: (tabbies, spotted, plain, exotic)
+    weights = [0, 0, 0, 0, 0, 0,
+               0]  # Weights for each pelt group. It goes: (points, spots, swirls, flats, stripes, splotches, exotic)
     for p_ in par_peltnames:
-        if p_ in tabbies:
-            add_weight = (50, 10, 5, 7)
-        elif p_ in spotted:
-            add_weight = (10, 50, 5, 5)
-        elif p_ in plain:
-            add_weight = (5, 5, 50, 0)
+        if p_ in points:
+            add_weight = (50, 5, 0, 25, 15, 5, 0)
+        elif p_ in spots:
+            add_weight = (5, 50, 0, 5, 0, 25, 15)
+        elif p_ in swirls:
+            add_weight = (0, 0, 50, 15, 30, 0, 5)
+        elif p_ in flats:
+            add_weight = (25, 5, 0, 50, 5, 15, 0)
+        elif p_ in stripes:
+            add_weight = (5, 0, 35, 5, 50, 0, 5)
+        elif p_ in splotches:
+            add_weight = (25, 15, 0, 5, 0, 50, 5)
         elif p_ in exotic:
-            add_weight = (15, 15, 1, 45)
+            add_weight = (30, 15, 0, 0, 0, 5, 50)
         elif p_ is None:  # If there is at least one unknown parent, a None will be added to the set.
-            add_weight = (35, 20, 30, 15)
+            add_weight = (20, 10, 15, 50, 10, 5, 5)
         else:
-            add_weight = (0, 0, 0, 0)
+            add_weight = (0, 0, 0, 0, 0, 0, 0)
 
         for x in range(0, len(weights)):
             weights[x] += add_weight[x]
 
     #A quick check to make sure all the weights aren't 0
     if all([x == 0 for x in weights]):
-        weights = [1, 1, 1, 1]
+        weights = [1, 1, 1, 1, 1, 1, 1]
 
     # Now, choose the pelt category and pelt. The extra 0 is for the tortie pelts,
     chosen_pelt = choice(
@@ -199,28 +255,46 @@ def pelt_inheritance(cat, parents: tuple):
     # ------------------------------------------------------------------------------------------------------------#
     #   PELT COLOUR
     # ------------------------------------------------------------------------------------------------------------#
-    # Weights for each colour group. It goes: (ginger_colours, black_colours, white_colours, brown_colours)
-    weights = [0, 0, 0, 0]
+    # Weights for each colour group. It goes: (white_colours, blue_colours, gray_colours, black_colours,
+    # cream_colours, gold_colours, fire_colours, ginger_colours, coolbrown_colours, lavender_colours, warmbrown_colours,
+    # brown_colours)
+    weights = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     for p_ in par_peltcolours:
-        if p_ in ginger_colours:
-            add_weight = (40, 0, 0, 10)
+        if p_ in white_colours:
+            add_weight = (100, 20, 30, 0, 30, 0, 0, 0, 10, 0, 0, 0)
+        elif p_ in blue_colours:
+            add_weight = (30, 100, 40, 30, 0, 0, 0, 0, 20, 10, 0, 0)
+        elif p_ in gray_colours:
+            add_weight = (30, 40, 100, 40, 30, 0, 0, 0, 20, 10, 0, 0)
         elif p_ in black_colours:
-            add_weight = (0, 40, 2, 5)
-        elif p_ in white_colours:
-            add_weight = (0, 5, 40, 0)
+            add_weight = (0, 30, 50, 100, 0, 0, 0, 0, 0, 0, 0, 20)
+        elif p_ in cream_colours:
+            add_weight = (40, 20, 30, 0, 100, 40, 30, 30, 30, 20, 10, 10)
+        elif p_ in gold_colours:
+            add_weight = (30, 0, 0, 0, 30, 100, 40, 40, 20, 20, 10, 5)
+        elif p_ in fire_colours:
+            add_weight = (0, 0, 0, 0, 30, 40, 100, 40, 0, 0, 20, 10)
+        elif p_ in ginger_colours:
+            add_weight = (0, 0, 0, 0, 30, 40, 40, 100, 0, 0, 20, 10)
+        elif p_ in coolbrown_colours:
+            add_weight = (20, 20, 10, 0, 10, 0, 0, 0, 100, 40, 10, 30)
+        elif p_ in lavender_colours:
+            add_weight = (0, 10, 20, 0, 30, 0, 0, 0, 40, 100, 30, 40)
+        elif p_ in warmbrown_colours:
+            add_weight = (0, 0, 0, 0, 0, 30, 30, 40, 10, 20, 100, 40)
         elif p_ in brown_colours:
-            add_weight = (10, 5, 0, 35)
+            add_weight = (0, 0, 20, 30, 10, 0, 0, 0, 20, 30, 40, 100)
         elif p_ is None:
-            add_weight = (40, 40, 40, 40)
+            add_weight = (40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40)
         else:
-            add_weight = (0, 0, 0, 0)
+            add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
         for x in range(0, len(weights)):
             weights[x] += add_weight[x]
 
         # A quick check to make sure all the weights aren't 0
         if all([x == 0 for x in weights]):
-            weights = [1, 1, 1, 1]
+            weights = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
     chosen_pelt_color = choice(
         random.choices(colour_categories, weights=weights, k=1)[0]
@@ -289,7 +363,7 @@ def randomize_pelt(cat):
 
     # Determine pelt.
     chosen_pelt = choice(
-        random.choices(pelt_categories, weights=(35, 20, 30, 15, 0), k=1)[0]
+        random.choices(pelt_categories, weights=(20, 10, 15, 50, 10, 5, 5, 0), k=1)[0]
     )
 
     # Tortie chance
@@ -393,8 +467,6 @@ def init_sprite(cat):
 
 def init_scars(cat):
     if not cat.scars:
-        if cat.age == "newborn":
-            return
         scar_choice = randint(0, 15)
         if cat.age in ['kitten', 'adolescent']:
             scar_choice = randint(0, 50)
@@ -451,9 +523,9 @@ def init_pattern(cat):
 
             else:
                 # Normal generation
-                if cat.tortiebase in ["singlestripe", "smoke", "single"]:
+                if cat.tortiebase in ["singlestripe", "smoke", "single", "abyssian"]:
                     cat.tortiepattern = choice(['tabby', 'mackerel', 'classic', 'single', 'smoke', 'agouti',
-                                                'ticked'])
+                                                'ticked', 'abyssian'])
                 else:
                     cat.tortiepattern = random.choices([cat.tortiebase, 'single'], weights=[97, 3], k=1)[0]
 
@@ -464,19 +536,32 @@ def init_pattern(cat):
 
                 # Ginger is often duplicated to increase its chances
                 if (cat.pelt.colour in black_colours) or (cat.pelt.colour in white_colours):
-                    cat.tortiecolour = choice((ginger_colours * 2) + brown_colours)
+                    cat.tortiecolour = choice(blue_colours + gold_colours + (fire_colours * 2) + (ginger_colours * 2) + coolbrown_colours + lavender_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in blue_colours:
+                    cat.tortiecolour = choice(black_colours + (cream_colours * 2) + gold_colours + fire_colours + ginger_colours + warmbrown_colours + coolbrown_colours)
+                elif cat.pelt.colour in gray_colours:
+                    cat.tortiecolour = choice(gold_colours + fire_colours + (ginger_colours * 2) + lavender_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in cream_colours:
+                    cat.tortiecolour = choice((blue_colours * 2) + black_colours + (cream_colours * 2) + fire_colours + ginger_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in gold_colours:
+                    cat.tortiecolour = choice(blue_colours + gray_colours + (black_colours * 2) + ginger_colours + coolbrown_colours + lavender_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in fire_colours:
+                    cat.tortiecolour = choice(blue_colours + gray_colours + (black_colours * 2) + cream_colours + warmbrown_colours + brown_colours)
                 elif cat.pelt.colour in ginger_colours:
-                    cat.tortiecolour = choice(brown_colours + black_colours * 2)
+                    cat.tortiecolour = choice(blue_colours + (gray_colours * 2) + (black_colours * 2) + cream_colours + gold_colours + fire_colours + coolbrown_colours + lavender_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in coolbrown_colours:
+                    cat.tortiecolour = choice(gray_colours + black_colours + gold_colours + fire_colours + ginger_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in lavender_colours:
+                    cat.tortiecolour = choice(gray_colours + black_colours + gold_colours + fire_colours + ginger_colours + warmbrown_colours + brown_colours)
+                elif cat.pelt.colour in warmbrown_colours:
+                    cat.tortiecolour = choice(blue_colours + gray_colours + (black_colours * 2) + cream_colours + gold_colours + (fire_colours * 2) + ginger_colours + brown_colours)
                 elif cat.pelt.colour in brown_colours:
-                    possible_colors = brown_colours.copy()
-                    possible_colors.remove(cat.pelt.colour)
-                    possible_colors.extend(black_colours + (ginger_colours * 2))
-                    cat.tortiecolour = choice(possible_colors)
+                    cat.tortiecolour = choice(blue_colours + gray_colours + (black_colours * 2) + cream_colours + gold_colours + (fire_colours * 2) + (ginger_colours * 2) + coolbrown_colours)
                 else:
-                    cat.tortiecolour = "GOLDEN"
+                    cat.tortiecolour = "GOLD"
 
         else:
-            cat.tortiecolour = "GOLDEN"
+            cat.tortiecolour = "GOLD"
     else:
         cat.tortiebase = None
         cat.tortiepattern = None

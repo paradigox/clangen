@@ -372,7 +372,7 @@ def create_new_cat(Cat,
                     if age > leeway:
                         continue
                     possible_conditions.append(condition)
-                # print(possible_conditions, str(new_cat.name), new_cat.moons)
+                print(possible_conditions)
 
                 if possible_conditions:
                     chosen_condition = choice(possible_conditions)
@@ -1022,13 +1022,13 @@ def update_sprite(cat):
                 new_sprite.blit(patches, (0, 0))
 
         # TINTS
-        if cat.tint != "none" and cat.tint in Sprites.cat_tints["tint_colours"]:
+       # if cat.tint != "none" and cat.tint in Sprites.cat_tints["tint_colours"]:
             # Multiply with alpha does not work as you would expect - it just lowers the alpha of the
             # entire surface. To get around this, we first blit the tint onto a white background to dull it,
             # then blit the surface onto the sprite with pygame.BLEND_RGB_MULT
-            tint = pygame.Surface((spriteSize, spriteSize)).convert_alpha()
-            tint.fill(tuple(Sprites.cat_tints["tint_colours"][cat.tint]))
-            new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+         #   tint = pygame.Surface((spriteSize, spriteSize)).convert_alpha()
+         #   tint.fill(tuple(Sprites.cat_tints["tint_colours"][cat.tint]))
+         #   new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
 
         # draw white patches
         if cat.white_patches is not None:
@@ -1062,6 +1062,8 @@ def update_sprite(cat):
         new_sprite.blit(sprites.sprites['eyes' + cat.eye_colour + cat_sprite], (0, 0))
         if cat.eye_colour2 != None:
             new_sprite.blit(sprites.sprites['eyes2' + cat.eye_colour2 + cat_sprite], (0, 0))
+        if cat.eye_colour3 != None:
+            new_sprite.blit(sprites.sprites['eyes3' + cat.eye_colour3 + cat_sprite], (0, 0))
         for scar in cat.scars:
             if scar in scars1:
                 new_sprite.blit(sprites.sprites['scars' + scar + cat_sprite], (0, 0))

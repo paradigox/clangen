@@ -7,7 +7,7 @@ import ujson
 
 from re import sub
 from scripts.cat.cats import Cat
-from scripts.version import SAVE_VERSION_NUMBER
+from scripts.version import VERSION_NAME
 from scripts.cat.pelts import choose_pelt, vit, point_markings
 from scripts.utility import update_sprite, is_iterable
 from random import choice
@@ -46,7 +46,7 @@ def json_load():
 
     old_creamy_patches = convert["old_creamy_patches"]
     old_tortie_patches = convert["old_tortie_patches"]
-    no_tint_patches = ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
+    no_tint_patches = ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT', 'VENUS']
 
     # create new cat objects
     for i, cat in enumerate(cat_data):
@@ -54,16 +54,16 @@ def json_load():
             new_pelt = choose_pelt(cat["pelt_color"],
                                 cat["pelt_white"], cat["pelt_name"],
                                 cat["pelt_length"], True)
-            if cat["eye_colour"] == "BLUE2":
-                cat["eye_colour"] = "COBALT"
-            if cat["eye_colour"] in ["BLUEYELLOW", "BLUEGREEN"]:
-                if cat["eye_colour"] == "BLUEYELLOW":
-                    cat["eye_colour2"] = "YELLOW"
-                elif cat["eye_colour"] == "BLUEGREEN":
-                    cat["eye_colour2"] = "GREEN"
-                cat["eye_colour"] = "BLUE"
-            if cat["eye_colour2"] == "BLUE2":
-                new_cat.eye_colour2 = "COBALT"
+           # if cat["eye_colour"] == "BLUE2":
+           #     cat["eye_colour"] = "COBALT"
+           # if cat["eye_colour"] in ["BLUEYELLOW", "BLUEGREEN"]:
+           #     if cat["eye_colour"] == "BLUEYELLOW":
+           #         cat["eye_colour2"] = "YELLOW"
+           #     elif cat["eye_colour"] == "BLUEGREEN":
+            #        cat["eye_colour2"] = "GREEN"
+           #     cat["eye_colour"] = "BLUE"
+           # if cat["eye_colour2"] == "BLUE2":
+            #    new_cat.eye_colour2 = "COBALT"
             new_cat = Cat(ID=cat["ID"],
                         prefix=cat["name_prefix"],
                         suffix=cat["name_suffix"],
@@ -501,13 +501,12 @@ def version_convert(version_info):
     if version_info is None:
         return
     
-    if version_info["version_name"] == SAVE_VERSION_NUMBER:
+    if version_info["version_name"] == VERSION_NAME:
         # Save was made on current version
         return
     
     if version_info["version_name"] is None:
         # Save was made before version number stoage was implemented. 
-        # (ie, save file version 0)
         # This means the EXP must be adjusted. 
         for c in Cat.all_cats.values():
             c.experience = c.experience * 3.2
