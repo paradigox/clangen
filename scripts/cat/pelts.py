@@ -716,7 +716,7 @@ def describe_appearance(cat, short=False):
                 color_name = cat.pelt.name.lower()
         else:
             base = cat.tortiebase.lower()
-            if base in tabbies + ['bengal', 'rosette', 'speckled']:
+            if base in ['bengal', 'rosette', 'speckled', 'tabby', 'classic', 'sokoke', 'ticked', 'agouti', 'mackerel', 'braided', 'saber', 'faded']:
                 base = 'tabby'
             else:
                 base = ''
