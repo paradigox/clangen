@@ -86,14 +86,6 @@ target/
 profile_default/
 ipython_config.py
 
-# Saves
-saves/
-saves/clanlist.txt
-saves/settings.txt
-saves\
-saves\clanlist.txt
-saves\settings.txt
-
 # Logs
 logs/
 
@@ -167,3 +159,9 @@ scripts/__pycache__/**
 saves/currentclan.txt
 
 tests/testSaves
+main.py
+resources/dicts/names/names.json
+resources/game_config.json
+resources/dicts/names/names.json
+main.py
+resources/game_config.json
