@@ -159,7 +159,7 @@
 		]
 	},
 	"cat_generation": {
-		"base_permanent_condition": 90,
+		"base_permanent_condition": 30,
 		"base_male_tortie": 13,
 		"base_female_tortie": 4,
 		"base_heterochromia": 120,
@@ -245,8 +245,8 @@
 		"comment": "Set this to -1 for it to be infinite"
 	},
 	"graduation": {
-		"base_app_timeskip_ex": [[3, 12],[5, 6]],
-		"base_med_app_timeskip_ex": [[2, 7],[2, 3]],
+		"base_app_timeskip_ex": [[6, 25],[10, 12]],
+		"base_med_app_timeskip_ex": [[4, 14],[4, 6]],
 		"max_apprentice_age": {
 			"medicine cat apprentice": 30,
 			"apprentice": 25,
