@@ -68,7 +68,7 @@ class Name():
         self.prefix = prefix
         self.suffix = suffix
         self.specsuffix_hidden = specsuffix_hidden
-        
+
         name_fixpref = False
         # Set prefix
         if prefix is None:
