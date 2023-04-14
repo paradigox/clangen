@@ -198,19 +198,19 @@ def pelt_inheritance(cat, parents: tuple):
                0]  # Weights for each pelt group. It goes: (points, spots, swirls, flats, stripes, splotches, exotic)
     for p_ in par_peltnames:
         if p_ in points:
-            add_weight = (50, 5, 0, 25, 15, 5, 0)
+            add_weight = (100, 5, 0, 25, 15, 5, 0)
         elif p_ in spots:
-            add_weight = (5, 50, 0, 5, 0, 25, 15)
+            add_weight = (5, 100, 0, 5, 0, 25, 15)
         elif p_ in swirls:
-            add_weight = (0, 0, 50, 15, 30, 0, 5)
+            add_weight = (0, 0, 100, 15, 30, 0, 5)
         elif p_ in flats:
-            add_weight = (25, 5, 0, 50, 5, 15, 0)
+            add_weight = (25, 5, 0, 100, 5, 15, 0)
         elif p_ in stripes:
-            add_weight = (5, 0, 35, 5, 50, 0, 5)
+            add_weight = (5, 0, 35, 5, 100, 0, 5)
         elif p_ in splotches:
-            add_weight = (25, 15, 0, 5, 0, 50, 5)
+            add_weight = (25, 15, 0, 5, 0, 100, 5)
         elif p_ in exotic:
-            add_weight = (30, 15, 0, 0, 0, 5, 50)
+            add_weight = (30, 15, 0, 0, 0, 5, 100)
         elif p_ is None:  # If there is at least one unknown parent, a None will be added to the set.
             add_weight = (20, 10, 15, 50, 10, 5, 5)
         else:

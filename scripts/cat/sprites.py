@@ -266,15 +266,15 @@ for a, i in enumerate(['TIP', 'FANCY', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANT
     'PAWS', 'MITAINE', 'BROKENBLAZE', 'SCOURGE', 'FRECKLEMASK', 'RETSUKO']):
     sprites.make_group('whitepatches', (a, 2), f'white{i}')
 for a, i in enumerate(['TAIL', 'BLAZE', 'PRINCE', 'BIB', 'VEE', 'UNDERS', 'HONEY',
-    'FAROFA', 'DAMIEN', 'MISTER', 'BELLY', 'TAILTIP', 'TOES']):
+    'FAROFA', 'DAMIEN', 'MISTER', 'BELLY', 'TAILTIP', 'TOES', 'COW']):
     sprites.make_group('whitepatches', (a, 3), f'white{i}')
 for a, i in enumerate(
         ['APRON', 'CAPSADDLE', 'MASKMANTLE', 'SQUEAKS', 'STAR', 'TOESTAIL', 'RAVENPAW',
-        'PANTS', 'REVERSEPANTS', 'SKUNK', 'KARPATI', 'HALFWHITE', 'APPALOOSA']):
+        'PANTS', 'REVERSEPANTS', 'SKUNK', 'KARPATI', 'HALFWHITE', 'APPALOOSA', 'COWTWO']):
     sprites.make_group('whitepatches', (a, 4), f'white{i}')
 # beejeans white patches + perrio's point marks, painted, and heart2 + anju's new marks + key's blackstar
 for a, i in enumerate(['HEART', 'LILTWO', 'GLASS', 'MOORISH', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT',
-    'MAO', 'LUNA', 'CHESTSPECK', 'WINGS', 'PAINTED', 'HEARTTWO']):
+    'MAO', 'LUNA', 'CHESTSPECK', 'WINGS', 'PAINTED', 'HEARTTWO', 'SPLAT']):
     sprites.make_group('whitepatches', (a, 5), 'white' + i)
 
 # single (solid)
@@ -532,7 +532,7 @@ for a, i in enumerate(['MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE', 'MINIMALFOUR'
     sprites.make_group('tortiepatchesmasks', (a, 1), f"tortiemask{i}")
 for a, i in enumerate(['MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE']):
     sprites.make_group('tortiepatchesmasks', (a, 2), f"tortiemask{i}")
-for a, i in enumerate(['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE']):
+for a, i in enumerate(['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'SKULL', 'SPLIT']):
     sprites.make_group('tortiepatchesmasks', (a, 3), f"tortiemask{i}")
 
 # SKINS
