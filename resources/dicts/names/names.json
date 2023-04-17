@@ -310,6 +310,7 @@
             "Char", "Charred", "Mulberry", "Night", "Evening", "Dark", "Murk", "Ghost"
         ]},
 
+
   "biome_prefixes": {
     "Forest": [
     "Acorn","Almond", "Antler", "Aspen", "Badger", "Bark", "Bat", "Beech", "Birch", "Boar", "Branch", "Branch", "Buck", "Canopy",
@@ -551,6 +552,6 @@
     "Wren"
 	],
 	"inappropriate_names": [
-		"Wetback", "Nutscratch"
+		"Wetback", "Yellowface", "Redface", "Blackface", "Brownface", "Pancakeface", "Yellowbone"
 	]
 }
