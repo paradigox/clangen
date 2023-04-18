@@ -1152,7 +1152,17 @@ class Cat():
                     murder=history_data['murder'] if "murder" in history_data else {},
                 )
         except:
-            self.history = History()
+            self.history = History(
+                beginning={},
+                mentor_influence={},
+                app_ceremony={},
+                lead_ceremony=None,
+                possible_death={},
+                died_by=[],
+                possible_scar={},
+                scar_events=[],
+                murder={},
+            )
             print(f'WARNING: There was an error reading the history file of cat #{self} or their history file was '
                   f'empty. Default history info was given. Close game without saving if you have save information '
                   f'you\'d like to preserve!')
@@ -1169,8 +1179,17 @@ class Cat():
                 history_file.write(json_string)
         except:
             print(f"WARNING: saving history of cat #{self.ID} didn't work")
-
-        self.history = History()
+            self.history = History(
+                beginning={},
+                mentor_influence={},
+                app_ceremony={},
+                lead_ceremony=None,
+                possible_death={},
+                died_by=[],
+                possible_scar={},
+                scar_events=[],
+                murder={},
+            )
 
     def generate_lead_ceremony(self):
         """
@@ -2047,7 +2066,6 @@ class Cat():
             self.also_got = False
 
     def additional_injury(self, injury):
-        self.history_class.add_possible_death_or_scars(self, injury, )
         self.get_injured(injury, event_triggered=True)
 
     def congenital_condition(self, cat):
@@ -2620,24 +2638,42 @@ class Cat():
                 jealousy = 0
                 trust = 0
                 if game.settings['random relation']:
-                    if the_cat == game.clan.instructor:
-                        pass
-                    elif randint(1, 20) == 1 and romantic_love < 1:
-                        dislike = randint(10, 25)
-                        jealousy = randint(5, 15)
-                        if randint(1, 30) == 1:
-                            trust = randint(1, 10)
+                    if game.clan:
+                        if the_cat == game.clan.instructor:
+                            pass
+                        elif randint(1, 20) == 1 and romantic_love < 1:
+                            dislike = randint(10, 25)
+                            jealousy = randint(5, 15)
+                            if randint(1, 30) == 1:
+                                trust = randint(1, 10)
+                        else:
+                            like = randint(0, 35)
+                            comfortable = randint(0, 25)
+                            trust = randint(0, 15)
+                            admiration = randint(0, 20)
+                            if randint(
+                                    1, 100 - like
+                            ) == 1 and self.moons > 11 and the_cat.moons > 11:
+                                romantic_love = randint(15, 30)
+                                comfortable = int(comfortable * 1.3)
+                                trust = int(trust * 1.2)
                     else:
-                        like = randint(0, 35)
-                        comfortable = randint(0, 25)
-                        trust = randint(0, 15)
-                        admiration = randint(0, 20)
-                        if randint(
-                                1, 100 - like
-                        ) == 1 and self.moons > 11 and the_cat.moons > 11:
-                            romantic_love = randint(15, 30)
-                            comfortable = int(comfortable * 1.3)
-                            trust = int(trust * 1.2)
+                        if randint(1, 20) == 1 and romantic_love < 1:
+                            dislike = randint(10, 25)
+                            jealousy = randint(5, 15)
+                            if randint(1, 30) == 1:
+                                trust = randint(1, 10)
+                        else:
+                            like = randint(0, 35)
+                            comfortable = randint(0, 25)
+                            trust = randint(0, 15)
+                            admiration = randint(0, 20)
+                            if randint(
+                                    1, 100 - like
+                            ) == 1 and self.moons > 11 and the_cat.moons > 11:
+                                romantic_love = randint(15, 30)
+                                comfortable = int(comfortable * 1.3)
+                                trust = int(trust * 1.2)
 
                 if are_parents and like < 60:
                     like = 60
