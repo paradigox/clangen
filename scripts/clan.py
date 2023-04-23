@@ -724,7 +724,7 @@ class Clan():
             "reputation": self.reputation,
             "mediated": game.mediated,
             "starting_season": self.starting_season,
-            "version_name": VERSION_NAME,
+            "version_name": SAVE_VERSION_NUMBER,
             "version_commit": get_version_info().version_number,
             "source_build": get_version_info().is_source_build
         }

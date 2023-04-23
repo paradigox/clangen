@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce42a407-0f2f-4ee3-bcef-95649ffaedf8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/clangen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clangen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/dicts/lead_ceremony_df.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/dicts/lead_ceremony_df.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/dicts/lead_ceremony_sc.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/dicts/lead_ceremony_sc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cat/cats.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cat/cats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clan.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/version.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tkdbl/Documents/GitHub/clangen&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/kayla/Desktop/clangen-development/scripts/clan.py",
+    "two.files.diff.last.used.file": "C:/Users/kayla/Desktop/clangen-development/scripts/clan.py"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tkdbl\Documents\GitHub\clangen\resources" />
@@ -130,5 +130,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/clangen-development/scripts/clan.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
