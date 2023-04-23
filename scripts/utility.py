@@ -1327,7 +1327,7 @@ def update_sprite(cat):
             tint = pygame.Surface((spriteSize, spriteSize)).convert_alpha()
             tint.fill(tuple(Sprites.eye_tints["tint_colours"][cat.eye_tint]))
             eyes.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-            new_sprite.blit(eyes, (0, 0))
+        new_sprite.blit(eyes, (0, 0))
 
         for scar in cat.scars:
             if scar in scars1:
