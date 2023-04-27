@@ -43,7 +43,9 @@
     "BIRCH": "lightbrown",
     "PALE LAVENDER": "lightbrown",
     "LAVENDER": "lightbrown",
-    "DARK LAVENDER": "darkbrown"
+    "DARK LAVENDER": "darkbrown",
+    "DARK ORANGE": "ginger",
+    "DARK GOLD": "gold"
   },
   "possible_tints": {
     "basic": ["none", "offwhite", "offwhite"],
