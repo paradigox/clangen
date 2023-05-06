@@ -374,9 +374,11 @@ pelt_c_no_bw = [
     'PALE LAVENDER', 'LAVENDER', 'DARK LAVENDER', 'DARK ORANGE'
 ]
 
+
 tortiepatterns = ['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE', 'MINIMALFOUR',
                   'OREO', 'SWOOP', 'MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'ORIOLE',
                   'ROBIN', 'BRINDLE', 'PAIGE', 'SKULL', 'SPLIT']
+
 tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                'classic', 'sokoke', 'agouti', 'singlestripe', 'abyssian', 'brindle', 'braided', 'splotch', 'saber', 'faded']
 
@@ -464,6 +466,7 @@ mid_white = ['TUXEDO', 'FANCY', 'UNDERS', 'DAMIEN', 'SKUNK', 'MITAINE', 'SQUEAKS
 high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
               'GOATEE', 'PRINCE', 'FAROFA', 'MISTER', 'PANTS', 'REVERSEPANTS', 'HALFWHITE', 'APPALOOSA', 'PIEBALD',
               'CURVED', 'GLASS', 'MASKMANTLE', 'MAO', 'PAINTED', 'NIGHTMIST', 'FALCON', 'RETSUKO']
+
 mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL', 'HEART', 'MOORISH', 'APRON', 'CAPSADDLE',
                 'CHESTSPECK', 'BLACKSTAR', 'PETAL', 'HEARTTWO',  'MOTH', 'FRECKLEMASK', 'COW', 'COWTWO']
 point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
@@ -647,7 +650,8 @@ def choose_pelt(colour=None, white=None, pelt=None, length=None, category=None, 
             return Tortie(colour, white, length)
     else:
         return Calico(colour, length)
-    
+
+
 def describe_appearance(cat, short=False):
     
     # Define look-up dictionaries
