@@ -23,7 +23,6 @@ from scripts.housekeeping.stream_duplexer import UnbufferedStreamDuplexer
 from scripts.housekeeping.datadir import get_log_dir, setup_data_dir
 from scripts.housekeeping.version import get_version_info, VERSION_NAME
 
-from scripts.debugmode import debugmode
 
 directory = os.path.dirname(__file__)
 if directory:
@@ -116,6 +115,7 @@ from scripts.game_structure.discord_rpc import _DiscordRPC
 from scripts.cat.sprites import sprites
 from scripts.clan import clan_class
 from scripts.utility import get_text_box_theme, quit, scale  # pylint: disable=redefined-builtin
+from scripts.debugmode import debugmode
 import pygame_gui
 import pygame
 
@@ -189,7 +189,7 @@ disabled_cursor = pygame.cursors.Cursor(pygame.SYSTEM_CURSOR_ARROW)
 
 
 while True:
-    time_delta = clock.tick(30) / 1000.0
+    time_delta = clock.tick(game.switches['fps']) / 1000.0
     if game.switches['cur_screen'] not in ['start screen']:
         if game.settings['dark mode']:
             screen.fill((57, 50, 36))
