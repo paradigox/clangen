@@ -513,7 +513,7 @@ def version_convert(version_info):
     if version_info is None:
         return
     
-    if version_info["version_name"] == VERSION_NAME:
+    if version_info["version_name"] == SAVE_VERSION_NUMBER:
         # Save was made on current version
         return
     
