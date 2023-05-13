@@ -273,7 +273,7 @@ class Cat():
         self.eye_colour = eye_colour
         self.eye_colour2 = None
         self.eye_colour3 = None
-        self.eye_tint = None
+        # self.eye_tint = None
         self.scars = []
         self.former_mentor = []
         self.patrol_with_mentor = 0
@@ -530,7 +530,7 @@ class Cat():
             Cat.insert_cat(self)
 
     def __repr__(self):
-        return self.ID
+        return "CAT OBJECT:" + self.ID
 
     @property
     def mentor(self):
