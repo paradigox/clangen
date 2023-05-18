@@ -820,10 +820,10 @@ class Cat():
         if old_status == "medicine cat":
             game.clan.remove_med_cat(self)
 
-        for app in self.apprentice.copy():
-            fetched_cat = Cat.fetch_cat(app)
-            if fetched_cat:
-                fetched_cat.update_med_mentor()
+            for app in self.apprentice.copy():
+                fetched_cat = Cat.fetch_cat(app)
+                if fetched_cat:
+                    fetched_cat.update_med_mentor()
 
         # updates mentors
         if self.status == 'apprentice':
@@ -1581,7 +1581,7 @@ class Cat():
                                 possible_skill = self.skill_groups.get(x)
                                 self.skill = choice(possible_skill)
                                 skill_influence = self.skill
-                                History.add_mentor_influence(self, mentor, skill_influence, trait=None)
+                                History.add_skill_mentor_influence(self, skill_influence)
                                 return
 
                     all_skills = []
@@ -1589,7 +1589,7 @@ class Cat():
                         all_skills.extend(self.skill_groups[x])
                     self.skill = choice(all_skills)
 
-                    History.add_mentor_influence(self, mentor, skill_influence, trait=None)
+                    History.add_skill_mentor_influence(self, skill_influence)
 
 
             # assign new skill to elder
@@ -3250,7 +3250,7 @@ class Personality():
             
     @property
     def stability(self):
-        return self._aggress
+        return self._stable
     
     @stability.setter
     def stability(self, new_val):
