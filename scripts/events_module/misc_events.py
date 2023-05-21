@@ -1,7 +1,7 @@
 import random
 
 from scripts.cat.cats import Cat
-from scripts.cat.pelts import wild_accessories, plant_accessories, collars, tail_accessories
+from scripts.cat.pelts import wild_accessories, plant_accessories, collars, tail_accessories, living_accessories, plant2_accessories, wild2_accessories
 from scripts.events_module.generate_events import GenerateEvents
 from scripts.utility import event_text_adjust, change_clan_relations, change_relationship_values
 from scripts.game_structure.game_essentials import game
@@ -150,9 +150,15 @@ class MiscEvents():
             acc_list.extend(plant_accessories)
         if "COLLAR" in possible_accs:
             acc_list.extend(collars)
+        if "WILD2" in possible_accs:
+            acc_list.extend(wild2_accessories)
+        if "PLANT2" in possible_accs:
+            acc_list.extend(plant2_accessories)
+        if "LIVING" in possible_accs:
+            acc_list.extend(living_accessories)
 
         for acc in possible_accs:
-            if acc not in ["WILD", "PLANT", "COLLAR"]:
+            if acc not in ["WILD", "PLANT", "COLLAR", "WILD2", "PLANT2", "LIVING"]:
                 acc_list.append(acc)
 
         if ("NOTAIL" or "HALFTAIL") in cat.scars:

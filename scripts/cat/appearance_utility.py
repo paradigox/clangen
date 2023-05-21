@@ -53,7 +53,10 @@ from .pelts import (
     flats,
     stripes,
     splotches,
-    exotic
+    exotic,
+    living_accessories,
+    plant2_accessories,
+    wild2_accessories
     )
 from scripts.cat.sprites import Sprites
 from scripts.game_structure.game_essentials import game
@@ -491,7 +494,10 @@ def init_accessories(cat):
     if acc_display_choice == 1:
         cat.acc_display = choice([
             choice(plant_accessories),
-            choice(wild_accessories)
+            choice(wild_accessories),
+            choice(living_accessories),
+            choice(plant2_accessories),
+            choice(wild2_accessories)
         ])
     else:
         cat.acc_display = None
@@ -525,9 +531,9 @@ def init_pattern(cat):
 
             else:
                 # Normal generation
-                if cat.tortiebase in ["singlestripe", "smoke", "single", "abyssian"]:
+                if cat.tortiebase in ["singlestripe", "smoke", "single", "abyssinian"]:
                     cat.tortiepattern = choice(['tabby', 'mackerel', 'classic', 'single', 'smoke', 'agouti',
-                                                'ticked', 'abyssian'])
+                                                'ticked', 'abyssinian'])
                 else:
                     cat.tortiepattern = random.choices([cat.tortiebase, 'single'], weights=[97, 3], k=1)[0]
 

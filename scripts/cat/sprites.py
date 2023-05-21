@@ -140,6 +140,17 @@ class Sprites():
         for a, i in enumerate([
             "RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "MOTH WINGS", "CICADA WINGS"]):
             sprites.make_group('medcatherbs', (a, 2), f'acc_wild{i}')
+
+         #Moss
+        for a, i in enumerate([
+            "LUNA MOTH", "ATLAS MOTH", "BIRD SKULL", "IVY", "DAISY", "BUTTERFLIES"]):
+            sprites.make_group('mossherbs', (a, 0), f'acc_moss{i}')
+        for a, i in enumerate([
+            "CLOVER", "ANTLERS", "STICK", "FIREFLIES", "WREATH", "FLOWER WREATH"]):
+            sprites.make_group('mossherbs', (a, 1), f'acc_moss{i}')
+
+
+
         for a, i in enumerate(["CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME"]):
             sprites.make_group('collars', (a, 0), f'collars{i}')
         for a, i in enumerate(["GREEN", "RAINBOW", "BLACK", "SPIKES", "WHITE"]):
@@ -206,7 +217,7 @@ for x in [
     'shadersnewwhite', 'lineartdead', 'tortiepatchesmasks', 
     'medcatherbs', 'lineartdf', 'lightingnew', 'fademask',
     'fadestarclan', 'fadedarkforest', 'eyes3', 'abyssiancolours', 'braidedcolours', 'brindlecolours', 'fadedcolours',
-    'sabercolours', 'splotchcolours'
+    'sabercolours', 'splotchcolours', 'mossherbs'
 
 ]:
     if 'lineart' in x and game.config['fun']['april_fools']:
@@ -461,19 +472,19 @@ for a, i in enumerate(['PALE FIRE', 'FIRE', 'DARK FIRE', 'PALE GINGER', 'GINGER'
                        'PALE GOLD', 'YELLOW', 'GOLD', 'BRONZE', 'ROSE',
                        'LIGHT CREAM', 'CREAM', 'DARK CREAM', 'DARK GOLD']):
     sprites.make_group('brindlecolours', (a, 2), f'brindle{i}')
-# abyssian
+# Abyssinian
 for a, i in enumerate(['WHITE', 'SNOW WHITE', 'GRAY', 'SLATE', 'DARK GRAY', 'DARK SLATE',
                        'PALE BLUE', 'BLUE', 'PALE LILAC', 'LILAC', 'SILVER',
                        'BLACK', 'SOOT BLACK', 'OBSIDIAN', 'GHOST']):
-    sprites.make_group('abyssiancolours', (a, 0), f'abyssian{i}')
+    sprites.make_group('abyssiancolours', (a, 0), f'abyssinian{i}')
 for a, i in enumerate(['PALE BROWN', 'ALMOND', 'ACORN', 'LIGHT BROWN', 'BROWN', 'DARK BROWN',
                        'PALE CINNAMON', 'CINNAMON', 'SABLE', 'DARK SABLE', 'BIRCH',
                        'PALE LAVENDER', 'LAVENDER', 'DARK LAVENDER', 'DARK ORANGE']):
-    sprites.make_group('abyssiancolours', (a, 1), f'abyssian{i}')
+    sprites.make_group('abyssiancolours', (a, 1), f'abyssinian{i}')
 for a, i in enumerate(['PALE FIRE', 'FIRE', 'DARK FIRE', 'PALE GINGER', 'GINGER', 'DARK GINGER',
                        'PALE GOLD', 'YELLOW', 'GOLD', 'BRONZE', 'ROSE',
                        'LIGHT CREAM', 'CREAM', 'DARK CREAM', 'DARK GOLD']):
-    sprites.make_group('abyssiancolours', (a, 2), f'abyssian{i}')
+    sprites.make_group('abyssiancolours', (a, 2), f'abyssinian{i}')
 # braided
 for a, i in enumerate(['WHITE', 'SNOW WHITE', 'GRAY', 'SLATE', 'DARK GRAY', 'DARK SLATE',
                        'PALE BLUE', 'BLUE', 'PALE LILAC', 'LILAC', 'SILVER',

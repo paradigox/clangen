@@ -33,6 +33,9 @@ from scripts.cat.pelts import (
     scars3,
     plant_accessories,
     wild_accessories,
+    living_accessories,
+    plant2_accessories,
+    wild2_accessories,
     collars,
 )
 from scripts.game_structure.game_essentials import game, screen_x, screen_y
@@ -1436,6 +1439,12 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
                 new_sprite.blit(sprites.sprites['acc_wild' + cat.accessory + cat_sprite], (0, 0))
             elif cat.accessory in collars:
                 new_sprite.blit(sprites.sprites['collars' + cat.accessory + cat_sprite], (0, 0))
+            elif cat.accessory in living_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.accessory + cat_sprite], (0, 0))
+            elif cat.accessory in plant2_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.accessory + cat_sprite], (0, 0))
+            elif cat.accessory in wild2_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.accessory + cat_sprite], (0, 0))
 
         # Apply fading fog
         if cat.opacity <= 97 and not cat.prevent_fading and game.settings["fading"] and dead:

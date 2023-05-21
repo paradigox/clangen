@@ -235,9 +235,9 @@ class Brindle():
             return f"{self.colour} brindle{self.length}"
 
 
-class Abyssian():
-    name = "Abyssian"
-    sprites = {1: 'abyssian', 2: 'white'}
+class Abyssinian():
+    name = "Abyssinian"
+    sprites = {1: 'abyssinian', 2: 'white'}
 
     def __init__(self, colour, white, length):
         self.white = white  # boolean; does cat have white on it or no
@@ -246,9 +246,9 @@ class Abyssian():
 
     def __repr__(self):
         if self.white:
-            return f"white and {self.colour} abyssian{self.length}"
+            return f"white and {self.colour} abyssinian{self.length}"
         else:
-            return f"{self.colour} abyssian{self.length}"
+            return f"{self.colour} abyssinian{self.length}"
 
 class Braided():
     name = "Braided"
@@ -380,7 +380,7 @@ tortiepatterns = ['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'MINIMALO
                   'ROBIN', 'BRINDLE', 'PAIGE', 'SKULL', 'SPLIT']
 
 tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
-               'classic', 'sokoke', 'agouti', 'singlestripe', 'abyssian', 'brindle', 'braided', 'splotch', 'saber', 'faded']
+               'classic', 'sokoke', 'agouti', 'singlestripe', 'abyssinian', 'brindle', 'braided', 'splotch', 'saber', 'faded']
 
 pelt_length = ["short", "medium", "long"]
 eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN', 'BLUE',
@@ -409,8 +409,12 @@ plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "R
                      "OAK LEAVES", "CATMINT", "MAPLE SEED", "JUNIPER"
                      ]
 wild_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "MOTH WINGS", "CICADA WINGS"
+
                     ]
 tail_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"]
+living_accessories = ["LUNA MOTH", "ATLAS MOTH", "BUTTERFLIES", "FIREFLIES"]
+plant2_accessories = ["DAISY", "IVY", "CLOVER", "WREATH", "FLOWER WREATH"]
+wild2_accessories = ["BIRD SKULL", "ANTLERS", "STICK"]
 collars = [
     "CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME", "GREEN", "RAINBOW",
     "BLACK", "SPIKES", "WHITE", "PINK", "PURPLE", "MULTI", "INDIGO", "CRIMSONBELL", "BLUEBELL",
@@ -426,7 +430,7 @@ collars = [
 points = ["Ticked", "Agouti", "Smoke"]
 spots = ["Speckled", "Rosette", "Bengal"]
 swirls = ["Tabby", "Classic", "Sokoke", "Marbled"]
-flats = ["SingleColour", "TwoColour", "Singlestripe", "Abyssian"]
+flats = ["SingleColour", "TwoColour", "Singlestripe", "Abyssinian"]
 stripes = ["Mackerel", "Braided", "Brindle"]
 splotches = ["Splotch"]
 exotic = ["Saber", "Faded"]
@@ -595,14 +599,14 @@ def choose_pelt(colour=None, white=None, pelt=None, length=None, category=None, 
             return Singlestripe(choice(pelt_colours), white, length)
         else:
             return Singlestripe(colour, white, length)
-    elif pelt == 'Abyssian':
+    elif pelt == 'Abyssinian':
         if colour is None and white is None:
-            return Abyssian(choice(pelt_colours), choice([False, True]),
+            return Abyssinian(choice(pelt_colours), choice([False, True]),
                                 length)
         elif colour is None:
-            return Abyssian(choice(pelt_colours), white, length)
+            return Abyssinian(choice(pelt_colours), white, length)
         else:
-            return Abyssian(colour, white, length)
+            return Abyssinian(colour, white, length)
     elif pelt == 'Brindle':
         if colour is None and white is None:
             return Brindle(choice(pelt_colours), choice([False, True]),
@@ -701,7 +705,7 @@ def describe_appearance(cat, short=False):
         "Singlestripe": "dorsal-striped c_n",
         "Rosette": "unusually spotted c_n",
         "Sokoke": "c_n tabby",
-        "Abyssian": "c_n abyssian",
+        "Abyssinian": "c_n abyssinian",
         "Brindle": "unusually striped c_n",
         "Braided": "c_n tabby",
         "Splotch": "unusually splotched c_n",
