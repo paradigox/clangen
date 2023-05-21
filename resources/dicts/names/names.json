@@ -55,7 +55,7 @@
     "Agouti": ["back", "pelt", "fur"],
     "Singlestripe": ["stripe", "streak", "back", "shade", "stem", "shadow"],
     "Brindle": ["stripe", "stripe", "feather", "ripple", "mist"],
-    "Abyssian": ["back", "pelt", "fur", "shade"],
+    "Abyssinian": ["back", "pelt", "fur", "shade"],
     "Braided": ["stripe", "feather", "shade", "ripple", "shadow"],
     "Splotch": ["fade", "dusk", "dawn", "smoke", "dapple", "speckle", "spot", "speck", "freckle"],
     "Saber": ["streak", "shade", "stem", "shadow", "smoke", "mist", "dawn", "dusk", "dapple"]
@@ -73,7 +73,7 @@
     "classic": ["stripe", "feather", "fern"],
     "sokoke": ["stripe", "feather", "fern", "shade", "dapple"],
     "agouti": ["back", "pelt", "fur", "dapple", "splash"],
-    "abyssian": ["dapple", "speckle", "spots", "splash"],
+    "abyssinian": ["dapple", "speckle", "spots", "splash"],
     "braided": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
     "brindle": ["stripe", "feather", "fern", "shade"],
     "splotch": ["dapple", "speckle", "spots", "speck", "fern", "freckle"],
