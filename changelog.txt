@@ -1,3 +1,10 @@
+<strong>Kit Thoughts Update (5/24/23)</strong>
+- Added 200 new kit thoughts including thoughts for the traits:
+    Lonesome, Attention-seeker, Noisy, Insecure, Polite, Know-it-all, and Bossy
+- Added 118 new warrior apprentice thoughts
+- Added 41 new med cat apprentice thoughts
+- Added 17 mediator apprentice thoughts
+
 <strong>Accessory Update (5/20/23)</strong>
 - Added 12 new accessories
 - Fixed some spelling errors
