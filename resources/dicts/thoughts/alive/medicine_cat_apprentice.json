@@ -74,7 +74,6 @@
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough to become a medicine cat",
             "Helps apply a poultice to a small wound",
             "Is enjoying learning all of the herbs a medicine cat needs!",
-
             "Is memorizing the names of all the herbs",
             "Is practicing applying cobwebs to wounds",
             "Is sorting out all the old herbs from the den",
@@ -96,7 +95,6 @@
         "thoughts": [
             "Is wondering if r_c would have bothered {PRONOUN/m_c/object} while {PRONOUN/m_c/subject} were sorting herbs",
             "Wonders if {PRONOUN/m_c/subject} would have had to treat r_c for kittencough",
-
             "Wonders if r_c would have wanted to be a medicine cat too"
         ],
         "random_status_constraint": [
@@ -112,7 +110,6 @@
             "Wonders if r_c would have been a better healer",
             "Wishes the other apprentices could understand how {PRONOUN/m_c/subject} feel",
             "Wishes {PRONOUN/m_c/subject} understood the apprentice's inside jokes",
-
             "Hopes r_c will come with {PRONOUN/m_c/object} to help gather herbs",
             "Is assuring r_c that everything is okay",
             "Is wondering if StarClan is visiting r_c's dreams",
@@ -133,7 +130,6 @@
             "Is checking in on the elder's den",
             "Plans to help the elders with their ticks",
             "Is helping to repair the elder's den",
-
             "Is making sure r_c is breathing okay",
             "Is hoping to make r_c feel younger today",
             "Is learning how to relieve r_c's joint pain",
@@ -147,7 +143,6 @@
         "id": "medicine_cat_apprentice_to_medicine_cat1",
         "thoughts": [
             "Wants to help r_c gather fresh herbs",
-
             "Is watching r_c work",
             "Asks r_c about the best way to help with bee stings",
             "Is asking r_c for guidance about a recent dream",
@@ -163,7 +158,6 @@
         "id": "insecure_medicine_cat_apprentice",
         "thoughts": [
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} a good enough medicine cat apprentice",
-
             "Is always worrying about {PRONOUN/m_c/poss} patients",
             "Is worried about a greencough outbreak",
             "Is terrified of misdiagnosing something serious",
@@ -180,12 +174,76 @@
         "id": "bloodthirsty_and_cold_medicine_cat_apprentice",
         "thoughts": [
             "Is hoping {PRONOUN/m_c/poss} medicine cat name will end in -claw",
-
             "Wants to learn some battle moves... just in case",
             "Is keeping something hidden in the back of medicine den",
             "Is wondering if StarClan uses greencough to weed out the weaker members of the clan",
             "Doesn't understand the point of keeping sickly old elders healthy with precious herbs",
-            "Is seen secretly leaving camp to wash {PRONOUN/m_c/poss} paws in a creek"
+            "Is seen secretly leaving camp to wash {PRONOUN/m_c/poss} paws in a creek",
+            "Is studying the effects of death berries"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ]
+    },
+    {
+        "id": "nice_medicine_cat_apprentice",
+        "thoughts": [
+            "Is vowing to help any cat in need",
+            "Is looking to StarClan for guidance in a difficult decision",
+            "Is thinking about how to keep the clan safe and healthy",
+            "Is dreaming about taking care of a patient",
+            "Is arguing that rogues and loners deserve help too"
+        ],
+        "main_trait_constraint": [
+            "thoughtful",
+            "righteous",
+            "loving",
+            "compassionate",
+            "sincere"
+        ]
+    },
+    {
+        "id": "medicine_cat_apprentice_to_meany_med",
+        "thoughts": [
+            "Is unsure of r_c's treatment methods",
+            "Is wondering why r_c decided to be a medicine cat",
+            "Is worried r_c likes to hurt patients",
+            "Is skeptical of StarClan's choice of r_c as a medicine cat",
+            "Is startled to find r_c has a stock pile of death berries"
+        ],
+        "random_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ],
+        "random_status_constraint": [
+            "medicine cat"
+        ]
+    },
+    {
+        "id": "medicine_cat_apprentice_meany_to_meany_med",
+        "thoughts": [
+            "Is plotting the downfall of c_n with r_c",
+            "Is meeting secretly with r_c to discuss a new 'treatment' method",
+            "Is helping r_c secretly gather death berries",
+            "Is delighted to find r_c feels the same way about weak cats",
+            "Is glad r_c is against sharing life saving herbs with enemy clans",
+            "Is standing with r_c, both glaring over their newest vict-, erm, 'patients'",
+            "Is learning the best way to make a death look like a medical accident from r_c",
+            "Is discussing attacking other medicine cats at the next half moon with r_c"
+        ],
+        "random_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ],
+        "random_status_constraint": [
+            "medicine cat"
         ],
         "main_trait_constraint": [
             "bloodthirsty",

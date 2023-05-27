@@ -178,7 +178,10 @@
             "Is a bit cross with r_c",
             "Is growing fond of r_c",
             "Is wishing r_c would play more quietly",
-            "Is worried about r_c"
+            "Is worried about r_c",
+
+            "Is watching r_c play",
+            "Is happy r_c is having fun"
         ],
         "main_status_constraint": [
             "kitten",
@@ -419,7 +422,7 @@
             "Is chattering at the birds in the trees above",
             "Was recently caught humming to {PRONOUN/m_c/self}",
             "Had a nightmare involving the rushing river nearby",
-            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} still in their nest sleeping",
+            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} still in {PRONOUN/m_c/poss} nest sleeping",
             "Is craving the taste of mouse",
             "Is craving the taste of rabbit",
             "Is craving the taste of vole",
@@ -498,22 +501,20 @@
             "Is helping to reinforce the camp wall with brambles",
             "Is daydreaming about having a mate and kits someday",
             "Had quite the adventure today",
-            "Is thinking about how cool it will be when they are a warrior",
+            "Is thinking about how cool it will be when {PRONOUN/m_c/subject} are a warrior",
             "Wants to become a fierce warrior someday",
-            "Wants to learn as many fighting techniques as they can",
-            "Wants to show their mentor that they are smart, skilled, and talented",
-            "Wants to earn their warrior name",
+            "Wants to learn as many fighting techniques as {PRONOUN/m_c/subject} can",
+            "Wants to show {PRONOUN/m_c/poss} mentor that {PRONOUN/m_c/subject} {VERB/m_c/are/is} smart, skilled, and talented",
+            "Wants to earn {PRONOUN/m_c/poss} warrior name",
             "Is determined to master a hunting technique by dusk",
-            "Can see how busy their mentor is",
+            "Can see how busy {PRONOUN/m_c/poss} mentor is",
             "Wants to be taught an advanced hunting move",
             "Has been training very hard recently",
             "Is anxious about becoming a warrior",
             "Had a very strange dream"
         ],
         "main_status_constraint": [
-            "apprentice",
-            "mediator apprentice",
-            "medicine cat apprentice"
+            "apprentice"
         ]
     },
     {
@@ -522,12 +523,15 @@
             "Is making {PRONOUN/m_c/poss} mentor laugh",
             "Is really bonding with {PRONOUN/m_c/poss} mentor",
             "Wants to show {PRONOUN/m_c/poss} mentor that {PRONOUN/m_c/subject} {VERB/m_c/are/is} smart, skilled, and talented",
-            "Can see how busy their mentor is"
+            "Can see how busy {PRONOUN/m_c/poss} mentor is"
         ],
-        "random_status_constraint": [
+        "main_status_constraint": [
             "apprentice",
             "medicine cat apprentice",
             "mediator apprentice"
+        ],
+        "relationship_constraint": [
+            "app/mentor"
         ]
     },
     {
