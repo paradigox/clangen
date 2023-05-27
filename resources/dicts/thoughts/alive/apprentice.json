@@ -1096,7 +1096,7 @@
             "Is thinking about {PRONOUN/m_c/poss} time in the nursery with r_c"
         ],
         "random_relationship_constraint": [
-            "child/parent"
+            "parent/child"
         ],
         "random_living_status": [
             "living"
