@@ -1,7 +1,7 @@
 import random
 
 from scripts.cat.cats import Cat
-from scripts.cat.pelts import wild_accessories, plant_accessories, collars, tail_accessories, living_accessories, plant2_accessories, wild2_accessories
+from scripts.cat.pelts import Pelt
 from scripts.events_module.generate_events import GenerateEvents
 from scripts.utility import event_text_adjust, change_clan_relations, change_relationship_values
 from scripts.game_structure.game_essentials import game
@@ -145,11 +145,11 @@ class MiscEvents():
     def handle_accessories(self, cat, possible_accs):
         acc_list = []
         if "WILD" in possible_accs:
-            acc_list.extend(wild_accessories)
+            acc_list.extend(Pelt.wild_accessories)
         if "PLANT" in possible_accs:
-            acc_list.extend(plant_accessories)
+            acc_list.extend(Pelt.plant_accessories)
         if "COLLAR" in possible_accs:
-            acc_list.extend(collars)
+            acc_list.extend(Pelt.collars)
         if "WILD2" in possible_accs:
             acc_list.extend(wild2_accessories)
         if "PLANT2" in possible_accs:
@@ -161,10 +161,10 @@ class MiscEvents():
             if acc not in ["WILD", "PLANT", "COLLAR", "WILD2", "PLANT2", "LIVING"]:
                 acc_list.append(acc)
 
-        if ("NOTAIL" or "HALFTAIL") in cat.scars:
+        if ("NOTAIL" or "HALFTAIL") in cat.pelt.scars:
             try:
-                acc_list.remove(acc for acc in tail_accessories)
+                acc_list.remove(acc for acc in Pelt.tail_accessories)
             except:
                 print('attempted to remove tail accs from possible acc list, but no tail accs were in the list!')
 
-        cat.accessory = random.choice(acc_list)
+        cat.pelt.accessory = random.choice(acc_list)
