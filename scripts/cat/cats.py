@@ -891,7 +891,7 @@ class Cat():
             if colour2 == 'greenyellow':
                 colour2 = 'green-yellow'
             colour = colour + ' and ' + colour2
-        if self.eye_colour3 != None:
+        if self.pelt.eye_colour3 != None:
             if colour3 == 'palegreen':
                 colour3 = 'pale green'
             if colour3 == 'darkblue':
@@ -3104,6 +3104,7 @@ class Cat():
                 "sprite_para_adult": self.pelt.cat_sprites['para_adult'],
                 "eye_colour": self.pelt.eye_colour,
                 "eye_colour2": self.pelt.eye_colour2 if self.pelt.eye_colour2 else None,
+                "eye_colour3": self.pelt.eye_colour3 if self.pelt.eye_colour3 else None,
                 "reverse": self.pelt.reverse,
                 "white_patches": self.pelt.white_patches,
                 "vitiligo": self.pelt.vitiligo,

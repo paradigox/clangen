@@ -1400,11 +1400,11 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
                 new_sprite.blit(sprites.sprites['acc_wild' + cat.pelt.accessory + cat_sprite], (0, 0))
             elif cat.pelt.accessory in cat.pelt.collars:
                 new_sprite.blit(sprites.sprites['collars' + cat.pelt.accessory + cat_sprite], (0, 0))
-            elif cat.pelt.accessory in living_accessories:
+            elif cat.pelt.accessory in cat.pelt.living_accessories:
                 new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
-            elif cat.pelt.accessory in plant2_accessories:
+            elif cat.pelt.accessory in cat.pelt.plant2_accessories:
                 new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
-            elif cat.pelt.accessory in wild2_accessories:
+            elif cat.pelt.accessory in cat.pelt.wild2_accessories:
                 new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
 
         # Apply fading fog
