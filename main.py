@@ -108,6 +108,15 @@ else:
 
 print("Version Number: ", VERSION_NAME)
 print("Running on commit " + get_version_info().version_number)
+print("============================================================================================================")
+print("============================================================================================================")
+print("Thanks for playing Moss Mod! Please allow up to 5 minutes to load completely.")
+print("If you get an error, please be sure to install all required modules!!")
+print("To install modules go to Tools -> Manage Packages -> Install from requirements and select requirements.txt")
+print("If you get the 'memory error' message, please use lite or extra lite instead.")
+print("The 'FileNotFoundError: [WinError 2]' message can be ignored completely.")
+print("============================================================================================================")
+print("============================================================================================================")
 
 # Load game
 from scripts.game_structure.load_cat import load_cats, version_convert
