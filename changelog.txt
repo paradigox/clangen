@@ -1,3 +1,13 @@
+<strong>White/Tortie Patches Update (6/6/23)</strong>
+- Added 8 white patches from unmodded clangen:
+    'BLEACHED', 'SAVANNAH', 'FADESPOTS', 'SHIBAINU', 'DAPPLEPAW', 'DIVA', 'BEARD', 'TOPCOVER'
+- Added 5 new white patches:
+    'TIDAL', 'DIAMOND', 'ECLIPSE', 'SNOWSTORM', 'PEPPER'
+- Added 11 tortie patches from unmodded clangen:
+    'STREAK', 'MASK', 'CHIMERA', 'CHEST', 'ARMTAIL', 'SMUDGED', 'DAUB', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET'
+- Added 1 new tortie patch:
+    'VIPER'
+
 <strong>Kit Thoughts Update (5/24/23)</strong>
 - Added 200 new kit thoughts including thoughts for the traits:
     Lonesome, Attention-seeker, Noisy, Insecure, Polite, Know-it-all, and Bossy
