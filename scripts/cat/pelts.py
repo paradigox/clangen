@@ -168,7 +168,7 @@ class Pelt():
                   'SNOWSTORM', 'PEPPER']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL', 'HEART', 'MOORISH', 'APRON', 'CAPSADDLE',
                     'CHESTSPECK', 'BLACKSTAR', 'PETAL', 'HEARTTWO', 'MOTH', 'FRECKLEMASK', 'COW', 'COWTWO', 'TIDAL',
-                    'DIAMOND', 'ECLIPSE']
+                    'DIAMOND', 'ECLIPSE', 'PEBBLESHINE']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
     vit = ['VITILIGO', 'VITILIGOTWO', 'MOON', 'PHANTOM', 'KARPATI', 'POWDER', 'SPLAT', 'BLEACHED']
     white_sprites = [
