@@ -115,6 +115,7 @@ print("If you get an error, please be sure to install all required modules!!")
 print("To install modules go to Tools -> Manage Packages -> Install from requirements and select requirements.txt")
 print("If you get the 'memory error' message, please use lite or extra lite instead.")
 print("The 'FileNotFoundError: [WinError 2]' message can be ignored completely.")
+print("The 'AttributeError: pygame surface' means you must update your packages manually")
 print("============================================================================================================")
 print("============================================================================================================")
 
