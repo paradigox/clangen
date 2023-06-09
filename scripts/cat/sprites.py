@@ -148,7 +148,12 @@ class Sprites():
         for a, i in enumerate([
             "CLOVER", "ANTLERS", "STICK", "FIREFLIES", "WREATH", "FLOWER WREATH"]):
             sprites.make_group('mossherbs', (a, 1), f'acc_moss{i}')
-
+        for a, i in enumerate([
+            "SPROUT", "MUSHROOM", "LILAC", "SEAWEED", "LILY PAD", "MONSTERA"]):
+            sprites.make_group('mossherbs', (a, 2), f'acc_moss{i}')
+        for a, i in enumerate([
+            "WILD FLOWERS", "TWIGS", "SHELL", "CRYSTAL", "SERPENT", "MOSS BALL"]):
+            sprites.make_group('mossherbs', (a, 3), f'acc_moss{i}')
 
 
         for a, i in enumerate(["CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME"]):

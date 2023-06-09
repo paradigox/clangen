@@ -478,5 +478,65 @@
     "default": "flower wreath",
     "plural": "flowers",
     "singular": "wreath of flowers"
+  },
+  "SPROUT": {
+    "default": "sprout",
+    "plural": "sprouting leaves",
+    "singular": "sprout"
+  },
+  "MUSHROOM": {
+    "default": "mushrooms",
+    "plural": "mushrooms",
+    "singular": "mushroom colony"
+  },
+  "LILAC": {
+    "default": "lilac",
+    "plural": "lilac flowers",
+    "singular": "bunch of lilac"
+  },
+  "SEAWEED": {
+    "default": "seaweed",
+    "plural": "strands of seaweed",
+    "singular": "seaweed"
+  },
+  "LILY PAD": {
+    "default": "lily pad",
+    "plural": "lily pads",
+    "singular": "lily pad"
+  },
+  "MONSTERA": {
+    "default": "monstera leaf",
+    "plural": "monstera leaves",
+    "singular": "monstera leaf"
+  },
+  "WILD FLOWERS": {
+    "default": "wild flowers",
+    "plural": "wild flowers",
+    "singular": "bunch of flowers"
+  },
+  "TWIGS": {
+    "default": "twigs",
+    "plural": "twigs",
+    "singular": "twig"
+  },
+  "SHELL": {
+    "default": "sea shell",
+    "plural": "shells",
+    "singular": "shell"
+  },
+  "CRYSTAL": {
+    "default": "crystal",
+    "plural": "crystal shards",
+    "singular": "crystal formation"
+  },
+  "SERPENT": {
+    "default": "snake skeleton",
+    "plural": "snake bones",
+    "singular": "snake skeleton"
+  },
+  "MOSS BALL": {
+    "default": "moss ball",
+    "plural": "moss balls",
+    "singular": "moss ball"
   }
 }

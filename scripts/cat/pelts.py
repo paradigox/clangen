@@ -105,8 +105,13 @@ class Pelt():
                         ]
     tail_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"]
     living_accessories = ["LUNA MOTH", "ATLAS MOTH", "BUTTERFLIES", "FIREFLIES"]
-    plant2_accessories = ["DAISY", "IVY", "CLOVER", "WREATH", "FLOWER WREATH"]
-    wild2_accessories = ["BIRD SKULL", "ANTLERS", "STICK"]
+    plant2_accessories = ["DAISY", "IVY", "CLOVER", "WREATH", "FLOWER WREATH", "WILD FLOWERS", "LILAC", "MONSTERA"]
+    wild2_accessories = ["BIRD SKULL", "ANTLERS", "TWIGS", "SERPENT"]
+    beach_accessories = ["SEAWEED", "SHELL"]
+    mountain_accessories = ["CRYSTAL"]
+    plains_accessories = ["SPROUT"]
+    forest_accessories = ["MUSHROOM"]
+    special_accessories = ["STICK", "MOSS BALL", "LILY PAD"]
     collars = [
         "CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME", "GREEN", "RAINBOW",
         "BLACK", "SPIKES", "WHITE", "PINK", "PURPLE", "MULTI", "INDIGO", "CRIMSONBELL", "BLUEBELL",

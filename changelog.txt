@@ -1,3 +1,7 @@
+<strong>Accessory Update 2 (6/9/23)</strong>
+- Added 12 new accessories
+- Fixed issue with split eye colors disappearing
+
 <strong>White/Tortie Patches Update (6/6/23)</strong>
 - Added 8 white patches from unmodded clangen:
     'BLEACHED', 'SAVANNAH', 'FADESPOTS', 'SHIBAINU', 'DAPPLEPAW', 'DIVA', 'BEARD', 'TOPCOVER'

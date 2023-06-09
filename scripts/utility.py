@@ -1380,6 +1380,16 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
                 new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
             elif cat.pelt.accessory in cat.pelt.wild2_accessories:
                 new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
+            elif cat.pelt.accessory in cat.pelt.beach_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
+            elif cat.pelt.accessory in cat.pelt.mountain_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
+            elif cat.pelt.accessory in cat.pelt.plains_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
+            elif cat.pelt.accessory in cat.pelt.forest_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
+            elif cat.pelt.accessory in cat.pelt.special_accessories:
+                new_sprite.blit(sprites.sprites['acc_moss' + cat.pelt.accessory + cat_sprite], (0, 0))
 
         # Apply fading fog
         if cat.pelt.opacity <= 97 and not cat.prevent_fading and game.settings["fading"] and dead:
