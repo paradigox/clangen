@@ -1,3 +1,11 @@
+<strong>Cow Update (6/27/23)</strong>
+- Added 5 white patches from unmodded clangen:
+    'OWL', 'WOODPECKER', 'BOOTS', 'MISS', 'BUB'
+- Added and renamed 2 white patches from unmodded clangen:
+    'COWTHREE', 'COWFOUR'
+- Added 5 new white patches:
+    'COWFIVE', 'COWSIX', 'COWSEVEN', 'COWEIGHT', 'COWNINE'
+
 <strong>Accessory Update 2 (6/9/23)</strong>
 - Added 12 new accessories
 - Fixed issue with split eye colors disappearing
