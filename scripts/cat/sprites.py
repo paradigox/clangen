@@ -297,8 +297,8 @@ for a, i in enumerate(
          'ECLIPSE', 'SNOWSTORM', 'PEPPER']):
     sprites.make_group('whitepatches', (a, 6), f'white{i}')
 for a, i in enumerate(
-        ['BOOTS', 'MISS', 'COWTHREE', 'COWFOUR', 'COWFIVE', 'COWSIX', 'COWSEVEN', 'BUB', 'COWEIGHT', 'COWNINE',
-         'FRECKLEMASK', 'SPLAT']):
+        ['BOOTS', 'MISS', 'COWTHREE', 'COWFOUR', 'COWFIVE', 'COWSIX', 'COWSEVEN', 'BUB', 'COWEIGHT', 'COWNINE', 'COWTEN',
+         'COWELEVEN', 'FRECKLEMASK', 'SPLAT']):
     sprites.make_group('whitepatches', (a, 7), f'white{i}')
 
 # single (solid)

@@ -3,8 +3,8 @@
     'OWL', 'WOODPECKER', 'BOOTS', 'MISS', 'BUB'
 - Added and renamed 2 white patches from unmodded clangen:
     'COWTHREE', 'COWFOUR'
-- Added 5 new white patches:
-    'COWFIVE', 'COWSIX', 'COWSEVEN', 'COWEIGHT', 'COWNINE'
+- Added 7 new white patches:
+    'COWFIVE', 'COWSIX', 'COWSEVEN', 'COWEIGHT', 'COWNINE', 'COWTEN', 'COWELEVEN'
 
 <strong>Accessory Update 2 (6/9/23)</strong>
 - Added 12 new accessories
