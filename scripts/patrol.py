@@ -651,11 +651,16 @@ class Patrol():
                     continue
                 elif 'herb_gathering' not in patrol.tags and patrol_type == 'med':
                     continue
+                
 
             if patrol_size < patrol.min_cats:
                 continue
             if patrol_size > patrol.max_cats:
                 continue
+            
+            if len(self.patrol_cats) == 1:
+                if self.patrol_cats[0].status == 'apprentice' and self.patrol_cats[0].moons == 6 and "trial" not in patrol.tags:
+                    continue
 
             # makes sure that an apprentice is present if the apprentice tag is
             if "apprentice" in patrol.tags:
@@ -717,6 +722,10 @@ class Patrol():
             # one apprentice check
             if "one_apprentice" in patrol.tags:
                 if len(self.patrol_apprentices) < 1 or len(self.patrol_apprentices) > 1:
+                    continue
+                
+            if "trial" in patrol.tags:
+                if self.patrol_cats[0].moons != 6:
                     continue
 
             # two apprentices check
