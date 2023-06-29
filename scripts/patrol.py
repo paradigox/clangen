@@ -960,6 +960,7 @@ class Patrol():
         success_adjust = (1 + 0.10 * len(self.patrol_cats)) * self.patrol_total_experience / (
                 len(self.patrol_cats) * gm_modifier * 2)
         success_chance = self.patrol_event.chance_of_success + int(success_adjust)
+        success_chance -= randint(0,30)
 
         # Auto-wins based on EXP are sorta lame. Often makes it immpossible for large patrols with experiences cats to fail patrols at all. 
         # EXP alone can only bring success chance up to 85. However, skills/traits can bring it up above that. 
@@ -1814,6 +1815,11 @@ class Patrol():
                 self.results_text.append(f"{self.patrol_cats[g].name} has been lost.")
                 self.patrol_cats[g].gone()
                 self.patrol_cats[g].grief(body=False)
+        
+        if len(self.patrol_cats) == 1:
+            if self.patrol_cats[0].dead:
+                game.clan.not_fed_for = 0
+                self.results_text.append(f"{self.patrol_cats[0].name} has fed the woods.")
 
     def handle_conditions(self, outcome):
 

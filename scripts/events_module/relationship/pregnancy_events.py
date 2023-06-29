@@ -178,6 +178,12 @@ class Pregnancy_Events():
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
 
         game.cur_events_list.append(Single_Event(print_event, "birth_death", cats_involved))
+        for kit in kits:
+            if randint(1,4) == 1:
+                kit.die()
+                game.cur_events_list.append(Single_Event(f"{kit.name} is eaten by the creatures in the woods.", "birth_death", cats_involved))
+                game.clan.not_fed_for = 0
+
 
     def handle_zero_moon_pregnant(self, cat: Cat, other_cat=None, relation=None, clan=game.clan):
         """Handles if the cat is zero moons pregnant."""

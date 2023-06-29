@@ -475,6 +475,7 @@ class Clan():
         and 1-29 being "hostile". if you're hostile to outsiders, they will VERY RARELY show up.
         """
         self._reputation = 80
+        self.not_fed_for = 0
         
         self.starting_members = starting_members
         if game_mode in ['expanded', 'cruel season']:

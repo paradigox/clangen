@@ -227,7 +227,11 @@ class Events:
 
         self.herb_destruction()
         self.herb_gather()
-
+        game.clan.not_fed_for +=1
+        if game.clan.not_fed_for >= 10:
+            string = f"The woods have not been fed..."
+            game.cur_events_list.insert(0, Single_Event(string, "health"))            
+            
         if game.clan.game_mode in ["expanded", "cruel season"]:
             amount_per_med = get_amount_cat_for_one_medic(game.clan)
             med_fullfilled = medical_cats_condition_fulfilled(
@@ -251,6 +255,9 @@ class Events:
         # Promote leader and deputy, if needed.
         self.check_and_promote_leader()
         self.check_and_promote_deputy()
+        
+        # if game.clan.not_fed_for >= 11:
+        #     self.change_screen('woods screen')
 
         # Resort
         if game.sort_type != "id":
