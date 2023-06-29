@@ -228,9 +228,29 @@ class Events:
         self.herb_destruction()
         self.herb_gather()
         game.clan.not_fed_for +=1
-        if game.clan.not_fed_for >= 10:
+        if game.clan.not_fed_for == 10:
             string = f"The woods have not been fed..."
-            game.cur_events_list.insert(0, Single_Event(string, "health"))            
+            game.cur_events_list.insert(0, Single_Event(string, "health"))     
+        elif game.clan.not_fed_for == 11:
+            string = f"The woods are starving."
+            game.cur_events_list.insert(0, Single_Event(string, "health"))
+        elif game.clan.not_fed_for > 11:
+            rand_cat = random.choice(game.clan.clan_cats)
+            counter = 0
+            while Cat.all_cats.get(rand_cat).status in ["leader", "deputy", "medicine cat"] or Cat.all_cats.get(rand_cat).dead or Cat.all_cats.get(rand_cat).outside:
+                rand_cat = random.choice(game.clan.clan_cats)
+                counter +=1
+                if counter > 15:
+                    rand_cat = None
+                    break
+            if rand_cat:
+                cat = Cat.all_cats.get(rand_cat)
+                string = f"The woods have been starving for too long. {cat.name} is taken in the night."
+                cat.die(body = False)
+                History.add_death(cat, "This cat was fed to the woods.")
+                cat.history.died_by[0]['text'] = "This cat was fed to the woods."
+                game.cur_events_list.insert(0, Single_Event(string, "health"))
+                game.clan.not_fed_for = 0             
             
         if game.clan.game_mode in ["expanded", "cruel season"]:
             amount_per_med = get_amount_cat_for_one_medic(game.clan)
