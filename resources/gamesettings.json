@@ -29,7 +29,7 @@
         "dark mode": [
             "Dark mode",
             "Camp backgrounds will match with the mode: nighttime for dark mode and daytime for light mode.",
-            false
+            true
         ],
         "custom cursor": [
             "Custom cursor",
@@ -74,7 +74,7 @@
         "shaders": [
             "Enable Shaders",
             "This will add a shading layer onto the cat sprites.",
-            false
+            true
         ],
         "deputy": [
             "Allow leaders to automatically choose a new deputy",
