@@ -181,6 +181,7 @@ class Pregnancy_Events():
         for kit in kits:
             if randint(1,4) == 1:
                 kit.die()
+                History.add_death(kit, "This cat was eaten by the creatures in the woods.")
                 game.cur_events_list.append(Single_Event(f"{kit.name} is eaten by the creatures in the woods.", "birth_death", cats_involved))
                 game.clan.not_fed_for = 0
 

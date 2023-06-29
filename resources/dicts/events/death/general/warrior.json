@@ -25,6 +25,23 @@
             "Newleaf",
             "Greenleaf",
             "Leaf-fall",
+            "Leaf-bare"
+        ],
+        "death_text": "m_c died while wandering too close to the woods.",
+        "history_text": {
+            "reg_death": "m_c was eaten by the creatures in the woods."
+        },
+        "cat_trait": null,
+        "cat_skill": null,
+        "other_cat_trait": null,
+        "other_cat_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Newleaf",
+            "Greenleaf",
+            "Leaf-fall",
             "Leaf-bare",
             "war",
             "other_cat",
