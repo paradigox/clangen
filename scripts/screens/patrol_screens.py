@@ -601,9 +601,7 @@ class PatrolScreen(Screens):
                                                                             "#text_box_22_horizcenter_spacing_95"),
                                                                         manager=MANAGER)
         self.elements["patrol_results"].set_text(self.patrol_obj.results())
-
         self.elements["patrol_text"].set_text(display_text)
-
         self.elements["proceed"].disable()
         self.elements["not_proceed"].disable()
         self.elements["antagonize"].hide()

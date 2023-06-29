@@ -2116,5 +2116,91 @@
         "max_cats": 1,
         "antagonize_text": null,
         "antagonize_fail_text": null
+    },
+    {
+        "patrol_id": "gen_woods_app6",
+        "biome": "Any",
+        "season": "Any",
+        "tags": [
+            "training",
+            "apprentice",
+            "one_apprentice",
+            "trial",
+            "death"
+        ],
+        "intro_text": "The day of reckoning has arrived for r_c, now of six moons. They muster their courage, marching into the enigmatic woods, disappearing into the darkness.",
+        "decline_text": "They can't do this. Not today.",
+        "chance_of_success": 50,
+        "exp": 10,
+        "success_text": {
+            "unscathed_common": "r_c stumbles back into camp, visibly exhausted yet victorious. Despite the trials faced, they have persevered, securing their new status as an apprentice.",
+            "unscathed_rare": "r_c reappears, seemingly untouched by the ordeal. They speak of the woods as a friend, whispering tales of tranquility and harmony."
+        },
+        "fail_text": {
+            "death": "r_c never returns. Their memory lingers in the camp, a solemn reminder of the woods' unpredictable nature."
+        },
+        "win_skills": [
+            "CLEVER,1"
+        ],
+        "win_trait": [
+            "nervous",
+            "insecure",
+            "responsible",
+            "calm",
+            "thoughtful"
+        ],
+        "fail_trait": [
+            "childish",
+            "playful",
+            "shameless",
+            "troublesome"
+        ],
+        "min_cats": 1,
+        "max_cats": 1,
+        "antagonize_text": null,
+        "antagonize_fail_text": null
+    },
+    {
+        "patrol_id": "gen_woods_app7",
+        "biome": "Any",
+        "season": "Any",
+        "tags": [
+            "training",
+            "apprentice",
+            "one_apprentice",
+            "trial",
+            "death"
+        ],
+        "intro_text": "r_c, now of six moons, finds themselves on the cusp of the daunting forest. With a deep breath, they plunge into the depths of the unknown.",
+        "decline_text": "They can't do this. Not today.",
+        "chance_of_success": 50,
+        "exp": 10,
+        "success_text": {
+            "unscathed_common": "Battered and bruised, r_c limps back into the camp. Despite their scars, they wear an expression of triumph. They have passed the trial and proved their worth to the woods.",
+            "unscathed_rare": "r_c emerges from the woods as if they had merely been on a leisurely stroll, their coat unblemished. They share tales of serene, uneventful journey, earning them the respect and wonder of the clan."
+        },
+        "fail_text": {
+            "death": "After hours pass, it's clear that r_c won't be returning. The woods have made their decision, their silence a dreadful verdict."
+        },
+        "win_skills": [
+            "CLEVER,1"
+        ],
+        "win_trait": [
+            "nervous",
+            "insecure",
+            "responsible",
+            "calm",
+            "thoughtful"
+        ],
+        "fail_trait": [
+            "childish",
+            "playful",
+            "shameless",
+            "troublesome"
+        ],
+        "min_cats": 1,
+        "max_cats": 1,
+        "antagonize_text": null,
+        "antagonize_fail_text": null
     }
 ]

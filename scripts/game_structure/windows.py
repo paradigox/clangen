@@ -603,7 +603,7 @@ class KillCat(UIWindow):
                     game.clan.not_fed_for = 0
                     death_message = sub(r"[^A-Za-z0-9<->/.()*'&#!?,| ]+", "", self.death_entry_box.get_text())
 
-                self.the_cat(body = False)
+                self.the_cat.die(body = False)
                 self.history.add_death(self.the_cat, death_message)
                 update_sprite(self.the_cat)
                 game.switches['window_open'] = False
