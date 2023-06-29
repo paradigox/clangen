@@ -195,7 +195,7 @@ while True:
     time_delta = clock.tick(game.switches['fps']) / 1000.0
     if game.switches['cur_screen'] not in ['start screen']:
         if game.settings['dark mode']:
-            screen.fill((51, 9, 16))
+            screen.fill((43, 20, 21))
         else:
             screen.fill((201, 179, 179))
 
