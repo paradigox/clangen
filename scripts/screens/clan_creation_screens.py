@@ -1204,11 +1204,18 @@ class MakeClanScreen(Screens):
 class IntroScreen(Screens):
     def __init__(self, name=None):
         super().__init__(name)
-        screen_x, screen_y = 800, 700
-        self.screen = pygame.display.set_mode((screen_x, screen_y))
+        if game.settings['fullscreen']:
+            screen_x, screen_y = 1600, 1400
+            self.screen = pygame.display.set_mode((screen_x, screen_y), pygame.FULLSCREEN | pygame.SCALED)
+        else:
+            screen_x, screen_y = 800, 700
+            self.screen = pygame.display.set_mode((screen_x, screen_y))
         # self.font = font
         self.clock = None
-        self.fade_surface = pygame.Surface((800, 700))
+        if game.settings['fullscreen']:
+            self.fade_surface = pygame.Surface((1600, 1400))
+        else:
+            self.fade_surface = pygame.Surface((800, 700))
         self.alpha = 0
         self.text = "But mom..."
         self.fading_in = False
