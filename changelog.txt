@@ -1,3 +1,6 @@
+<strong>Brindle Update (8/7/23)</strong>
+- New brindle pelt design
+
 <strong>Cow Update (6/27/23)</strong>
 - Added 5 white patches from unmodded clangen:
     'OWL', 'WOODPECKER', 'BOOTS', 'MISS', 'BUB'
