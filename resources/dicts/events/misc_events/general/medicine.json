@@ -372,6 +372,18 @@
     "accessories": [
         "STICK"
     ]
-  }
+  },
+    {
+        "camp": "Any",
+        "tags": [
+            "medicine_cat",
+            "medicine_cat_app",
+            "other_cat",
+            "mc_to_rc",
+            "dislike"
+        ],
+        "event_text": "m_c is getting increasingly annoyed with r_c because {PRONOUN/r_c/subject} {VERB/r_c/keep/keeps} bothering {PRONOUN/m_c/object} about the most trivial of wounds and aches."
+    }
+
 ]
 
