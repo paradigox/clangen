@@ -23,6 +23,7 @@ from itertools import combinations
 from scripts.patrol.patrol_event import PatrolEvent
 from scripts.patrol.patrol_outcome import PatrolOutcome
 from scripts.cat.cats import Cat
+from scripts.special_dates import get_special_date, contains_special_date_tag
 
 # ---------------------------------------------------------------------------- #
 #                              PATROL CLASS START                              #
@@ -66,6 +67,8 @@ class Patrol():
             game.settings.get('disasters')
         )
         
+        print(f'Total Number of Possible Patrols | normal: {len(final_patrols)}, romantic: {len(final_romance_patrols)} ')
+        
         if final_patrols:
             normal_event_choice = choices(final_patrols, weights=[x.weight for x in final_patrols])[0]
         else:
@@ -95,7 +98,7 @@ class Patrol():
         
         if path == "decline":
             if self.patrol_event:
-                return self.patrol_event.decline_text, ""
+                return self.process_text(self.patrol_event.decline_text, None), ""
             else:
                 return "Error - no event chosen", ""
         
@@ -523,6 +526,7 @@ class Patrol():
     def _filter_patrols(self, possible_patrols: List[PatrolEvent], biome:str, current_season:str, patrol_type:str):
         filtered_patrols = []
         romantic_patrols = []
+        special_date = get_special_date()
 
         # makes sure that it grabs patrols in the correct biomes, season, with the correct number of cats
         for patrol in possible_patrols:
@@ -534,6 +538,11 @@ class Patrol():
                     patrol.patrol_id in self.used_patrols:
                 continue
 
+            # filtering for dates
+            if contains_special_date_tag(patrol.tags):
+                if not special_date or special_date.patrol_tag not in patrol.tags:
+                    continue
+
             if not (patrol.min_cats <= len(self.patrol_cats) <= patrol.max_cats):
                 continue
         
@@ -543,7 +552,7 @@ class Patrol():
                     print(f"Issue with status limits: {patrol.patrol_id}")
                     continue
                 
-                if not (num[0] <= self.patrol_statuses.get(sta, 0) <= num[1]):
+                if not (num[0] <= self.patrol_statuses.get(sta, -1) <= num[1]):
                     flag = True
                     break
             if flag:
@@ -651,9 +660,7 @@ class Patrol():
         
         final_event, success = self.calculate_success(chosen_success, chosen_failure)
         
-        print(f"PATROL ID: {self.patrol_event.patrol_id}")
-        print(f"Success: {success}")
-        
+        print(f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: {success}")        
         
         # Run the chosen outcome
         return final_event.execute_outcome(self)

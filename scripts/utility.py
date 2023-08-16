@@ -17,9 +17,6 @@ from scripts.cat.pelts import Pelt
 import ujson
 import logging
 
-import datetime
-from enum import Enum
-
 logger = logging.getLogger(__name__)
 from scripts.game_structure import image_cache
 
@@ -408,7 +405,7 @@ def create_new_cat(Cat,
         if outside:
             new_cat.outside = True
         if not alive:
-            new_cat.dead = True
+            new_cat.die()
 
         # newbie thought
         new_cat.thought = thought
@@ -457,7 +454,7 @@ def create_outside_cat(Cat, status, backstory, alive=True, thought=None):
     new_cat.outside = True
 
     if not alive:
-        new_cat.dead = True
+        new_cat.die()
 
     thought = "Wonders about those Clan cats they just met"
     new_cat.thought = thought
@@ -915,6 +912,7 @@ def history_text_adjust(text,
         text = text.replace("r_c", str(other_cat_rc.name))
     return text
 
+
 def ongoing_event_text_adjust(Cat, text, clan=None, other_clan_name=None):
     """
     This function is for adjusting the text of ongoing events
@@ -1104,9 +1102,6 @@ def ceremony_text_adjust(Cat,
     adjust_text = process_text(adjust_text, cat_dict)
 
     return adjust_text, random_living_parent, random_dead_parent
-
-
-
 
 
 def shorten_text_to_fit(name, length_limit, font_size=None, font_type="resources/fonts/NotoSans-Medium.ttf"):
@@ -1385,40 +1380,6 @@ def apply_opacity(surface, opacity):
             pixel[3] = int(pixel[3] * opacity / 100)
             surface.set_at((x, y), tuple(pixel))
     return surface
-
-
-# ---------------------------------------------------------------------------- #
-#                                Fun Date Stuff                                #
-# ---------------------------------------------------------------------------- #
-
-class SpecialDate(Enum):
-    """
-    Enum keeping track of registered 'special dates'. Format is (mm, dd).
-    """
-    APRIL_FOOLS = (4, 1)
-    HALLOWEEN = (10, 31)
-    NEW_YEARS = (1, 1)
-
-
-def is_today(date: SpecialDate) -> bool:
-    """
-    Checks if today is a specified 'special date'.
-    """
-    today = datetime.date.today()
-    return (today.month, today.day) == date.value
-
-
-def get_special_date() -> SpecialDate:
-    """
-    If today is a 'special date', return the SpecialDate. 
-
-    Otherwise, return None.
-    """
-    today = datetime.date.today()
-    for date in SpecialDate:
-        if (today.month, today.day) == date.value:
-            return date
-    return None
 
 
 # ---------------------------------------------------------------------------- #
