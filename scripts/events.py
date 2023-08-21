@@ -25,7 +25,7 @@ from scripts.events_module.relation_events import Relation_Events
 from scripts.events_module.condition_events import Condition_Events
 from scripts.events_module.death_events import Death_Events
 from scripts.events_module.freshkill_pile_events import Freshkill_Events
-from scripts.events_module.disaster_events import DisasterEvents
+#from scripts.events_module.disaster_events import DisasterEvents
 from scripts.events_module.outsider_events import OutsiderEvents
 from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
@@ -818,7 +818,7 @@ class Events:
 
         # relationships have to be handled separately, because of the ceremony name change
         if not cat.dead or cat.outside:
-            Relation_Events.handle_relationships(cat)
+           Relation_Events.handle_relationships(cat)
 
         # now we make sure ill and injured cats don't get interactions they shouldn't
         if cat.is_ill() or cat.is_injured():
@@ -1019,7 +1019,7 @@ class Events:
                 game.clan.medicine_cat = cat
 
             # retiring to elder den
-            if cat.status in ['warrior', 'deputy'] and len(cat.apprentice) < 1 and cat.moons > 114:
+            if not cat.no_retire and cat.status in ['warrior', 'deputy'] and len(cat.apprentice) < 1 and cat.moons > 114:
                 # There is some variation in the age. 
                 if cat.moons > 140 or not int(random.random() * (-0.7 * cat.moons + 100)):
                     if cat.status == 'deputy':
@@ -1579,9 +1579,8 @@ class Events:
             # Otherwise, other_cat is None
             other_cat = None
 
-        if not int(
-                random.random() * chance
-        ) and cat.age != 'kitten' and cat.age != 'adolescent' and not self.new_cat_invited:
+        if not int(random.random() * chance) and \
+                cat.age != 'kitten' and cat.age != 'adolescent' and not self.new_cat_invited:
             self.new_cat_invited = True
 
             enemy_clan = None
