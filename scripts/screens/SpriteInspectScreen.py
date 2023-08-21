@@ -469,8 +469,8 @@ class SpriteInspectScreen(Screens):
             biome_platforms = platformsheet.subsurface(pygame.Rect(0, order.index(biome) * 260, 2400, 260)).convert_alpha()
             season_x = {
                 "greenleaf": 0 + offset,
-                "leafbare": 600 + offset,
-                "leaffall": 1200 + offset,
+                "leaf-bare": 600 + offset,
+                "leaf-fall": 1200 + offset,
                 "newleaf": 1800 + offset
             }
             
