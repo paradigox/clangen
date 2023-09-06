@@ -7,7 +7,8 @@
           "Leaf-fall"],
       "event_text": "While out in the woods, m_c finds a acc_singular and decides to keep it with {PRONOUN/m_c/object}.",
       "accessories": [
-          "FOREST"
+          "PLANT",
+          "PLANT2"
       ]
    }
 ]
