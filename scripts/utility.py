@@ -1192,17 +1192,17 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
     # setting the cat_sprite (bc this makes things much easier)
     if not no_not_working and cat.not_working() and age != 'newborn' and game.config['cat_sprites']['sick_sprites']:
         if age in ['kitten', 'adolescent']:
-            cat_sprite = str(19)
+            cat_sprite = str(37)
         else:
-            cat_sprite = str(18)
+            cat_sprite = str(36)
     elif cat.pelt.paralyzed and age != 'newborn':
         if age in ['kitten', 'adolescent']:
-            cat_sprite = str(17)
+            cat_sprite = str(32)
         else:
             if cat.pelt.length == 'long':
-                cat_sprite = str(16)
+                cat_sprite = str(31)
             else:
-                cat_sprite = str(15)
+                cat_sprite = str(30)
     else:
         if age == 'elder' and not game.config['fun']['all_cats_are_newborn']:
             age = 'senior'

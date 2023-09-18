@@ -65,8 +65,8 @@ class Sprites():
                    spritesheet,
                    pos,
                    name,
-                   sprites_x=3,
-                   sprites_y=7):  # pos = ex. (2, 3), no single pixels
+                   sprites_x=6,
+                   sprites_y=8):  # pos = ex. (2, 3), no single pixels
         """
         Divide sprites on a sprite-sheet into groups of sprites that are easily accessible.
 
@@ -116,8 +116,8 @@ class Sprites():
         # if anyone changes lineart for whatever reason update this
         if isinstance(self.size, int):
             pass
-        elif width / 3 == height / 7:
-            self.size = width / 3
+        elif width / 6 == height / 8:
+            self.size = width / 6
         else:
             self.size = 50 # default, what base clangen uses
             print(f"lineart.png is not 3x7, falling back to {self.size}")
@@ -127,7 +127,7 @@ class Sprites():
 
         for x in [
             'lineart', 'singlecolours', 'speckledcolours', 'tabbycolours',
-            'whitepatches', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
+            'whitepatches', 'whitepatches2', 'whitepatchesmoss', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
             'bengalcolours', 'marbledcolours', 'rosettecolours', 'smokecolours', 'tickedcolours',
             'mackerelcolours', 'classiccolours', 'sokokecolours', 'agouticolours', 'singlestripecolours',
@@ -200,20 +200,32 @@ class Sprites():
                 ['APRON', 'CAPSADDLE', 'MASKMANTLE', 'SQUEAKS', 'STAR', 'TOESTAIL', 'RAVENPAW',
                  'PANTS', 'REVERSEPANTS', 'SKUNK', 'KARPATI', 'HALFWHITE', 'APPALOOSA', 'DAPPLEPAW']):
             self.make_group('whitepatches', (a, 4), f'white{i}')
+
+
         # beejeans white patches + perrio's point marks, painted, and heart2 + anju's new marks + key's blackstar
         for a, i in enumerate(['HEART', 'LILTWO', 'GLASS', 'MOORISH', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT',
-                               'MAO', 'LUNA', 'CHESTSPECK', 'WINGS', 'PAINTED', 'HEARTTWO', 'WOODPECKER']):
-            self.make_group('whitepatches', (a, 5), 'white' + i)
+            'MAO', 'LUNA', 'CHESTSPECK', 'WINGS', 'PAINTED', 'HEARTTWO', 'WOODPECKER']):
+            self.make_group('whitepatches2', (a, 0), f'white{i}')
+        # acorn's white patches + ryos' bub + fable lovebug + frankie trixie
+        for a, i in enumerate(['BOOTS', 'MISS', 'COW', 'COWTWO', 'BUB', 'BOWTIE', 'MUSTACHE', 'REVERSEHEART',
+            'SPARROW', 'VEST', 'LOVEBUG', 'TRIXIE', 'SAMMY', 'SPARKLE']):
+            self.make_group('whitepatches2', (a, 1), f'white{i}')
+        # acorn's white patches: the sequel
+        for a, i in enumerate(['RIGHTEAR', 'LEFTEAR', 'ESTRELLA', 'SHOOTINGSTAR', 'EYESPOT', 'REVERSEEYE',
+            'FADEBELLY', 'FRONT', 'BLOSSOMSTEP', 'PEBBLE', 'TAILTWO', 'BUDDY', 'BACKSPOT', 'EYEBAGS']):
+            self.make_group('whitepatches2', (a, 2), f'white{i}')
+        for a, i in enumerate(['BULLSEYE']):
+            self.make_group('whitepatches2', (a, 3), 'white' + i)
+
+
         for a, i in enumerate(
-                ['CHANCE', 'MOSSY', 'MOTH', 'NIGHTMIST', 'FALCON', 'VENUS', 'RETSUKO', 'COW', 'COWTWO', 'TIDAL',
-                 'DIAMOND',
-                 'ECLIPSE', 'SNOWSTORM', 'PEPPER']):
-            self.make_group('whitepatches', (a, 6), f'white{i}')
+                ['CHANCE', 'MOSSY', 'MOTH', 'NIGHTMIST', 'FALCON', 'VENUS', 'RETSUKO', 'TIDAL', 'DIAMOND',
+                 'ECLIPSE', 'SNOWSTORM', 'PEPPER', 'COWTHREE', 'COWFOUR']):
+            self.make_group('whitepatchesmoss', (a, 0), f'white{i}')
         for a, i in enumerate(
-                ['BOOTS', 'MISS', 'COWTHREE', 'COWFOUR', 'COWFIVE', 'COWSIX', 'COWSEVEN', 'BUB', 'COWEIGHT', 'COWNINE',
-                 'COWTEN',
-                 'COWELEVEN', 'FRECKLEMASK', 'SPLAT']):
-            self.make_group('whitepatches', (a, 7), f'white{i}')
+                ['COWFIVE', 'COWSIX', 'COWSEVEN', 'COWEIGHT', 'COWNINE', 'COWTEN',
+                 'COWELEVEN', 'FRECKLEMASK', 'SPLAT', 'BATWING']):
+            self.make_group('whitepatchesmoss', (a, 1), f'white{i}')
 
         # single (solid)
         for a, i in enumerate(['WHITE', 'SNOW WHITE', 'GRAY', 'SLATE', 'DARK GRAY', 'DARK SLATE',
@@ -464,18 +476,17 @@ class Sprites():
             self.make_group('fadedcolours', (a, 2), f'faded{i}')
 
         # new new torties
-        for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'SPLIT', 'STREAK', 'MASK']):
+        for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
             self.make_group('tortiepatchesmasks', (a, 0), f"tortiemask{i}")
-        for a, i in enumerate(
-                ['MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE', 'MINIMALFOUR', 'OREO', 'SWOOP', 'CHIMERA', 'CHEST',
-                 'ARMTAIL']):
+        for a, i in enumerate(['MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE', 'MINIMALFOUR', 'OREO', 'SWOOP', 'CHIMERA', 'CHEST', 'ARMTAIL', 'GRUMPYFACE']):
             self.make_group('tortiepatchesmasks', (a, 1), f"tortiemask{i}")
-        for a, i in enumerate(
-                ['MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'SMUDGED', 'DAUB', 'VIPER']):
+        for a, i in enumerate(['MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'SMUDGED', 'DAUB', 'EMBER', 'BRIE']):
             self.make_group('tortiepatchesmasks', (a, 2), f"tortiemask{i}")
-        for a, i in enumerate(
-                ['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET', 'SKULL']):
+        for a, i in enumerate(['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET', 'BELOVED']):
             self.make_group('tortiepatchesmasks', (a, 3), f"tortiemask{i}")
+        for a, i in enumerate(['VIPER', 'SKULL', 'POINTS', 'DITTO']):
+            self.make_group('tortiepatchesmasks', (a, 3), f"tortiemask{i}")
+
 
         # SKINS
         for a, i in enumerate(['BLACK', "RED", 'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN']):
