@@ -16,7 +16,6 @@ class Sprites():
         self.size = None
         self.spritesheets = {}
         self.images = {}
-        self.groups = {}
         self.sprites = {}
         
         self.load_tints()
@@ -44,23 +43,6 @@ class Sprites():
         """
         self.spritesheets[name] = pygame.image.load(a_file).convert_alpha()
 
-    def find_sprite(self, group_name, x, y):
-        """
-        Find singular sprite from a group.
-
-        Parameters:
-        group_name -- Name of Pygame group to find sprite from.
-        x -- X-offset of the sprite to get. NOT pixel offset, but offset of other sprites.
-        y -- Y-offset of the sprite to get. NOT pixel offset, but offset of other sprites.
-        """
-        # pixels will be calculated automatically, so for x and y, just use 0, 1, 2, 3 etc.
-        new_sprite = pygame.Surface((self.size, self.size),
-                                    pygame.HWSURFACE | pygame.SRCALPHA)
-        new_sprite.blit(self.groups[group_name], (0, 0),
-                        (x * self.size, y * self.size, (x + 1) * self.size,
-                         (y + 1) * self.size))
-        return new_sprite
-
     def make_group(self,
                    spritesheet,
                    pos,
@@ -87,7 +69,6 @@ class Sprites():
                                               self.size * sprites_x,
                                               self.size * sprites_y)
 
-        self.groups[name] = new_group
 
         # splitting group into singular sprites and storing into self.sprites section
         x_spr = 0
