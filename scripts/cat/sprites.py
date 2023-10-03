@@ -103,7 +103,7 @@ class Sprites():
         del width, height # unneeded
 
         for x in [
-            'lineart', 'singlecolours', 'speckledcolours', 'tabbycolours',
+            'lineart', 'singlecolours', 'speckledcolours', 'tabbycolours', 'tortiesmoss',
             'whitepatches', 'whitepatches2', 'whitepatchesmoss', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
             'bengalcolours', 'marbledcolours', 'rosettecolours', 'smokecolours', 'tickedcolours',
@@ -191,7 +191,7 @@ class Sprites():
         for a, i in enumerate(['RIGHTEAR', 'LEFTEAR', 'ESTRELLA', 'SHOOTINGSTAR', 'EYESPOT', 'REVERSEEYE',
             'FADEBELLY', 'FRONT', 'BLOSSOMSTEP', 'PEBBLE', 'TAILTWO', 'BUDDY', 'BACKSPOT', 'EYEBAGS']):
             self.make_group('whitepatches2', (a, 2), f'white{i}')
-        for a, i in enumerate(['BULLSEYE']):
+        for a, i in enumerate(['BULLSEYE', 'FINN', 'DIGIT', 'KROPKA', 'FCTWO', 'FCONE', 'MIA', 'SCAR', 'BUSTER', 'SMOKEY']):
             self.make_group('whitepatches2', (a, 3), 'white' + i)
 
 
@@ -459,10 +459,14 @@ class Sprites():
             self.make_group('tortiepatchesmasks', (a, 1), f"tortiemask{i}")
         for a, i in enumerate(['MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'SMUDGED', 'DAUB', 'EMBER', 'BRIE']):
             self.make_group('tortiepatchesmasks', (a, 2), f"tortiemask{i}")
-        for a, i in enumerate(['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET', 'BELOVED']):
+        for a, i in enumerate(['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET', 'BELOVED', 'BODY']):
             self.make_group('tortiepatchesmasks', (a, 3), f"tortiemask{i}")
+        for a, i in enumerate(['SHILOH']):
+            self.make_group('tortiepatchesmasks', (a, 4), f"tortiemask{i}")
+
+
         for a, i in enumerate(['VIPER', 'SKULL', 'POINTS', 'DITTO']):
-            self.make_group('tortiepatchesmasks', (a, 3), f"tortiemask{i}")
+            self.make_group('tortiesmoss', (a, 0), f"tortiemask{i}")
 
 
         # SKINS
