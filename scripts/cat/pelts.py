@@ -28,6 +28,7 @@ class Pelt():
         'Splotch': 'splotch',
         'Saber': 'saber',
         'Faded': 'faded',
+        'Masked': 'masked',
         'Tortie': None,
         'Calico': None
     }
@@ -75,7 +76,7 @@ class Pelt():
 
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                    'classic', 'sokoke', 'agouti', 'singlestripe', 'abyssinian', 'brindle', 'braided', 'splotch',
-                   'saber', 'faded']
+                   'saber', 'faded', 'masked']
 
 
     pelt_length = ["short", "medium", "long"]
@@ -132,7 +133,7 @@ class Pelt():
     swirls = ["Tabby", "Classic", "Sokoke", "Marbled"]
     flats = ["SingleColour", "TwoColour", "Singlestripe", "Abyssinian"]
     stripes = ["Mackerel", "Braided", "Brindle"]
-    splotches = ["Splotch"]
+    splotches = ["Splotch", "Masked"]
     exotic = ["Saber", "Faded"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [points, spots, swirls, flats, stripes, splotches, exotic, torties]
@@ -877,7 +878,7 @@ class Pelt():
                     # Normal generation
                     if self.tortiebase in ["singlestripe", "smoke", "single"]:
                         self.tortiepattern = choice(['tabby', 'mackerel', 'classic', 'single', 'smoke', 'agouti',
-                                                'ticked', 'abyssinian'])
+                                                'ticked', 'abyssinian', 'masked'])
                     else:
                         self.tortiepattern = random.choices([self.tortiebase, 'single'], weights=[97, 3], k=1)[0]
 
@@ -1249,7 +1250,8 @@ class Pelt():
             "Braided": "c_n tabby",
             "Splotch": "unusually splotched c_n",
             "Saber": "c_n tabby",
-            "Faded": "c_n tabby"
+            "Faded": "c_n tabby",
+            "Masked": "c_n masked tabby"
         }
 
         # Start with determining the base color name. 
@@ -1276,7 +1278,7 @@ class Pelt():
                     color_name = cat.pelt.name.lower()
             else:
                 base = cat.pelt.tortiebase.lower()
-                if base in Pelt.stripes + ['bengal', 'rosette', 'speckled', 'faded', 'saber', 'tabby', 'classic', 'sokoke', 'marbled']:
+                if base in Pelt.stripes + ['bengal', 'rosette', 'speckled', 'faded', 'saber', 'tabby', 'classic', 'sokoke', 'marbled', 'masked']:
                     base = 'tabby'
                 else:
                     base = ''
