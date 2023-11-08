@@ -203,7 +203,7 @@ class DFScreen(Screens):
                                                 , manager=MANAGER)
         self.to_living_button = UIImageButton(scale(pygame.Rect((560, 270), (134, 68))), "",
                                                 object_id="#to_living_button", manager=MANAGER,
-                                                tool_tip_text='view living cats')
+                                                tool_tip_text='view living wolves')
         self.dark_forest_button.disable()
         self.next_page_button = UIImageButton(scale(pygame.Rect((912, 1190), (68, 68))), "",
                                               object_id="#arrow_right_button"
@@ -226,7 +226,7 @@ class DFScreen(Screens):
             scale(pygame.Rect((x_pos, y_pos), (196, 68))),
             "",
             object_id="#filter_by_closed_button",
-            tool_tip_text="By default, cats are sorted by rank.", manager=MANAGER
+            tool_tip_text="By default, wolves are sorted by rank.", manager=MANAGER
         )
         self.filter_by_open = UIImageButton(
             scale(pygame.Rect((x_pos, y_pos), (196, 68))),

@@ -159,11 +159,11 @@ class ListScreen(Screens):
         self.filter_fav = UIImageButton(scale(pygame.Rect((366, 275), (56, 56))), "",
                                         object_id="#fav_cat",
                                         manager=MANAGER,
-                                        tool_tip_text='hide favourite cat indicators')
+                                        tool_tip_text='hide favourite wolf indicators')
 
         self.filter_not_fav = UIImageButton(scale(pygame.Rect((366, 275), (56, 56))), "",
                                             object_id="#not_fav_cat", manager=MANAGER,
-                                        tool_tip_text='show favourite cat indicators')
+                                        tool_tip_text='show favourite wolf indicators')
         
         if game.clan.clan_settings["show fav"]:
             self.filter_not_fav.hide()
@@ -180,7 +180,7 @@ class ListScreen(Screens):
                                                          , manager=MANAGER)  # Text will be filled in later
 
         self.set_disabled_menu_buttons(["catlist_screen"])
-        self.update_heading_text(f'{game.clan.name}Clan')
+        self.update_heading_text(f'{game.clan.name}Pack')
         self.show_menu_buttons()
         self.update_search_cats("")  # This will list all the cats, and create the button objects.
 

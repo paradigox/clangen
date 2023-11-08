@@ -21,7 +21,7 @@
             "Greenleaf",
             "Leaf-fall"
         ],
-        "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
+        "event_text": "m_c calls the younger wolves to {PRONOUN/m_c/poss} den to tell stories of the Pack's past.",
         "cat_trait": null,
         "cat_skill": [
             "STORY,1"
@@ -71,7 +71,7 @@
             "Greenleaf",
             "Leaf-fall"
         ],
-        "event_text": "m_c places small feathers and shining stones near the nest of each Clanmate while they're on patrol.",
+        "event_text": "m_c places small feathers and shining stones near the nest of each Packmate while they're on patrol.",
         "cat_trait": null,
         "cat_skill": [
             "CAMP,2"
@@ -109,7 +109,9 @@
         "other_cat_trait": null,
         "other_cat_skill": null,
         "accessories": [
-            "COLLAR"
+            "COLLAR",
+			"BANDANA",
+			"RADIO"
         ]
     },
     {
@@ -138,7 +140,7 @@
             "respect",
             "clan_kits"
         ],
-        "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+        "event_text": "m_c calls out to some eager pups, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the pups a thrilling story of times long past.",
         "cat_skill": [
             "STORY,1",
             "LORE,2"

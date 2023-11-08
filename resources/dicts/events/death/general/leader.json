@@ -19,9 +19,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was mortally wounded by a fox, and lost a life.",
+        "death_text": "m_c was mortally wounded by a bear, and lost a life.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} wounded by a fox"
+            "lead_death": "{VERB/m_c/were/was} wounded by a bear"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -35,9 +35,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life to a dog.",
+        "death_text": "m_c lost a life to a cougar.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} mauled by a dog"
+            "lead_death": "{VERB/m_c/were/was} mauled by a cougar"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -51,9 +51,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life to a badger.",
+        "death_text": "m_c lost a life to a wolverine.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} killed by a badger"
+            "lead_death": "{VERB/m_c/were/was} killed by a wolverine"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -122,9 +122,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c failed to interpret a warning sign from StarClan, and lost a life as a result.",
+        "death_text": "m_c failed to interpret a warning sign from StarPack, and lost a life as a result.",
         "history_text": {
-            "lead_death": "failed to interpret a warning from StarClan"
+            "lead_death": "failed to interpret a warning from StarPack"
         },
         "cat_negate_skill": [
             "CLEVER,2",
@@ -146,9 +146,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a dog.",
+        "death_text": "m_c lost a life defending r_c from a livestock guardian.",
         "history_text": {
-            "lead_death": "defended r_c from a dog"
+            "lead_death": "defended r_c from a livestock guardian"
         },
         "cat_trait": [
             "altruistic",
@@ -184,9 +184,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a badger.",
+        "death_text": "m_c lost a life defending r_c from a wolverine.",
         "history_text": {
-            "lead_death": "defended r_c from a badger"
+            "lead_death": "defended r_c from a wolverine"
         },
         "cat_trait": [
             "altruistic",
@@ -222,9 +222,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a fox.",
+        "death_text": "m_c lost a life defending r_c from a moose.",
         "history_text": {
-            "lead_death": "defended r_c from a fox"
+            "lead_death": "defended r_c from a moose"
         },
         "cat_trait": [
             "altruistic",
@@ -712,9 +712,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c was burnt alive while trying to save {PRONOUN/m_c/poss} Clanmates from a fire.",
+        "death_text": "m_c was burnt alive while trying to save {PRONOUN/m_c/poss} Packmates from a fire.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} killed in a fire trying to save {PRONOUN/m_c/poss} Clanmates"
+            "lead_death": "{VERB/m_c/were/was} killed in a fire trying to save {PRONOUN/m_c/poss} Packmates"
         },
         "cat_trait": [
             "altruistic",
@@ -810,7 +810,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c caught greencough, and died more than once, despite the efforts of StarClan.",
+        "death_text": "m_c caught greencough, and died more than once, despite the efforts of StarPack.",
         "history_text": {
             "lead_death": "contracted greencough"
         }
@@ -835,7 +835,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c caught whitecough, and died more than once, despite the efforts of StarClan.",
+        "death_text": "m_c caught whitecough, and died more than once, despite the efforts of StarPack.",
         "history_text": {
             "lead_death": "contracted whitecough"
         }
@@ -860,7 +860,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c caught yellowcough, and died more than once, despite the efforts of StarClan.",
+        "death_text": "m_c caught yellowcough, and died more than once, despite the efforts of StarPack.",
         "history_text": {
             "lead_death": "contracted yellowcough"
         }
@@ -946,7 +946,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "Despite StarClan's efforts, m_c's body just couldn't continue. {PRONOUN/m_c/poss/CAP} remaining lives were taken by old age.",
+        "death_text": "Despite StarPack's efforts, m_c's body just couldn't continue. {PRONOUN/m_c/poss/CAP} remaining lives were taken by old age.",
         "history_text": {
             "lead_death": "died of old age"
         }
@@ -1184,8 +1184,8 @@
         ],
         "death_text": "o_c attempted to break into the camp. m_c and r_c are left cold on the ground in the aftermath.",
         "history_text": {
-            "reg_death": "This cat died when o_c tried to break into camp.",
-            "lead_death": "tried to defend the Clan from o_c"
+            "reg_death": "This wolf died when o_c tried to break into camp.",
+            "lead_death": "tried to defend the Pack from o_c"
         }
     }
 ]

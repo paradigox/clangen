@@ -116,8 +116,11 @@ class Condition_Events():
                 random_index = int(random.random() * len(possible_illnesses))
                 chosen_illness = possible_illnesses[random_index]
                 # if a non-kitten got kittencough, switch it to whitecough instead
+                # and change it to another word because pain
                 if chosen_illness == 'kittencough' and cat.status != 'kitten':
                     chosen_illness = 'whitecough'
+                elif chosen_illness == "kittencough" and cat.status == 'kitten':
+                    chosen_illness = 'puppycough'
                 # make em sick
                 cat.get_ill(chosen_illness)
 
@@ -193,11 +196,11 @@ class Condition_Events():
                 else:
                     other_clan = random.choice(game.clan.all_clans)
                 if other_clan:
-                    other_clan_name = f'{other_clan.name}Clan'
+                    other_clan_name = f'{other_clan.name}Pack'
 
                 if other_clan_name == 'None':
                     other_clan = game.clan.all_clans[0]
-                    other_clan_name = f'{other_clan.name}Clan'
+                    other_clan_name = f'{other_clan.name}Pack'
 
                 possible_events = GenerateEvents.possible_short_events(cat.status, cat.age, "injury")
                 final_events = GenerateEvents.filter_possible_short_events(possible_events, cat, other_cat, war,
@@ -361,12 +364,13 @@ class Condition_Events():
             "NOEAR": ["partial hearing loss", "deaf"],
             "LEFTBLIND": ["one bad eye", "failing eyesight"],
             "RIGHTBLIND": ["one bad eye", "failing eyesight"],
+            "BLIND": ["blind"],
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"]
         }
 
         scarless_conditions = [
-            "weak leg", "paralyzed", "raspy lungs", "wasting disease", "blind", "failing eyesight", "one bad eye",
+            "weak leg", "paralyzed", "raspy lungs", "wasting disease", "failing eyesight", "one bad eye",
             "partial hearing loss", "deaf", "constant joint pain", "constantly dizzy", "recurring shock",
             "lasting grief"
         ]
@@ -582,7 +586,7 @@ class Condition_Events():
                     # gather potential event strings for gotten condition
                     possible_string_list = Condition_Events.PERMANENT_CONDITION_GOT_STRINGS[injury][condition_got]
 
-                    # choose event string and ensure Clan's med cat number aligns with event text
+                    # choose event string and ensure Pack's med cat number aligns with event text
                     random_index = random.randrange(0, len(possible_string_list))
                     
                     med_list = get_med_cats(Cat)
@@ -663,7 +667,7 @@ class Condition_Events():
                 # gather potential event strings for gotten risk
                 possible_string_list = Condition_Events.CONGENITAL_CONDITION_GOT_STRINGS[condition]
 
-                # choose event string and ensure Clan's med cat number aligns with event text
+                # choose event string and ensure Pack's med cat number aligns with event text
                 random_index = int(random.random() * len(possible_string_list))
                 med_list = get_med_cats(Cat)
                 med_cat = None
@@ -772,17 +776,17 @@ class Condition_Events():
                             retire_involved.append(game.clan.leader.ID)
                             event = f"{game.clan.leader.name}, seeing {cat.name} struggling the last few moons " \
                                     f"approaches them and promises them that no one would think less of them for " \
-                                    f"retiring early and that they would still be a valuable member of the Clan " \
+                                    f"retiring early and that they would still be a valuable member of the Pack " \
                                     f"as an elder. {cat.name} agrees and later that day their elder ceremony " \
                                     f"is held."
                         else:
-                            event = f'{cat.name} has decided to retire from normal Clan duty.'
+                            event = f'{cat.name} has decided to retire from normal Pack duty.'
                     else:
-                        event = f'{cat.name} has decided to retire from normal Clan duty.'
+                        event = f'{cat.name} has decided to retire from normal Pack duty.'
 
                     if cat.age == 'adolescent':
                         event += f" They are given the name {cat.name.prefix}{cat.name.suffix} in honor " \
-                                    f"of their contributions to {game.clan.name}Clan."
+                                    f"of their contributions to {game.clan.name}Pack."
 
                     cat.retire_cat()
                     # Don't add this to the condition event list: instead make it it's own event, a ceremony. 
@@ -800,7 +804,7 @@ class Condition_Events():
             if risk["name"] == 'an infected wound' and 'a festering wound' in cat.illnesses:
                 continue
 
-            # adjust chance of risk gain if Clan has enough meds
+            # adjust chance of risk gain if Pack has enough meds
             chance = risk["chance"]
             if medical_cats_condition_fulfilled(Cat.all_cats.values(),
                                                 get_amount_cat_for_one_medic(game.clan)):
@@ -852,7 +856,7 @@ class Condition_Events():
                         removed_condition = True
                         dictionary.pop(condition)
 
-                    # choose event string and ensure Clan's med cat number aligns with event text
+                    # choose event string and ensure Pack's med cat number aligns with event text
                     random_index = int(random.random() * len(possible_string_list))
                     med_list = get_med_cats(Cat)
                     if len(med_list) == 0:
@@ -903,7 +907,7 @@ class Condition_Events():
 
     @staticmethod
     def use_herbs(cat, condition, conditions, source):
-        # herbs that can be used for the condition and the Clan has available
+        # herbs that can be used for the condition and the Pack has available
         clan_herbs = set()
         needed_herbs = set()
         clan_herbs.update(game.clan.herbs.keys())

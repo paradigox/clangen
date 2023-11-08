@@ -2,7 +2,7 @@
     {
         "id": "gen_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
+            "Whimpers pitifully for milk",
             "Tries to figure out all of the smells around {PRONOUN/m_c/object}",
             "Snoozes peacefully",
             "Tries to open {PRONOUN/m_c/poss} eyes, but it's all blurry",
@@ -17,7 +17,7 @@
         "thoughts":[
             "Snuggles closer to r_c",
             "Smells r_c and immediately perks up",
-            "Mews at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest"
+            "Whines at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest"
         ],
         "main_age_constraint": [
             "newborn"

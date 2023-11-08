@@ -2,13 +2,13 @@
     {
         "id": "gen_dead_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
+            "Whines pitifully for milk",
             "Snoozes peacefully",
-            "Wobbles around StarClan happily",
-            "Is drinking milk from a StarClan queen",
+            "Wobbles around StarPack happily",
+            "Is drinking milk from a StarPack queen",
             "Tries opening {PRONOUN/m_c/poss} eyes to see the 'stars' everyone is talking about",
-            "Tries to practice walking to play with the other cats",
-            "Attempts to snarl but can only manage a tiny mewl",
+            "Tries to practice walking to play with the other wolves",
+            "Attempts to snarl but can only manage a tiny growl",
             "Rolls through the starry grass"
         ]
     },
@@ -16,7 +16,7 @@
         "id": "gen_dead_newborn_to_alive_parent",
         "thoughts":[
             "Thinks {PRONOUN/m_c/subject} heard r_c's voice",
-            "Is mewling for r_c",
+            "Is whining for r_c",
             "Searches for r_c's scent",
             "Blindly reaches out for r_c"
         ],

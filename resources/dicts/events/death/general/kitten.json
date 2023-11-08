@@ -124,9 +124,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c died of kittencough.",
+        "death_text": "m_c died of puppycough.",
         "history_text": {
-            "reg_death": "m_c died of kittencough."
+            "reg_death": "m_c died of puppycough."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -192,9 +192,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "r_c and m_c die from a bout of kittencough.",
+        "death_text": "r_c and m_c die from a bout of puppycough.",
         "history_text": {
-            "reg_death": "m_c died of kittencough."
+            "reg_death": "m_c died of puppycough."
         },
         "cat_trait": null,
         "cat_skill": null,

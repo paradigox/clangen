@@ -268,9 +268,9 @@ class Game():
         else:
             return None'''
         # All of the above is old code
-        # Now, we want clanlist.txt to contain ONLY the name of the Clan that is currently loaded
+        # Now, we want clanlist.txt to contain ONLY the name of the Pack that is currently loaded
         # We will get the list of clans from the saves folder
-        # each Clan has its own folder, and the name of the folder is the name of the clan
+        # each Pack has its own folder, and the name of the folder is the name of the clan
         # so we can just get a list of all the folders in the saves folder
 
         # First, we need to make sure the saves folder exists
@@ -282,7 +282,7 @@ class Game():
         # Now we can get a list of all the folders in the saves folder
         clan_list = [f.name for f in os.scandir(get_save_dir()) if f.is_dir()]
 
-        # the Clan specified in saves/clanlist.txt should be first in the list
+        # the Pack specified in saves/clanlist.txt should be first in the list
         # so we can load it automatically
 
         if os.path.exists(get_save_dir() + '/clanlist.txt'):
@@ -575,7 +575,7 @@ if not os.path.exists(get_save_dir() + '/settings.txt'):
         write_file.write('')
 game.load_settings()
 
-pygame.display.set_caption('Clan Generator')
+pygame.display.set_caption('Pack Generator')
 
 if game.settings['fullscreen']:
     screen_x, screen_y = 1600, 1400

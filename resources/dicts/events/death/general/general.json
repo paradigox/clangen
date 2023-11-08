@@ -221,9 +221,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was found dead near a fox den.",
+        "death_text": "m_c was found dead near a bear den.",
         "history_text": {
-            "reg_death": "m_c was killed by a fox."
+            "reg_death": "m_c was killed by a bear."
         },
         "cat_trait": [
             "daring",
@@ -260,9 +260,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c saved a kit from a snake, but was bitten in the process. The venom killed {PRONOUN/m_c/object}.",
+        "death_text": "m_c saved a pup from a snake, but was bitten in the process. The venom killed {PRONOUN/m_c/object}.",
         "history_text": {
-            "reg_death": "m_c was killed by a snake, while saving a kit."
+            "reg_death": "m_c was killed by a snake, while saving a pup."
         },
         "cat_trait": [
             "altruistic",
@@ -326,8 +326,8 @@
         ],
         "death_text": "o_c attempted to break into the camp. m_c and r_c are left cold on the ground in the aftermath.",
         "history_text": {
-            "reg_death": "This cat died when o_c tried to break into camp.",
-            "lead_death": "tried to defend the Clan from o_c"
+            "reg_death": "This wolf died when o_c tried to break into camp.",
+            "lead_death": "tried to defend the Pack from o_c"
         }
     },
     {
@@ -448,8 +448,8 @@
         ],
         "death_text": "m_c fell into the river and r_c drowned alongside m_c while trying to rescue {PRONOUN/m_c/object}.",
         "history_text": {
-            "reg_death": "m_c drowned alongside a Clanmate.",
-            "lead_death": "drowned alongside a Clanmate"
+            "reg_death": "m_c drowned alongside a Packmate.",
+            "lead_death": "drowned alongside a Packmate"
         },
         "other_cat_trait": [
             "altruistic",
@@ -524,7 +524,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "A bad case of greencough strikes the Clan, taking r_c and m_c's lives.",
+        "death_text": "A bad case of greencough strikes the Pack, taking r_c and m_c's lives.",
         "history_text": {
             "reg_death": "m_c died of greencough.",
             "lead_death": "died of greencough"
@@ -541,7 +541,7 @@
         "camp": "Any",
         "death_text": "m_c has always wondered where {PRONOUN/m_c/subject} came from. {PRONOUN/m_c/subject/CAP} {VERB/m_c/sneak/sneaks} out of camp, intending to find loners who might have some clues about {PRONOUN/m_c/poss} origins. Frantic with worry and confusion after finding m_c's empty nest in the morning, c_n launches a search. They find {PRONOUN/m_c/poss} cooling body after a long search and wonders why {PRONOUN/m_c/subject} decided to leave the safety of c_n, and what killed {PRONOUN/m_c/object}.",
         "history_text": {
-            "reg_death": "Curiosity killed this cat.",
+            "reg_death": "Curiosity killed this wolf.",
             "lead_death": "lost a life because of curiosity."
         },
         "backstory_constraint": [
@@ -623,7 +623,7 @@
             "Leaf-bare",
             "war"
         ],
-        "death_text": "m_c sacrificed {PRONOUN/m_c/self} by taking on the role of a messenger, delivering important information that could save {PRONOUN/m_c/poss} Clan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} killed while investigating enemy territory.",
+        "death_text": "m_c sacrificed {PRONOUN/m_c/self} by taking on the role of a messenger, delivering important information that could save {PRONOUN/m_c/poss} Pack. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} killed while investigating enemy territory.",
         "history_text": {
             "reg_death": "m_c was killed investigating enemy territory.",
             "lead_death": "{VERB/m_c/were/was} killed investigating enemy territory."
@@ -655,8 +655,8 @@
         ],
         "death_text": "m_c fell into a pit trap set by o_c's warriors.",
         "history_text": {
-            "reg_death": "m_c fell into a pit trap set by an enemy Clan.",
-            "lead_death": "fell into a pit trap set by an enemy Clan."
+            "reg_death": "m_c fell into a pit trap set by an enemy Pack.",
+            "lead_death": "fell into a pit trap set by an enemy Pack."
         }
     },
     {
@@ -761,7 +761,7 @@
         "camp": "Any",
         "death_text": "m_c and r_c loved each other so much they could not be parted, even by death. c_n finds their bodies still wrapped around each other in the morning.",
         "history_text": {
-            "reg_death": "This cat died from old age life.",
+            "reg_death": "This wolf died from old age life.",
             "lead_death": "lost all remaining lives from old age."
         }
     }

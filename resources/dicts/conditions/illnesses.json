@@ -174,6 +174,45 @@
             "moss"
         ]
     },
+	"puppycough": {
+        "severity": "severe",
+        "mortality": {
+            "newborn": 2,
+            "kitten": 2,
+            "adolescent": 15,
+            "young adult": 0,
+            "adult": 0,
+            "senior adult": 0,
+            "senior": 5
+        },
+        "medicine_mortality": {
+            "newborn": 5,
+            "kitten": 5,
+            "adolescent": 60,
+            "young adult": 0,
+            "adult": 0,
+            "senior adult": 0,
+            "senior": 10
+        },
+        "duration": 3,
+        "medicine_duration": 2,
+        "infectiousness": 15,
+        "risks": [
+            {
+                "name": "whitecough",
+                "chance": 10
+            }
+        ],
+        "herbs": [
+            "catmint",
+            "tansy",
+            "mullein",
+            "plantain",
+            "juniper",
+            "poppy",
+            "moss"
+        ]
+    },
     "an infected wound": {
         "severity": "major",
         "mortality": {

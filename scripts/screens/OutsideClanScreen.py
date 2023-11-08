@@ -157,7 +157,7 @@ class OutsideClanScreen(Screens):
                                                          manager=MANAGER)  # Text will be filled in later
 
         self.set_disabled_menu_buttons(["catlist_screen"])
-        self.update_heading_text('Outside The Clan')
+        self.update_heading_text('Outside The Pack')
         self.show_menu_buttons()
         self.update_search_cats("")  # This will list all the cats, and create the button objects.
 
@@ -167,7 +167,7 @@ class OutsideClanScreen(Screens):
             scale(pygame.Rect((x_pos, y_pos), (196, 68))),
             "",
             object_id="#filter_by_closed_button",
-            tool_tip_text="By default, cats are sorted by rank.", manager=MANAGER
+            tool_tip_text="By default, wolves are sorted by rank.", manager=MANAGER
         )
         self.filter_by_open = UIImageButton(
             scale(pygame.Rect((x_pos, y_pos), (196, 68))),

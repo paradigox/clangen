@@ -103,7 +103,7 @@ class ClanScreen(Screens):
         self.choose_cat_positions()
         
         self.set_disabled_menu_buttons(["camp_screen"])
-        self.update_heading_text(f'{game.clan.name}Clan')
+        self.update_heading_text(f'{game.clan.name}Pack')
         self.show_menu_buttons()
 
         # Creates and places the cat sprites.
@@ -128,10 +128,10 @@ class ClanScreen(Screens):
                                        starting_height=i)
                     )
                 except:
-                    print(f"ERROR: placing {Cat.all_cats[x].name}\'s sprite on Clan page")
+                    print(f"ERROR: placing {Cat.all_cats[x].name}\'s sprite on Pack page")
                     
         # Den Labels
-        # Redo the locations, so that it uses layout on the Clan page
+        # Redo the locations, so that it uses layout on the Pack page
         self.warrior_den_label = pygame_gui.elements.UIImage(
             scale(pygame.Rect(self.layout["warrior den"], (242, 56))),
             pygame.transform.scale(

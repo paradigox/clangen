@@ -13,7 +13,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The cats head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
+        "intro_text": "The wolves head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
         "decline_text": "When they get there p_l can't find the hummingbird they were expecting. Disappointing.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells app1 how c_n's founders followed the hummingbird's wisdom, setting up the Clan in the shadow of the dangers of the mountain to protect c_n cats from the attention of Twolegs and endless wars with other cat Clans.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells app1 how c_n's founders followed the hummingbird's wisdom, setting up the Pack in the shadow of the dangers of the mountain to protect c_n wolves from the attention of Twolegs and endless wars with other wolf Packs.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -142,7 +142,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The cats head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
+        "intro_text": "The wolves head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
         "decline_text": "When they get there p_l can't find the hummingbird they were expecting. Disappointing.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -189,7 +189,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells app1 how the hummingbird arrival signals the start of greenleaf, and how the Clan will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells app1 how the hummingbird arrival signals the start of greenleaf, and how the Pack will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -272,7 +272,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The cats head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
+        "intro_text": "The wolves head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
         "decline_text": "When they get there p_l can't find the hummingbird they were expecting. Disappointing.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -319,7 +319,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how c_n's founders followed the hummingbird's wisdom, setting up the Clan in the shadow of the dangers of the mountain to protect c_n cats from the attention of Twolegs and endless wars with other cat Clans.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how c_n's founders followed the hummingbird's wisdom, setting up the Pack in the shadow of the dangers of the mountain to protect c_n wolves from the attention of Twolegs and endless wars with other wolf Packs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -402,7 +402,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The cats head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
+        "intro_text": "The wolves head out into the forested slopes, hiding from the heat of greenleaf, p_l leading them towards a massive messy eagle nest.",
         "decline_text": "When they get there p_l can't find the hummingbird they were expecting. Disappointing.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -449,7 +449,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how the hummingbird arrival signals the start of greenleaf, and how the Clan will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how the hummingbird arrival signals the start of greenleaf, and how the Pack will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -531,7 +531,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With p_l in the lead, the cats round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
+        "intro_text": "With p_l in the lead, the wolves round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
         "decline_text": "When they get there p_l can't find the hummingbirds they were expecting. Disappointing.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -578,7 +578,7 @@
                 ]
             },
             {
-                "text": "s_c pulls app1's attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarClan caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
+                "text": "s_c pulls app1's attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarPack caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -639,7 +639,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With p_l in the lead, the cats round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
+        "intro_text": "With p_l in the lead, the wolves round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
         "decline_text": "When they get there p_l can't find the hummingbirds they were expecting. Disappointing.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -748,7 +748,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With p_l in the lead, the cats round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
+        "intro_text": "With p_l in the lead, the wolves round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
         "decline_text": "When they get there p_l can't find the hummingbirds they were expecting. Disappointing.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -795,7 +795,7 @@
                 ]
             },
             {
-                "text": "s_c pulls the apprentices' attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarClan caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
+                "text": "s_c pulls the apprentices' attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarPack caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -857,7 +857,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With p_l in the lead, the cats round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
+        "intro_text": "With p_l in the lead, the wolves round a corner in the mountain path and come across a flat mountain meadow, transformed by greenleaf into a carpet of sunny bright flowers.",
         "decline_text": "When they get there p_l can't find the hummingbirds they were expecting. Disappointing.",
         "chance_of_success": 40,
         "success_outcomes": [

@@ -3771,6 +3771,23 @@
             }
         }
     },
+    "#wasteland_tab": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/wastelands_camp.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/wastelands_camp_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/wastelands_camp_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/wastelands_camp_unavailable.png"
+            }
+        }
+    },
     "#tidepool_tab": {
         "prototype": "#image_button",
         "images": {
@@ -3822,24 +3839,7 @@
             }
         }
     },
-	"#wasteland_tab": {
-        "prototype": "#image_button",
-        "images": {
-            "normal_image": {
-                "path": "resources/images/buttons/wastelands_camp.png"
-            },
-            "hovered_image": {
-                "path": "resources/images/buttons/wastelands_camp_hover.png"
-            },
-            "selected_image": {
-                "path": "resources/images/buttons/wastelands_camp_hover.png"
-            },
-            "disabled_image": {
-                "path": "resources/images/buttons/wastelands_camp_unavailable.png"
-            }
-        }
-    },
-	"#lakeside_tab": {
+	    "#lakeside_tab": {
         "prototype": "#image_button",
         "images": {
             "normal_image": {

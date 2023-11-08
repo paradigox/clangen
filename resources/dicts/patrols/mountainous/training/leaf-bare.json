@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "text": "app1 finds a snowdrift, and over the course of an hour them and app2 turn it into a very respectable snow den, complete with short entrance tunnel. They're debating what to call the camp of their little Clan when their mentors arrive, congratulating them on running an excellent wilderness survival session without supervision.",
+                "text": "app1 finds a snowdrift, and over the course of an hour them and app2 turn it into a very respectable snow den, complete with short entrance tunnel. They're debating what to call the camp of their little Pack when their mentors arrive, congratulating them on running an excellent wilderness survival session without supervision.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -84,7 +84,7 @@
                 "weight": 20
             },
             {
-                "text": "Both apprentices are back at camp in time for a normal day of training, but app1 has to confess their predawn adventure when they go to medicine cat den with a running nose.",
+                "text": "Both apprentices are back at camp in time for a normal day of training, but app1 has to confess their predawn adventure when they go to medicine wolf den with a running nose.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -112,7 +112,7 @@
         },
         "weight": 20,
         "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls app1 over.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -144,7 +144,7 @@
                 ]
             },
             {
-                "text": "s_c wants to point out not the wolves, but the ravens around them. Wolves mostly tolerate ravens at their kills because it helps them find prey. Long ago, that bargain was offered to the cats of the world, but they foolishly betrayed the ravens and took the birds for food instead, and since then only the dogs have benefited from allies in the sky.",
+                "text": "s_c wants to point out not the wolves, but the ravens around them. Wolves mostly tolerate ravens at their kills because it helps them find prey. Long ago, that bargain was offered to the wolves of the world, but they foolishly betrayed the ravens and took the birds for food instead, and since then only the dogs have benefited from allies in the sky.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -162,7 +162,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the cats, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
+                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the wolves, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
                 "exp": 0,
                 "weight": 20
             }
@@ -183,7 +183,7 @@
         },
         "weight": 20,
         "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls app1 over.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -233,7 +233,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the cats, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
+                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the wolves, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
                 "exp": 0,
                 "weight": 20
             }
@@ -255,7 +255,7 @@
         },
         "weight": 20,
         "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the apprentices over.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -287,7 +287,7 @@
                 ]
             },
             {
-                "text": "s_c wants to point out not the wolves, but the ravens around them. Wolves mostly tolerate ravens at their kills because it helps them find prey. Long ago, that bargain was offered to the cats of the world, but they foolishly betrayed the ravens and took the birds for food instead, and since then only the dogs have benefited from allies in the sky.",
+                "text": "s_c wants to point out not the wolves, but the ravens around them. Wolves mostly tolerate ravens at their kills because it helps them find prey. Long ago, that bargain was offered to the wolves of the world, but they foolishly betrayed the ravens and took the birds for food instead, and since then only the dogs have benefited from allies in the sky.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -305,7 +305,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the cats, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
+                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the wolves, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
                 "exp": 0,
                 "weight": 20
             }
@@ -327,7 +327,7 @@
         },
         "weight": 20,
         "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the apprentices over.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -377,7 +377,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the cats, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
+                "text": "One of the wolves peels off from the sleepy pack and starts ambling in the general direction of the wolves, and p_l decides caution is wise. The patrol returns to camp without seeing anything more.",
                 "exp": 0,
                 "weight": 20
             }

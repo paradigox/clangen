@@ -6,7 +6,7 @@
         "m_c died from a bite-wound."
     ],
     "cat bite": [
-        "m_c died from a cat bite."
+        "m_c died from a bite."
     ],
     "beak bite": [
         "m_c died from a beak bite."
@@ -69,6 +69,6 @@
         "m_c couldn't survive {PRONOUN/m_c/poss} broken back."
     ],
     "bee sting": [
-        "m_c seemed to have a horrible reaction to {PRONOUN/m_c/poss} bee sting. Cats usually don't die from a sting, but it seems this time was different."
+        "m_c seemed to have a horrible reaction to {PRONOUN/m_c/poss} bee sting. Wolves usually don't die from a sting, but it seems this time was different."
     ]
 }

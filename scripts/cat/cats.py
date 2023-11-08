@@ -655,7 +655,7 @@ class Cat():
             return "general"
 
     def gone(self):
-        """ Makes a Clan cat an "outside" cat. Handles removing them from special positions, and removing
+        """ Makes a Pack cat an "outside" cat. Handles removing them from special positions, and removing
         mentors and apprentices. """
         self.outside = True
         
@@ -672,7 +672,7 @@ class Cat():
         game.clan.add_to_outside(self)
 
     def add_to_clan(self) -> list:
-        """ Makes a "outside cat" a Clan cat. Returns a list of any additional cats that
+        """ Makes a "outside cat" a Pack cat. Returns a list of any additional cats that
             are coming with them. """
         self.outside = False
 
@@ -875,7 +875,7 @@ class Cat():
             else:
                 clanname = game.switches['clan_list'][0]
         except IndexError:
-            print('WARNING: History failed to load, no Clan in game.switches?')
+            print('WARNING: History failed to load, no Pack in game.switches?')
             return
 
         history_directory = get_save_dir() + '/' + clanname + '/history/'
@@ -1327,7 +1327,7 @@ class Cat():
         elif where_kitty == 'outside':
             while other_cat == self.ID and len(all_cats) > 1 \
                     or (other_cat not in self.relationships):
-                '''or (self.status in ['kittypet', 'loner'] and not all_cats.get(other_cat).outside):'''
+                '''or (self.status in ['pet', 'loner'] and not all_cats.get(other_cat).outside):'''
                 other_cat = choice(list(all_cats.keys()))
                 i += 1
                 if i > 100:
@@ -1345,7 +1345,7 @@ class Cat():
         self.thought = str(chosen_thought)
 
     def relationship_interaction(self):
-        """Randomly choose a cat of the Clan and have a interaction with them."""
+        """Randomly choose a cat of the Pack and have a interaction with them."""
         # if the cat has no relationships, skip
         #if not self.relationships or len(self.relationships) < 1:
         #    return
@@ -1741,6 +1741,9 @@ class Cat():
             cat.pelt.scars.append('NOPAW')
         elif new_condition == "born without a tail":
             cat.pelt.scars.append('NOTAIL')
+        elif new_condition == 'blind':
+            if "BOTHBLIND" not in cat.pelt.scars:
+                cat.pelt.scars.append('BLIND')
 
         self.get_permanent_condition(new_condition, born_with=True)
 
@@ -1750,10 +1753,10 @@ class Cat():
             return
 
         # remove accessories if need be
-        if 'NOTAIL' in self.pelt.scars and self.pelt.accessory in ['RED FEATHERS', 'BLUE FEATHERS', 'JAY FEATHERS']:
-            self.pelt.accessory = None
-        if 'HALFTAIL' in self.pelt.scars and self.pelt.accessory in ['RED FEATHERS', 'BLUE FEATHERS', 'JAY FEATHERS']:
-            self.pelt.accessory = None
+        #if 'NOTAIL' in self.pelt.scars and self.pelt.accessory in ['RED FEATHERS', 'BLUE FEATHERS', 'JAY FEATHERS']:
+        #    self.pelt.accessory = None
+        #if 'HALFTAIL' in self.pelt.scars and self.pelt.accessory in ['RED FEATHERS', 'BLUE FEATHERS', 'JAY FEATHERS']:
+        #    self.pelt.accessory = None
 
         condition = PERMANENT[name]
         new_condition = False
@@ -2225,7 +2228,7 @@ class Cat():
             # if they dead (dead cats have no relationships)
             if self.dead or inter_cat.dead:
                 continue
-            # if they are not outside of the Clan at the same time
+            # if they are not outside of the Pack at the same time
             if self.outside and not inter_cat.outside or not self.outside and inter_cat.outside:
                 continue
             inter_cat.relationships[self.ID] = Relationship(inter_cat, self)
@@ -2468,7 +2471,6 @@ class Cat():
             mates = True
         else:
             mates = False
-        
         pos_traits = ["platonic", "respect", "comfortable", "trust"]
         if allow_romantic and (mates or cat1.is_potential_mate(cat2)):
             pos_traits.append("romantic")
@@ -2621,7 +2623,7 @@ class Cat():
                                                         personality_bonus)
                     rel2.jealousy = Cat.effect_relation(rel2.jealousy, -(randint(ran[0], ran[1]) + bonus) -
                                                         personality_bonus)
-                    output += "Jealousy decreased . "
+                    output += "Jealousy decreased. "
 
         return output
 
@@ -2682,7 +2684,7 @@ class Cat():
         try:
             with open(get_save_dir() + '/' + game.clan.name + '/faded_cats/' + cat + ".json", 'r') as read_file:
                 cat_info = ujson.loads(read_file.read())
-        except AttributeError:  # If loading cats is attempted before the Clan is loaded, we would need to use this.
+        except AttributeError:  # If loading cats is attempted before the Pack is loaded, we would need to use this.
             with open(get_save_dir() + '/' + game.switches['clan_list'][0] + '/faded_cats/' + cat + ".json",
                       'r') as read_file:
                 cat_info = ujson.loads(read_file.read())
@@ -2858,6 +2860,8 @@ class Cat():
                 "gender": self.gender,
                 "gender_align": self.genderalign,
                 #"pronouns": self.pronouns,
+				"species": self.pelt.species,
+				"species_mix": self.pelt.species_mix,
                 "birth_cooldown": self.birth_cooldown,
                 "status": self.status,
                 "backstory": self.backstory if self.backstory else None,

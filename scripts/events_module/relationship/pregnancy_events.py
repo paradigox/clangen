@@ -153,10 +153,10 @@ class Pregnancy_Events():
         insert = 'this should not display'
         insert2 = 'this should not display'
         if amount == 1:
-            insert = 'a single kitten'
+            insert = 'a single puppy'
             insert2 = 'it'
         if amount > 1:
-            insert = f'a litter of {amount} kits'
+            insert = f'a litter of {amount} pups'
             insert2 = 'them'
 
         print_event = f"{cat.name} found {insert} and decides to adopt {insert2}."
@@ -202,9 +202,9 @@ class Pregnancy_Events():
             kits = Pregnancy_Events.get_kits(amount, cat, None, clan)
             insert = 'this should not display'
             if amount == 1:
-                insert = 'a single kitten'
+                insert = 'a single puppy'
             if amount > 1:
-                insert = f'a litter of {amount} kits'
+                insert = f'a litter of {amount} pups'
             print_event = f"{cat.name} brought {insert} back to camp, but refused to talk about their origin."
             cats_involved = [cat.ID]
             for kit in kits:
@@ -325,9 +325,9 @@ class Pregnancy_Events():
                 kit.create_one_relationship(cat)
 
         if kits_amount == 1:
-            insert = 'single kitten'
+            insert = 'single puppy'
         else:
-            insert = f'litter of {kits_amount} kits'
+            insert = f'litter of {kits_amount} pups'
 
         # Since cat has given birth, apply the birth cooldown. 
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
@@ -384,18 +384,18 @@ class Pregnancy_Events():
             if cat.status == 'leader':
                 clan.leader_lives -= 1
                 cat.die()
-                death_event = ("died shortly after kitting")
+                death_event = ("died shortly after giving birth")
             else:
                 cat.die()
-                death_event = (f"{cat.name} died while kitting.")
+                death_event = (f"{cat.name} died while giving birth.")
             History.add_death(cat, death_text=death_event)
         elif clan.game_mode != 'classic' and not cat.outside:  # if cat doesn't die, give recovering from birth
             cat.get_injured("recovering from birth", event_triggered=True)
             if 'blood loss' in cat.injuries:
                 if cat.status == 'leader':
-                    death_event = ("died after a harsh kitting")
+                    death_event = ("died after complications giving birth")
                 else:
-                    death_event = (f"{cat.name} after a harsh kitting.")
+                    death_event = (f"{cat.name} after complications giving birth.")
                 History.add_possible_history(cat, 'blood loss', death_text=death_event)
                 possible_events = events["birth"]["difficult_birth"]
                 # just makin sure meds aren't mentioned if they aren't around or if they are a parent
@@ -658,12 +658,12 @@ class Pregnancy_Events():
                 # No parents provided, give a blood parent - this is an adoption. 
                 if not blood_parent:
                     # Generate a blood parent if we haven't already. 
-                    insert = "their kits are"
+                    insert = "their pups are"
                     if kits_amount == 1:
-                        insert = "their kit is"
+                        insert = "their pup is"
                     thought = f"Is glad that {insert} safe"
                     blood_parent = create_new_cat(Cat, Relationship,
-                                                status=random.choice(["loner", "kittypet"]),
+                                                status=random.choice(["loner", "pet"]),
                                                 alive=False,
                                                 thought=thought,
                                                 age=randint(15,120),
@@ -702,6 +702,8 @@ class Pregnancy_Events():
                         kit.pelt.scars.append('NOPAW')
                     elif kit.permanent_condition[condition] == 'born without a tail':
                         kit.pelt.scars.append('NOTAIL')
+                    elif kit.permanent_condition[condition] == 'blind':
+                        kit.pelt.scars.append('BLIND')
                 Condition_Events.handle_already_disabled(kit)
 
             # create and update relationships
@@ -737,7 +739,7 @@ class Pregnancy_Events():
             #### GIVE HISTORY ###### 
             History.add_beginning(kit, clan_born=bool(cat))
         
-        # check other cats of Clan for siblings
+        # check other cats of Pack for siblings
         for kitten in all_kitten:
             # update/buff the relationship towards the siblings
             for second_kitten in all_kitten:

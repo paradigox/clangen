@@ -13,7 +13,7 @@ import asyncio
 
 status_dict = {
     "start screen": "At the start screen",
-    "make clan screen": "Making a Clan",
+    "make clan screen": "Making a Pack",
     "mediation screen": "Mediating a dispute",
     "patrol screen": "On a patrol",
     "profile screen": "Viewing a cat's profile",
@@ -90,7 +90,7 @@ class _DiscordRPC(threading.Thread):
             try:
                 state_text = status_dict[game.switches['cur_screen']]
             except KeyError:
-                state_text = "Leading the Clan"
+                state_text = "Leading the Pack"
 
             try:
                 img_str = f"{game.clan.biome}_{game.clan.current_season.replace('-', '')}_{game.clan.camp_bg}_{'dark' if game.settings['dark mode'] else 'light'}"
@@ -105,7 +105,7 @@ class _DiscordRPC(threading.Thread):
             clan_name = 'Loading...'
             cats_amount = 0
             if game.clan:
-                clan_name =  f"{game.clan.name}Clan"
+                clan_name =  f"{game.clan.name}Pack"
                 cats_amount = len(game.clan.clan_cats)
                 clan_age = game.clan.age
             else:

@@ -21,7 +21,7 @@ class EventsScreen(Screens):
     health_events = ""
     other_clans_events = ""
     misc_events = ""
-    display_text = "<center>See which events are currently happening in the Clan.</center>"
+    display_text = "<center>See which events are currently happening in the Pack.</center>"
     display_events = ""
 
     def __init__(self, name=None):
@@ -242,7 +242,7 @@ class EventsScreen(Screens):
             self.update_display_events_lists()
             self.display_events = self.all_events
 
-        self.heading = pygame_gui.elements.UITextBox("See which events are currently happening in the Clan.",
+        self.heading = pygame_gui.elements.UITextBox("See which events are currently happening in the Pack.",
                                                      scale(pygame.Rect((200, 220), (1200, 80))),
                                                      object_id=get_text_box_theme("#text_box_30_horizcenter"),
                                                      manager=MANAGER)
@@ -259,11 +259,11 @@ class EventsScreen(Screens):
                                                             "resources/images/event_page_frame.png").convert_alpha()
                                                         , manager=MANAGER)
         self.events_frame.disable()
-        # Set text for Clan age
+        # Set text for Pack age
         if game.clan.age == 1:
-            self.clan_age.set_text(f'Clan age: {game.clan.age} moon')
+            self.clan_age.set_text(f'Pack age: {game.clan.age} moon')
         if game.clan.age != 1:
-            self.clan_age.set_text(f'Clan age: {game.clan.age} moons')
+            self.clan_age.set_text(f'Pack age: {game.clan.age} moons')
 
         self.timeskip_button = UIImageButton(scale(pygame.Rect((620, 436), (360, 60))), "", object_id="#timeskip_button"
                                              , manager=MANAGER)
@@ -271,10 +271,10 @@ class EventsScreen(Screens):
         # commenting out for now as there seems to be a consensus that it isn't needed anymore?
         #if game.clan.closed_borders:
         #    self.toggle_borders_button = pygame_gui.elements.UIButton(scale(pygame.Rect((500, 210), (200, 30))),
-        #                                                              "Open Clan Borders")
+        #                                                              "Open Pack Borders")
         #else:
         #    self.toggle_borders_button = pygame_gui.elements.UIButton(scale(pygame.Rect((500, 210), (200, 30))),
-        #                                                              "Close Clan Borders")
+        #                                                              "Close Pack Borders")
 
         # Sets up the buttons to switch between the event types.
         self.all_events_button = UIImageButton(
@@ -337,7 +337,7 @@ class EventsScreen(Screens):
 
         # Draw and disable the correct menu buttons.
         self.set_disabled_menu_buttons(["events_screen"])
-        self.update_heading_text(f'{game.clan.name}Clan')
+        self.update_heading_text(f'{game.clan.name}Pack')
         self.show_menu_buttons()
         self.update_events_display()
 
@@ -526,9 +526,9 @@ class EventsScreen(Screens):
 
         self.season.set_text(f'Current season: {game.clan.current_season}')
         if game.clan.age == 1:
-            self.clan_age.set_text(f'Clan age: {game.clan.age} moon')
+            self.clan_age.set_text(f'Pack age: {game.clan.age} moon')
         if game.clan.age != 1:
-            self.clan_age.set_text(f'Clan age: {game.clan.age} moons')
+            self.clan_age.set_text(f'Pack age: {game.clan.age} moons')
 
         for ele in self.display_events_elements:
             self.display_events_elements[ele].kill()
@@ -546,7 +546,7 @@ class EventsScreen(Screens):
         self.event_container.kill()
         self.make_events_container()
 
-        # Stop if Clan is new, so that events from previously loaded Clan don't show up
+        # Stop if Pack is new, so that events from previously loaded Pack don't show up
         if game.clan.age == 0:
             return
 

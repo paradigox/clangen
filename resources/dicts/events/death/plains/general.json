@@ -117,7 +117,7 @@
             "Leaf-bare",
             "war"
         ],
-        "death_text": "m_c was sealed into a cramped rabbit burrow by o_c warriors. {PRONOUN/m_c/subject/CAP} didn't make it out alive.",
+        "death_text": "m_c was sealed into a cramped badger burrow by o_c warriors. {PRONOUN/m_c/subject/CAP} didn't make it out alive.",
         "history_text": {
             "reg_death": "m_c suffocated underground.",
             "lead_death": "was suffocated underground."

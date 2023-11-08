@@ -68,7 +68,7 @@
             "hovered_border": "#503825",
             "disabled_border": "#503825",
             "selected_border": "#503825",
-            "active_border": "#776045"
+            "active_border": "#665E7C"
         },
         "font": {
             "name": "notosans",
@@ -125,11 +125,11 @@
     },
     "#events_cat_profile_button": {
         "colours": {
-            "normal_bg": "#655934",
-            "hovered_bg": "#1E1809",
-            "selected_bg": "#1E1809",
+            "normal_bg": "#565371",
+            "hovered_bg": "#1A1230",
+            "selected_bg": "#1A1230",
             "normal_text": "#EEE4CD",
-            "hovered_text": "#EFE5CE",
+            "hovered_text": "#EBE7F5",
             "text_shadow": "#00000000"
         },
         "font": {

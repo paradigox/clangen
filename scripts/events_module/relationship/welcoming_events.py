@@ -13,12 +13,12 @@ class Welcoming_Events():
     
     @staticmethod    
     def welcome_cat(clan_cat: Cat, new_cat: Cat) -> None:
-        """Checks and triggers the welcome event from the Clan cat to the new cat.
+        """Checks and triggers the welcome event from the Pack cat to the new cat.
 
             Parameters
             ----------
             clan_cat : Cat
-                the Clan cat which welcome the new cat
+                the Pack cat which welcome the new cat
             new_cat : Cat
                 new cat which will be welcomed
 

@@ -55,7 +55,7 @@
 			"start_amount defines the amount of prey when a new freshkill-pile is made",
 			"The auto parameters are for the prey each moon, each healthy warrior/apprentice will catch an amount of between these two values of prey.",
 			"additional_prey - added amount for hunting patrol, to make it easier",
-			"event_trigger_factor - this number will be used to multiply with the amount of prey the Clan needs, if the pile is bigger than this number, prey events will be triggered",
+			"event_trigger_factor - this number will be used to multiply with the amount of prey the Pack needs, if the pile is bigger than this number, prey events will be triggered",
 			"hunter_bonus is the factor which is be used to multiply on a hunting patrol.",
 			"hunter_exp_bonus is the additional prey which will be added on a hunting patrol."
 		]
@@ -240,9 +240,9 @@
 	},
 	"cat_generation": {
 		"base_permanent_condition": 90,
-		"base_male_tortie": 13,
-		"base_female_tortie": 4,
-		"base_heterochromia": 120,
+		"base_male_tortie": 5,
+		"base_female_tortie": 5,
+		"base_heterochromia": 80,
 		"direct_inheritance": 15,
 		"wildcard_tortie": 9,
 		"vit_chance": 8,
@@ -259,13 +259,15 @@
 		]
 	},
 	"accessory_generation": {
-		"base_acc_chance": 150,
-		"med_modifier": -80,
-		"baby_modifier": -20,
-		"elder_modifier": 20,
-		"happy_trait_modifier": -30,
-		"grumpy_trait_modifier": 30,
-		"ceremony_modifier": -20
+		"base_acc_chance": 100,
+		"med_modifier": -30,
+		"baby_modifier": -60,
+		"elder_modifier": 10,
+		"adult_modifier": -60,
+		"adol_modifier": -30,
+		"happy_trait_modifier": -5,
+		"grumpy_trait_modifier": 5,
+		"ceremony_modifier": -40
 	},
 	"fading": {
 		"age_to_fade": 202,
@@ -368,12 +370,12 @@
 		"all_cats_are_newborn": false,
 		"newborns_can_roam": false,
 		"newborns_can_patrol": false,
-		"always_halloween": false
+        "always_halloween": false
 	},
 	"theme": {
-		"dark_mode_background": [57, 50, 36],
-		"light_mode_background": [206, 194, 168]
+		"dark_mode_background": [61, 56, 74],
+		"light_mode_background": [232, 230, 238]
 	},
 	"lock_season": false, 
-	"comment": "Forces the season to be locked at the Clan's starting_season"
+	"comment": "Forces the season to be locked at the Pack's starting_season"
 }

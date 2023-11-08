@@ -24,9 +24,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a fox.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a bear.",
         "history_text": {
-            "reg_death": "m_c was killed by a fox."
+            "reg_death": "m_c was killed by a bear."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -41,9 +41,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a badger.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a wolverine.",
         "history_text": {
-            "reg_death": "m_c was killed by a badger."
+            "reg_death": "m_c was killed by a wolverine."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -58,9 +58,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a dog.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a cougar.",
         "history_text": {
-            "reg_death": "m_c was killed by a dog."
+            "reg_death": "m_c was killed by a cougar."
         },
         "cat_trait": null,
         "cat_skill": null,

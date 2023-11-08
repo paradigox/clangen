@@ -53,7 +53,7 @@ def accessory_display_name(cat):
 
     elif accessory in Pelt.wild_accessories:
         if acc_display == 'blue feathers':
-            acc_display = 'crow feathers'
+            acc_display = 'bluebird feathers'
         elif acc_display == 'red feathers':
             acc_display = 'cardinal feathers'
 
@@ -67,8 +67,8 @@ def bs_blurb_text(cat):
     backstory = cat.backstory
     backstory_text = BACKSTORIES["backstories"][backstory]
     
-    if cat.status in ['kittypet', 'loner', 'rogue', 'former Clancat']:
-            return f"This cat is a {cat.status} and currently resides outside of the Clans."
+    if cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
+            return f"This wolf is a {cat.status} and currently resides outside of the Packs."
     
     return backstory_text
 
@@ -311,7 +311,7 @@ class ProfileScreen(Screens):
                         self.the_cat.outside, self.the_cat.exiled = False, False
                         self.the_cat.df = False
                         game.clan.add_to_starclan(self.the_cat)
-                        self.the_cat.thought = "Is relieved to once again hunt in StarClan"
+                        self.the_cat.thought = "Is relieved to once again hunt in StarPack"
                     else:
                         self.the_cat.outside, self.the_cat.exiled = False, False
                         self.the_cat.df = True
@@ -468,9 +468,9 @@ class ProfileScreen(Screens):
         if self.the_cat.dead:
             cat_name += " (dead)"  # A dead cat will have the (dead) sign next to their name
         if is_sc_instructor:
-            self.the_cat.thought = "Hello. I am here to guide the dead cats of " + game.clan.name + "Clan into StarClan."
+            self.the_cat.thought = "Hello. I am here to guide the dead wolves of " + game.clan.name + "Pack into StarPack."
         if is_df_instructor:
-            self.the_cat.thought = "Hello. I am here to drag the dead cats of " + game.clan.name + "Clan into the Dark Forest."
+            self.the_cat.thought = "Hello. I am here to drag the dead wolves of " + game.clan.name + "Pack into the Dark Forest."
 
 
         self.profile_elements["cat_name"] = pygame_gui.elements.UITextBox(cat_name,
@@ -509,20 +509,21 @@ class ProfileScreen(Screens):
                                                                          "#text_box_22_horizleft"),
                                                                      line_spacing=0.95, manager=MANAGER)
 
-        # Set the cat backgrounds.
+        # Kori - size change and adjustment from 110, 400 to 110, 450
+		# Set the cat backgrounds.
         if game.clan.clan_settings['backgrounds']:
             self.profile_elements["background"] = pygame_gui.elements.UIImage(
-                scale(pygame.Rect((110, 400), (480, 420))),
+                scale(pygame.Rect((110, 450), (480, 420))),
                 pygame.transform.scale(self.get_platform(), scale_dimentions((480, 420))), 
                 manager=MANAGER)
             self.profile_elements["background"].disable()
-
+		# Kori - size change (300 -> 400) and adjustment from 200, 400 to 150, 350
         # Create cat image object
-        self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(scale(pygame.Rect((200, 400), (300, 300))),
+        self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(scale(pygame.Rect((150, 350), (400, 400))),
 
                                                                          pygame.transform.scale(
                                                                              self.the_cat.sprite,
-                                                                             (300, 300)), manager=MANAGER)
+                                                                             (400, 400)), manager=MANAGER)
         self.profile_elements["cat_image"].disable()
 
         # if cat is a med or med app, show button for their den
@@ -654,6 +655,10 @@ class ProfileScreen(Screens):
             output += str(the_cat.genderalign)
         # NEWLINE ----------
         output += "\n"
+		
+        #SPECIES
+        output += the_cat.pelt.species.lower()
+        output += "\n"
 
         # AGE
         if the_cat.age == 'kitten':
@@ -770,11 +775,17 @@ class ProfileScreen(Screens):
         output = ""
 
         # STATUS
-        if the_cat.outside and not the_cat.exiled and the_cat.status not in ['kittypet', 'loner', 'rogue',
-                                                                             'former Clancat']:
+        if the_cat.outside and not the_cat.exiled and the_cat.status not in ['pet', 'loner', 'rogue',
+                                                                             'former Packwolf']:
             output += "<font color='#FF0000'>lost</font>"
         elif the_cat.exiled:
             output += "<font color='#FF0000'>exiled</font>"
+        elif the_cat.status == 'kitten':
+            output += "puppy"
+        elif the_cat.status == 'medicine cat apprentice':
+            output += 'medicine wolf apprentice'
+        elif the_cat.status == 'medicine cat':
+            output += 'medicine wolf'
         else:
             output += the_cat.status
 
@@ -850,7 +861,7 @@ class ProfileScreen(Screens):
 
         # BACKSTORY
         bs_text = 'this should not appear'
-        if the_cat.status in ['kittypet', 'loner', 'rogue', 'former Clancat']:
+        if the_cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
             bs_text = the_cat.status
         else:
             if the_cat.backstory:
@@ -860,8 +871,8 @@ class ProfileScreen(Screens):
                         bs_text = BACKSTORIES["backstory_display"][category]
                         break
             else:
-                bs_text = 'Clanborn'
-        output += f"backstory: {bs_text}"
+                bs_text = 'Packborn'
+        output += f"backstory: {bs_text}".replace("Clan", "Pack")
         # NEWLINE ----------
         output += "\n"
 
@@ -1001,7 +1012,7 @@ class ProfileScreen(Screens):
         if not os.path.exists(notes_directory):
             os.makedirs(notes_directory)
 
-        if notes is None or notes == 'Click the check mark to enter notes about your cat!':
+        if notes is None or notes == 'Click the check mark to enter notes about your wolf!':
             return
 
         new_notes = {str(self.the_cat.ID): notes}
@@ -1021,7 +1032,7 @@ class ProfileScreen(Screens):
         try:
             with open(notes_file_path, 'r') as read_file:
                 rel_data = ujson.loads(read_file.read())
-                self.user_notes = 'Click the check mark to enter notes about your cat!'
+                self.user_notes = 'Click the check mark to enter notes about your wolf!'
                 if str(self.the_cat.ID) in rel_data:
                     self.user_notes = rel_data.get(str(self.the_cat.ID))
         except Exception as e:
@@ -1041,7 +1052,7 @@ class ProfileScreen(Screens):
         output = ""
         if self.open_sub_tab == 'life events':
             # start our history with the backstory, since all cats get one
-            if self.the_cat.status not in ["rogue", "kittypet", "loner", "former Clancat"]:
+            if self.the_cat.status not in ["rogue", "pet", "loner", "former Packwolf"]:
                 life_history = [str(self.get_backstory_text())]
             else:
                 life_history = []
@@ -1086,14 +1097,14 @@ class ProfileScreen(Screens):
         bs_blurb = None
         if self.the_cat.backstory:
             bs_blurb = BACKSTORIES["backstories"][self.the_cat.backstory]
-        if self.the_cat.status in ['kittypet', 'loner', 'rogue', 'former Clancat']:
-            bs_blurb = f"This cat is a {self.the_cat.status} and currently resides outside of the Clans."
+        if self.the_cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
+            bs_blurb = f"This wolf is a {self.the_cat.status} and currently resides outside of the Packs."
 
         if bs_blurb is not None:
             adjust_text = str(bs_blurb).replace('This cat', str(self.the_cat.name))
             text = adjust_text
         else:
-            text = str(self.the_cat.name) + " was born into the Clan where {PRONOUN/m_c/subject} currently reside."
+            text = str(self.the_cat.name) + " was born into the Pack where {PRONOUN/m_c/subject} currently reside."
 
         beginning = History.get_beginning(self.the_cat)
         if beginning:
@@ -1101,7 +1112,7 @@ class ProfileScreen(Screens):
                 text += " {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} born on Moon " + str(
                     beginning['moon']) + " during " + str(beginning['birth_season']) + "."
             else:
-                text += " {PRONOUN/m_c/subject/CAP} joined the Clan on Moon " + str(
+                text += " {PRONOUN/m_c/subject/CAP} joined the Pack on Moon " + str(
                     beginning['moon']) + " at the age of " + str(beginning['age']) + " Moons."
 
         text = process_text(text, cat_dict)
@@ -1164,7 +1175,7 @@ class ProfileScreen(Screens):
         """
         returns adjusted apprenticeship history text (mentor influence and app ceremony)
         """
-        if self.the_cat.status in ['kittypet', 'loner', 'rogue', 'former Clancat']:
+        if self.the_cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
             return ""
 
         mentor_influence = History.get_mentor_influence(self.the_cat)
@@ -1172,9 +1183,9 @@ class ProfileScreen(Screens):
         
         #First, just list the mentors:
         if self.the_cat.status in ['kitten', 'newborn']:
-                influence_history = 'This cat has not begun training.'
+                influence_history = 'This wolf has not begun training.'
         elif self.the_cat.status in ['apprentice', 'medicine cat apprentice', 'mediator apprentice']:
-            influence_history = 'This cat has not finished training.'
+            influence_history = 'This wolf has not finished training.'
         else:
             valid_formor_mentors = [Cat.fetch_cat(i) for i in self.the_cat.former_mentor if 
                                     isinstance(Cat.fetch_cat(i), Cat)]
@@ -1186,7 +1197,7 @@ class ProfileScreen(Screens):
                 else:
                     influence_history += str(valid_formor_mentors[0].name) + ". "
             else:
-                influence_history += "This cat either did not have a mentor, or {PRONOUN/m_c/poss} mentor is unknown. "
+                influence_history += "This wolf either did not have a mentor, or {PRONOUN/m_c/poss} mentor is unknown. "
             
             # Second, do the facet/personality effect
             trait_influence = []
@@ -1827,8 +1838,8 @@ class ProfileScreen(Screens):
                     self.exile_cat_button = UIImageButton(scale(pygame.Rect((1156, 900), (344, 92))),
                                                           "",
                                                           object_id=object_id,
-                                                          tool_tip_text='Changing where this cat resides will change '
-                                                                        'where your Clan goes after death. ',
+                                                          tool_tip_text='Changing where this wolf resides will change '
+                                                                        'where your Pack goes after death. ',
                                                           starting_height=2, manager=MANAGER)
                 else:
                     self.exile_cat_button = UIImageButton(scale(pygame.Rect((1156, 900), (344, 92))),

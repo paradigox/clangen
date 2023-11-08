@@ -27,7 +27,7 @@
         ],
         "disasters": [
             "Allow mass extinction events",
-            "This may result in up to 1/3rd of your Clan dying in one moon.",
+            "This may result in up to 1/3rd of your Pack dying in one moon.",
             false
         ],
         "showxp": [
@@ -51,13 +51,13 @@
             false
         ],
         "backgrounds": [
-            "Enable Clan page background",
+            "Enable Pack page background",
             "Even with this off, the camp you choose will still affect the events you encounter.",
             true
         ],
         "moons and seasons": [
             "Show moons and seasons widget",
-            "Displays Clan age and current Clan season on several pages",
+            "Displays Pack age and current Pack season on several pages",
             false
         ]
     },

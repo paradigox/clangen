@@ -55,7 +55,6 @@ def json_load():
     # create new cat objects
     for i, cat in enumerate(cat_data):
         try:
-            
             new_cat = Cat(ID=cat["ID"],
                         prefix=cat["name_prefix"],
                         suffix=cat["name_suffix"],
@@ -78,11 +77,12 @@ def json_load():
                 cat["eye_colour"] = "BLUE"
             if "eye_colour2" in cat:
                 if cat["eye_colour2"] == "BLUE2":
-                    cat["eye_colour2"] = "COBALT"
-                        
+                    cat["eye_colour2"] = "COBALT"				
             new_cat.pelt = Pelt(
                 name=cat["pelt_name"],
                 length=cat["pelt_length"],
+                species=cat["species"],
+                species_mix=cat["species_mix"],
                 colour=cat["pelt_color"],
                 eye_color=cat["eye_colour"],
                 eye_colour2=cat["eye_colour2"] if "eye_colour2" in cat else None,
@@ -107,7 +107,6 @@ def json_load():
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100
             )
-            
             # Runs a bunch of apperence-related convertion of old stuff. 
             new_cat.pelt.check_and_convert(convert)
             
@@ -152,7 +151,7 @@ def json_load():
                     if "skill" == 'formerly a loner':
                         backstory = choice(['loner1', 'loner2', 'rogue1', 'rogue2'])
                         new_cat.backstory = backstory
-                    elif "skill" == 'formerly a kittypet':
+                    elif "skill" == 'formerly a pet':
                         backstory = choice(['kittypet1', 'kittypet2'])
                         new_cat.backstory = backstory
                     else:
@@ -276,7 +275,9 @@ def csv_load(all_cats):
                     colour=attr[2],
                     name = attr[11],
                     length=attr[9],
-                    eye_color=attr[17]
+                    eye_color=attr[17],
+                    species=attr[3],
+                    species_mix=attr[4]
                 )
                 game.switches[
                     'error_message'] = '2There was an error loading cat # ' + str(
@@ -453,7 +454,7 @@ def save_check():
 def version_convert(version_info):
     """Does all save-conversion that require referencing the saved version number.
     This is a separate function, since the version info is stored in clan.json, but most conversion needs to be
-    done on the cats. Clan data is loaded in after cats, however."""
+    done on the cats. Pack data is loaded in after cats, however."""
 
     if version_info is None:
         return

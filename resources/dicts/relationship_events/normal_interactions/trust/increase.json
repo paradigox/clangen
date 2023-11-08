@@ -81,7 +81,7 @@
 		"interactions": [
 			"r_c is teaching m_c how to walk without making a sound.",
 			"r_c is showing m_c how to sneak up on {PRONOUN/m_c/poss} enemies.",
-			"r_c convinces m_c to help {PRONOUN/r_c/object} pull a prank on a Clanmate.",
+			"r_c convinces m_c to help {PRONOUN/r_c/object} pull a prank on a Packmate.",
 			"m_c is whispering quietly with r_c."
 		],
 		"random_trait_constraint": [
@@ -207,7 +207,7 @@
 		"id": "trust_star_inc_high1",
 		"intensity": "high",
 		"interactions": [
-			"m_c tells r_c about {PRONOUN/m_c/poss} last encounter with StarClan."
+			"m_c tells r_c about {PRONOUN/m_c/poss} last encounter with StarPack."
 		],
 		"main_status_constraint": [
 			"medicine cat apprentice",

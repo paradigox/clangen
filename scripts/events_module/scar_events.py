@@ -32,7 +32,7 @@ class Scar_Events():
     claw_scars = [
         "ONE", "TWO", "SNOUT", "TAILSCAR", "CHEEK",
         "SIDE", "THROAT", "TAILBASE", "BELLY", "FACE",
-        "BRIDGE"
+        "BRIDGE", "GIN"
     ]
     leg_scars = [
         "NOPAW", "TOETRAP", "MANLEG",
@@ -48,7 +48,7 @@ class Scar_Events():
         "FROSTFACE", "FROSTTAIL", "FROSTMITT", "FROSTSOCK",
     ]
     eye_scars = [
-        "THREE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND"
+        "THREE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND", "BLIND"
     ]
     burn_scars = [
         "BRIGHTHEART", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP"
@@ -140,7 +140,7 @@ class Scar_Events():
                 condition_scars = {
                     "LEGBITE", "THREE", "NOPAW", "TOETRAP", "NOTAIL", "HALFTAIL", "LEFTEAR", "RIGHTEAR",
                     "MANLEG", "BRIGHTHEART", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "LEFTBLIND",
-                    "RIGHTBLIND", "BOTHBLIND", "RATBITE"
+                    "RIGHTBLIND", "BOTHBLIND", "RATBITE", "BLIND"
                 }
                 
                 scar_pool = list(set(scar_pool).difference(condition_scars))
@@ -158,9 +158,9 @@ class Scar_Events():
 
 
             specialty = random.choice(scar_pool)
-            if specialty in ["NOTAIL", "HALFTAIL"]:
-                if cat.pelt.accessory in ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"]:
-                    cat.pelt.accessory = None
+            #if specialty in ["NOTAIL", "HALFTAIL"]:
+            #    if cat.pelt.accessory in ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"]:
+            #        cat.pelt.accessory = None
 
             # combining left/right variations into the both version
             if "NOLEFTEAR" in cat.pelt.scars and specialty == 'NORIGHTEAR':

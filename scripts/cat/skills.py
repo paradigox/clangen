@@ -72,9 +72,9 @@ class SkillPath(Enum):
     )
     KIT = (
         "active imagination",
-        "good kitsitter",
-        "great kitsitter",
-        "beloved kitsitter"
+        "good pupsitter",
+        "great pupsitter",
+        "beloved pupsitter"
     )
     STORY = (
         "lover of stories",
@@ -83,7 +83,7 @@ class SkillPath(Enum):
         "masterful storyteller"
     )
     LORE = (
-        "interested in Clan history",
+        "interested in Pack history",
         "learner of lore",
         "lore keeper",
         "lore master"
@@ -165,7 +165,7 @@ class SkillPath(Enum):
 class HiddenSkillEnum(Enum):
     ROGUE = "rogue's knowledge"
     LONER = "loner's knowledge"
-    KITTYPET = "kittypet's knowledge"
+    KITTYPET = "pet's knowledge"
     
 class SkillTypeFlag(Flag):
     SUPERNATURAL = auto()
@@ -670,9 +670,9 @@ class CatSkills:
             "smart tactician": (SkillPath.INSIGHTFUL, 1),
             "valuable tactician": (SkillPath.INSIGHTFUL, 2),
             "valuable insight": (SkillPath.INSIGHTFUL, 3),
-            "good kitsitter": (SkillPath.KIT, 1),
-            "great kitsitter": (SkillPath.KIT, 2),
-            "beloved kitsitter": (SkillPath.KIT, 3),
+            "good pupsitter": (SkillPath.KIT, 1),
+            "great pupsitter": (SkillPath.KIT, 2),
+            "beloved pupsitter": (SkillPath.KIT, 3),
             "camp keeper": (SkillPath.CAMP, 3),
             "den builder": (SkillPath.CAMP, 2),
             "omen sight": (SkillPath.OMEN, 3),

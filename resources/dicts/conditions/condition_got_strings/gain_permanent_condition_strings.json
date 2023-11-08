@@ -42,7 +42,7 @@
 
         ],
         "twisted leg": [
-            "m_c tells r_c it's fine, and {PRONOUN/m_c/subject} {VERB/m_c/know/knows} r_c did {PRONOUN/m_c/poss} best. {PRONOUN/m_c/poss/CAP} leg was too badly mangled, to heal this far is a miracle from StarClan, even if it is twisted.",
+            "m_c tells r_c it's fine, and {PRONOUN/m_c/subject} {VERB/m_c/know/knows} r_c did {PRONOUN/m_c/poss} best. {PRONOUN/m_c/poss/CAP} leg was too badly mangled, to heal this far is a miracle from StarPack, even if it is twisted.",
             "m_c's leg has healed but r_c has to explain that it will always be awkwardly twisted and uncomfortable to walk with.  Sometimes herbs can only do so much.",
             "{PRONOUN/m_c/poss/CAP} twisted limb frustrates {PRONOUN/m_c/object} constantly, but m_c tells {PRONOUN/m_c/self} it could've been worse, and that at least {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still there to feel irritated by it.",
             "m_c has to hold {PRONOUN/m_c/poss} healed, but twisted, limb up near to {PRONOUN/m_c/poss} body as {PRONOUN/m_c/subject} {VERB/m_c/hop/hops} around camp. {PRONOUN/m_c/subject/CAP} survived {PRONOUN/m_c/poss} injury but the leg will never comfortably support {PRONOUN/m_c/poss} weight."
@@ -93,8 +93,8 @@
         ],
         "deaf": [
             "m_c does {PRONOUN/m_c/poss} best to communicate to r_c with rudimentary tail signals that {PRONOUN/m_c/poss} hearing is permanently damaged, the frostbite having damaged something deep within.",
-            "m_c watches as r_c talks to another cat in the medicine den, glancing towards {PRONOUN/m_c/object} every so often. m_c can't hear a word they're saying. Truthfully, m_c can't hear anything at all anymore. The frostbite was more severe than {PRONOUN/m_c/subject} realized.",
-            "m_c sits and watches the Clan going about their business and tries to get used to the stark silence. {PRONOUN/m_c/subject/CAP} {VERB/m_c/know/knows}, instinctively, that {PRONOUN/m_c/poss} hearing is never coming back. The frostbite must have scarred something deep within {PRONOUN/m_c/poss} ears."
+            "m_c watches as r_c talks to another wolf in the medicine den, glancing towards {PRONOUN/m_c/object} every so often. m_c can't hear a word they're saying. Truthfully, m_c can't hear anything at all anymore. The frostbite was more severe than {PRONOUN/m_c/subject} realized.",
+            "m_c sits and watches the Pack going about their business and tries to get used to the stark silence. {PRONOUN/m_c/subject/CAP} {VERB/m_c/know/knows}, instinctively, that {PRONOUN/m_c/poss} hearing is never coming back. The frostbite must have scarred something deep within {PRONOUN/m_c/poss} ears."
 
         ]
     },
@@ -126,7 +126,7 @@
     },
     "lingering shock": {
         "recurring shock": [
-            "m_c demands to know when {PRONOUN/m_c/subject}'ll stop freezing in fear at what {PRONOUN/m_c/subject} {VERB/m_c/know/knows} are just memories. r_c doesn't have answers, but {PRONOUN/r_c/subject} {VERB/r_c/comfort/comforts} {PRONOUN/r_c/poss} Clanmate, saying that forcing {PRONOUN/m_c/self} to be okay is just hurting m_c.",
+            "m_c demands to know when {PRONOUN/m_c/subject}'ll stop freezing in fear at what {PRONOUN/m_c/subject} {VERB/m_c/know/knows} are just memories. r_c doesn't have answers, but {PRONOUN/r_c/subject} {VERB/r_c/comfort/comforts} {PRONOUN/r_c/poss} Packmate, saying that forcing {PRONOUN/m_c/self} to be okay is just hurting m_c.",
             "r_c tells m_c that {PRONOUN/r_c/subject} {VERB/r_c/have/has} no way to stop dreams or memories, only poppy seeds to help r_c sleep. Perhaps the memories will fade with time.",
             "m_c jumps, then realizes that it was just a leaf blowing in the wind. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} exhausted, and {PRONOUN/m_c/poss} memories feel like a trap that rears up to bite {PRONOUN/m_c/object} whenever {PRONOUN/m_c/subject} {VERB/m_c/relax/relaxes}."
 
@@ -154,7 +154,7 @@
         ],
         "partial hearing loss": [
             "m_c tells r_c that {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/poss} hearing has gotten worse. r_c assesses {PRONOUN/m_c/poss} hearing and confirms it, {PRONOUN/m_c/poss} hearing is failing and it can only be due to the head injury {PRONOUN/m_c/subject} suffered.",
-            "m_c strains to hear {PRONOUN/m_c/poss} Clanmate talking to {PRONOUN/m_c/object}. Ever since {PRONOUN/m_c/poss} head injury {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} found it harder to hear the world around {PRONOUN/m_c/object}."
+            "m_c strains to hear {PRONOUN/m_c/poss} Packmate talking to {PRONOUN/m_c/object}. Ever since {PRONOUN/m_c/poss} head injury {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} found it harder to hear the world around {PRONOUN/m_c/object}."
         ],
         "persistent headaches": [
             "m_c complains to r_c that {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been plagued with horrible headaches since {PRONOUN/m_c/subject} hurt {PRONOUN/m_c/poss} head. r_c sadly admits that the headaches may always be a problem.",
@@ -163,18 +163,18 @@
     },
     "damaged eyes": {
         "blind": [
-            "When r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} vision will never return, m_c wants to wail. {PRONOUN/m_c/subject/CAP} {VERB/m_c/hold/holds} it in, however, till {PRONOUN/m_c/subject} {VERB/m_c/have/has} a moment alone and away from {PRONOUN/m_c/poss} Clanmates.",
+            "When r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} vision will never return, m_c wants to wail. {PRONOUN/m_c/subject/CAP} {VERB/m_c/hold/holds} it in, however, till {PRONOUN/m_c/subject} {VERB/m_c/have/has} a moment alone and away from {PRONOUN/m_c/poss} Packmates.",
             "m_c had been expecting it, but {PRONOUN/m_c/subject} {VERB/m_c/still/stills} feel disappointed when r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} vision is permanently gone. {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} want to let this hold {PRONOUN/m_c/object} back, though, {PRONOUN/m_c/subject} {VERB/m_c/have/has} plans and {PRONOUN/m_c/subject} will see those plans through.",
             "Eventually m_c just accepts the truth that has made itself apparent, {PRONOUN/m_c/poss} vision will never come back. This is life now, this fog of shadows and shapes."
         ],
         "one bad eye": [
-            "r_c breaks the new gently, that m_c is never going to see out of that eye again. This doesn't have to hinder {PRONOUN/m_c/object}, though! {PRONOUN/m_c/subject/CAP} still {VERB/m_c/have/has} one good eye and {PRONOUN/m_c/subject} {VERB/m_c/plan/plans} to make full use of it.",
+            "r_c breaks the news gently, that m_c is never going to see out of that eye again. This doesn't have to hinder {PRONOUN/m_c/object}, though! {PRONOUN/m_c/subject/CAP} still {VERB/m_c/have/has} one good eye and {PRONOUN/m_c/subject} {VERB/m_c/plan/plans} to make full use of it.",
             "m_c growls when r_c tells {PRONOUN/m_c/object} that the lack of vision in {PRONOUN/m_c/poss} eye is permanent. It feels unfair, to have half of {PRONOUN/m_c/poss} vision stolen away.",
             "m_c won't let this hold {PRONOUN/m_c/object} back, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} determined to adapt to {PRONOUN/m_c/poss} newly limited eyesight and continue living as normal."
         ],
         "failing eyesight": [
             "r_c tells m_c that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} lucky to have regained any eyesight at all and hopefully, {PRONOUN/m_c/poss} sight won't degrade further.",
-            "m_c stalks out the medicine den, nearly running into another cat, which only increases {PRONOUN/m_c/poss} frustration at the news that {PRONOUN/m_c/poss} eyesight won't be getting better.",
+            "m_c stalks out the medicine den, nearly running into another wolf, which only increases {PRONOUN/m_c/poss} frustration at the news that {PRONOUN/m_c/poss} eyesight won't be getting better.",
             "m_c closes {PRONOUN/m_c/poss} eyes and after a few moments, opens them again, trying to get a sense of just how bad {PRONOUN/m_c/poss} eyesight is now."
         ]
     },
@@ -194,7 +194,7 @@
         "one bad eye": [
             "r_c unwraps m_c's face and sighs when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} the remaining scar. {PRONOUN/r_c/subject/CAP} {VERB/r_c/tell/tells} m_c that {PRONOUN/m_c/poss} eye will never be the same.",
             "m_c curls up in {PRONOUN/m_c/poss} nest and tightly shuts {PRONOUN/m_c/poss} eyes, pretending that the darkness on one side is only temporary. But {PRONOUN/m_c/subject} {VERB/m_c/know/knows} what r_c told {PRONOUN/m_c/object} and {PRONOUN/m_c/subject} {VERB/m_c/know/knows} the dark is permanent.",
-            "m_c jumps when another cat comes up on {PRONOUN/m_c/poss} bad side and reminds {PRONOUN/m_c/self} that {PRONOUN/m_c/subject} {VERB/m_c/have/has} to get used to this. {PRONOUN/m_c/subject/CAP} {VERB/m_c/know/knows} {PRONOUN/m_c/poss} eye is permanently damaged."
+            "m_c jumps when another wolf comes up on {PRONOUN/m_c/poss} bad side and reminds {PRONOUN/m_c/self} that {PRONOUN/m_c/subject} {VERB/m_c/have/has} to get used to this. {PRONOUN/m_c/subject/CAP} {VERB/m_c/know/knows} {PRONOUN/m_c/poss} eye is permanently damaged."
         ]
     },
     "broken back": {

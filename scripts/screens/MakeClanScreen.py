@@ -5,7 +5,7 @@ import pygame_gui
 from .Screens import Screens
 
 from scripts.utility import get_text_box_theme, scale
-from scripts.clan import Clan
+from scripts.clan import Pack
 from scripts.cat.cats import create_example_cats, Cat
 from scripts.cat.names import names
 from re import sub
@@ -32,10 +32,10 @@ class MakeClanScreen(Screens):
     bg_preview_border = pygame.transform.scale(
         pygame.image.load("resources/images/bg_preview_border.png").convert_alpha(), (466, 416))
 
-    classic_mode_text = "This mode is Clan Generator at it's most basic. " \
-                        "The player will not be expected to manage the minutia of Clan life. <br><br>" \
+    classic_mode_text = "This mode is Pack Generator at it's most basic. " \
+                        "The player will not be expected to manage the minutia of Pack life. <br><br>" \
                         "Perfect for a relaxing game session or for focusing on storytelling. <br><br>" \
-                        "With this mode you are the eye in the sky, watching the Clan as their story unfolds. "
+                        "With this mode you are the eye in the sky, watching the Pack as their story unfolds. "
 
     expanded_mode_text = "A more hands-on experience. " \
                          "This mode has everything in Classic Mode as well as more management-focused features.<br><br>" \
@@ -43,7 +43,7 @@ class MakeClanScreen(Screens):
                          "- Illnesses, Injuries, and Permanent Conditions<br>" \
                          "- Herb gathering and treatment<br>" \
                          "- Ability to choose patrol type<br><br>" \
-                         "With this mode you'll be making the important Clan-life decisions."
+                         "With this mode you'll be making the important Pack-life decisions."
 
     cruel_mode_text = "This mode has all the features of Expanded mode, but is significantly more difficult. If " \
                       "you'd like a challenge with a bit of brutality, then this mode is for you.<br><br>" \
@@ -53,8 +53,8 @@ class MakeClanScreen(Screens):
 
     # This section holds all the information needed
     game_mode = 'classic'  # To save the users selection before conformation.
-    clan_name = ""  # To store the Clan name before conformation
-    leader = None  # To store the Clan leader before conformation
+    clan_name = ""  # To store the Pack name before conformation
+    leader = None  # To store the Pack leader before conformation
     deputy = None
     med_cat = None
     members = []
@@ -89,14 +89,14 @@ class MakeClanScreen(Screens):
         self.biome_selected = None
         self.selected_season = "Newleaf"
         self.choosing_rank = None
-        self.leader = None  # To store the Clan leader before conformation
+        self.leader = None  # To store the Pack leader before conformation
         self.deputy = None
         self.med_cat = None
         self.members = []
 
         # Buttons that appear on every screen.
         self.menu_warning = pygame_gui.elements.UITextBox(
-            'Note: going back to main menu resets the generated cats.',
+            'Note: going back to main menu resets the generated wolves.',
             scale(pygame.Rect((50, 50), (1200, -1))),
             object_id=get_text_box_theme("#text_box_22_horizleft"), manager=MANAGER
         )
@@ -149,7 +149,7 @@ class MakeClanScreen(Screens):
         elif event.ui_element == self.elements['cruel_mode_button']:
             self.game_mode = 'cruel'
             self.refresh_text_and_buttons()
-        # When the next_step button is pressed, go to the Clan naming page.
+        # When the next_step button is pressed, go to the Pack naming page.
         elif event.ui_element == self.elements['next_step']:
             game.settings['game_mode'] = self.game_mode
             self.open_name_clan()
@@ -183,11 +183,11 @@ class MakeClanScreen(Screens):
         elif event.ui_element == self.elements['next_step']:
             new_name = sub(r'[^A-Za-z0-9 ]+', "", self.elements["name_entry"].get_text()).strip()
             if not new_name:
-                self.elements["error"].set_text("Your Clan's name cannot be empty")
+                self.elements["error"].set_text("Your Pack's name cannot be empty")
                 self.elements["error"].show()
                 return
             if new_name.casefold() in [clan.casefold() for clan in game.switches['clan_list']]:
-                self.elements["error"].set_text("A Clan with that name already exists.")
+                self.elements["error"].set_text("A Pack with that name already exists.")
                 self.elements["error"].show()
                 return
             self.clan_name = new_name
@@ -207,11 +207,11 @@ class MakeClanScreen(Screens):
             if not self.elements['name_entry'].is_focused:
                 new_name = sub(r'[^A-Za-z0-9 ]+', "", self.elements["name_entry"].get_text()).strip()
                 if not new_name:
-                    self.elements["error"].set_text("Your Clan's name cannot be empty")
+                    self.elements["error"].set_text("Your Pack's name cannot be empty")
                     self.elements["error"].show()
                     return
                 if new_name.casefold() in [clan.casefold() for clan in game.switches['clan_list']]:
-                    self.elements["error"].set_text("A Clan with that name already exists.")
+                    self.elements["error"].set_text("A Pack with that name already exists.")
                     self.elements["error"].show()
                     return
                 self.clan_name = new_name
@@ -219,11 +219,11 @@ class MakeClanScreen(Screens):
         elif event.key == pygame.K_RETURN:
             new_name = sub(r'[^A-Za-z0-9 ]+', "", self.elements["name_entry"].get_text()).strip()
             if not new_name:
-                self.elements["error"].set_text("Your Clan's name cannot be empty")
+                self.elements["error"].set_text("Your Pack's name cannot be empty")
                 self.elements["error"].show()
                 return
             if new_name.casefold() in [clan.casefold() for clan in game.switches['clan_list']]:
-                self.elements["error"].set_text("A Clan with that name already exists.")
+                self.elements["error"].set_text("A Pack with that name already exists.")
                 self.elements["error"].show()
                 return
             self.clan_name = new_name
@@ -453,12 +453,12 @@ class MakeClanScreen(Screens):
             if self.elements["name_entry"].get_text() == "":
                 self.elements['next_step'].disable()
             elif self.elements["name_entry"].get_text().startswith(" "):
-                self.elements["error"].set_text("Clan names cannot start with a space.")
+                self.elements["error"].set_text("Pack names cannot start with a space.")
                 self.elements["error"].show()
                 self.elements['next_step'].disable()
             elif self.elements["name_entry"].get_text().casefold() in [clan.casefold() for clan in
                                                                        game.switches['clan_list']]:
-                self.elements["error"].set_text("A Clan with that name already exists.")
+                self.elements["error"].set_text("A Pack with that name already exists.")
                 self.elements["error"].show()
                 self.elements['next_step'].disable()
                 return
@@ -631,7 +631,6 @@ class MakeClanScreen(Screens):
         self.tabs["tab2"].kill()
         self.tabs["tab3"].kill()
         self.tabs["tab4"].kill()
-
         if self.biome_selected == 'Forest':
             self.tabs["tab1"] = UIImageButton(scale(pygame.Rect((190, 360), (308, 60))), "", object_id="#classic_tab"
                                               , manager=MANAGER)
@@ -719,7 +718,8 @@ class MakeClanScreen(Screens):
                 self.elements['cat_name'].set_text(str(selected.name))
             self.elements['cat_name'].show()
             self.elements['cat_info'].set_text(selected.gender + "\n" +
-                                               str(selected.age + "\n" +
+                                               str.lower(selected.pelt.species) + "\n" +
+                                               str(selected.age.replace("kitten", "puppy") + "\n" +
                                                    str(selected.personality.trait) + "\n" +
                                                    str(selected.skills.skill_string())))
             self.elements['cat_info'].show()
@@ -795,7 +795,7 @@ class MakeClanScreen(Screens):
                                                                             pygame.transform.scale(text_box, (798, 922))
                                                                             , manager=MANAGER)
         self.elements['permi_warning'] = pygame_gui.elements.UITextBox(
-            "Your Clan's game mode is permanent and cannot be changed after Clan creation.",
+            "Your Pack's game mode is permanent and cannot be changed after Pack creation.",
             scale(pygame.Rect((200, 1162), (1200, 80))),
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
             manager=MANAGER
@@ -828,7 +828,7 @@ class MakeClanScreen(Screens):
         self.refresh_text_and_buttons()
 
     def open_name_clan(self):
-        """Opens the name Clan screen"""
+        """Opens the name Pack screen"""
         self.clear_all_page()
         self.sub_screen = 'name clan'
 
@@ -856,7 +856,7 @@ class MakeClanScreen(Screens):
         self.elements["name_entry"].set_allowed_characters(
             list("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_- "))
         self.elements["name_entry"].set_text_length_limit(11)
-        self.elements["clan"] = pygame_gui.elements.UITextBox("-Clan",
+        self.elements["pack"] = pygame_gui.elements.UITextBox("-Pack",
                                                               scale(pygame.Rect((750, 1200), (200, 50))),
                                                               object_id="#text_box_30_horizcenter_light",
                                                               manager=MANAGER)
@@ -866,7 +866,7 @@ class MakeClanScreen(Screens):
     def clan_name_header(self):
         self.elements["name_backdrop"] = pygame_gui.elements.UIImage(scale(pygame.Rect((584, 200), (432, 100))),
                                                                      MakeClanScreen.clan_frame_img, manager=MANAGER)
-        self.elements["clan_name"] = pygame_gui.elements.UITextBox(self.clan_name + "Clan",
+        self.elements["clan_name"] = pygame_gui.elements.UITextBox(self.clan_name + "Pack",
                                                                    scale(pygame.Rect((585, 212), (432, 100))),
                                                                    object_id="#text_box_30_horizcenter_light",
                                                                    manager=MANAGER)
@@ -924,7 +924,7 @@ class MakeClanScreen(Screens):
             self.elements['roll3'].hide()
 
         # info for chosen cats:
-        self.elements['cat_info'] = pygame_gui.elements.UITextBox("", scale(pygame.Rect((880, 500), (230, 250))),
+        self.elements['cat_info'] = pygame_gui.elements.UITextBox("", scale(pygame.Rect((880, 470), (230, 250))),
                                                                   visible=False,
                                                                   object_id=get_text_box_theme(
                                                                       "#text_box_22_horizleft_spacing_95"),
@@ -968,7 +968,7 @@ class MakeClanScreen(Screens):
         self.clan_name_header()
 
         # info for chosen cats:
-        self.elements['cat_info'] = pygame_gui.elements.UITextBox("", scale(pygame.Rect((880, 520), (230, 250))),
+        self.elements['cat_info'] = pygame_gui.elements.UITextBox("", scale(pygame.Rect((880, 470), (230, 250))),
                                                                   visible=False,
                                                                   object_id=get_text_box_theme(
                                                                       "#text_box_22_horizleft_spacing_95"),
@@ -1012,7 +1012,7 @@ class MakeClanScreen(Screens):
 
         # info for chosen cats:
         self.elements['cat_info'] = pygame_gui.elements.UITextBox("",
-                                                                  scale(pygame.Rect((880, 520), (230, 250))),
+                                                                  scale(pygame.Rect((880, 470), (230, 250))),
                                                                   visible=False,
                                                                   object_id=get_text_box_theme(
                                                                       "#text_box_22_horizleft_spacing_95"),
@@ -1062,7 +1062,7 @@ class MakeClanScreen(Screens):
 
         # info for chosen cats:
         self.elements['cat_info'] = pygame_gui.elements.UITextBox("",
-                                                                  scale(pygame.Rect((880, 520), (230, 250))),
+                                                                  scale(pygame.Rect((880, 470), (230, 250))),
                                                                   visible=False,
                                                                   object_id=get_text_box_theme(
                                                                       "#text_box_22_horizleft_spacing_95"),
@@ -1173,7 +1173,7 @@ class MakeClanScreen(Screens):
                                                                         (200, 200)), manager=MANAGER)
         self.elements["continue"] = UIImageButton(scale(pygame.Rect((692, 500), (204, 60))), "",
                                                   object_id="#continue_button_small")
-        self.elements["save_confirm"] = pygame_gui.elements.UITextBox('Your Clan has been created and saved!',
+        self.elements["save_confirm"] = pygame_gui.elements.UITextBox('Your Pack has been created and saved!',
                                                                       scale(pygame.Rect((200, 140), (1200, 60))),
                                                                       object_id=get_text_box_theme(
                                                                           "#text_box_30_horizcenter"),
@@ -1187,7 +1187,7 @@ class MakeClanScreen(Screens):
         Cat.outside_cats.clear()
         Patrol.used_patrols.clear()
         convert_camp = {1: 'camp1', 2: 'camp2', 3: 'camp3', 4: 'camp4'}
-        game.clan = Clan(self.clan_name,
+        game.clan = Pack(self.clan_name,
                          self.leader,
                          self.deputy,
                          self.med_cat,

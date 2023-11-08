@@ -95,8 +95,8 @@
         ],
         "event_text": "A horrible battle between c_n and o_c patrols after the two patrols traded insults at the border. m_c is left badly injured.",
         "history_text": {
-            "scar": "m_c was scarred after a fight with o_c cats.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting with o_c cats."
+            "scar": "m_c was scarred after a fight with o_c wolves.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting with o_c wolves."
         }
     },
     {
@@ -203,10 +203,10 @@
             "scar",
             "LEGBITE"
         ],
-        "event_text": "m_c was injured recklessly fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured recklessly fighting a bear that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "history_text": {
-            "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
+            "scar": "m_c was scarred fighting a bear that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a bear."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -246,10 +246,10 @@
             "scar",
             "LEGBITE"
         ],
-        "event_text": "m_c was injured recklessly fighting a fox that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured recklessly fighting a livestock guardian that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "history_text": {
-            "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
+            "scar": "m_c was scarred fighting a livestock guardian that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a livestock guardian."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -281,10 +281,10 @@
             "scar",
             "NECKBITE"
         ],
-        "event_text": "m_c fought a dog and got hurt.",
+        "event_text": "m_c fought a cougar and got hurt.",
         "history_text": {
-            "scar": "m_c was scarred by a dog.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a dog."
+            "scar": "m_c was scarred by a cougar.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a cougar."
         },
         "cat_trait": [
             "adventurous",
@@ -315,10 +315,10 @@
             "scar",
             "LEGBITE"
         ],
-        "event_text": "m_c saved r_c from a fox, but was hurt.",
+        "event_text": "m_c saved r_c from a bear, but was hurt.",
         "history_text": {
-            "scar": "m_c was scarred by a fox while rescuing r_c.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a fox."
+            "scar": "m_c was scarred by a bear while rescuing r_c.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a bear."
         },
         "cat_trait": [
             "altruistic",
@@ -827,10 +827,10 @@
             "scar",
             "MANLEG"
         ],
-        "event_text": "m_c fought a big dog and was badly injured.",
+        "event_text": "m_c fought a bear and was badly injured.",
         "history_text": {
-            "scar": "m_c was scarred by a big dog.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a big dog."
+            "scar": "m_c was scarred by a bear.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a bear."
         },
         "cat_trait": [
             "adventurous",
@@ -862,10 +862,10 @@
             "scar",
             "MANTAIL"
         ],
-        "event_text": "m_c saved r_c from a big dog, but was badly injured.",
+        "event_text": "m_c saved r_c from a bear, but was badly injured.",
         "history_text": {
-            "scar": "m_c was scarred by a big dog while rescuing r_c.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a big dog."
+            "scar": "m_c was scarred by a bear while rescuing r_c.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a bear."
         },
         "cat_trait": [
             "altruistic",
@@ -896,10 +896,10 @@
             "scar",
             "ONE"
         ],
-        "event_text": "m_c fought a hawk and got hurt.",
+        "event_text": "m_c fought an eagle and got hurt.",
         "history_text": {
-            "scar": "m_c was scarred by a hawk.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a hawk."
+            "scar": "m_c was scarred by an eagle.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting an eagle."
         },
         "cat_trait": [
             "adventurous",
@@ -930,10 +930,10 @@
             "scar",
             "TWO"
         ],
-        "event_text": "m_c saved r_c from a hawk, but was hurt.",
+        "event_text": "m_c saved r_c from an eagle, but was hurt.",
         "history_text": {
-            "scar": "m_c was scarred by a hawk while rescuing r_c.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a hawk."
+            "scar": "m_c was scarred by an eagle while rescuing r_c.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from an eagle."
         },
         "cat_trait": [
             "altruistic",
@@ -1090,10 +1090,10 @@
             "scar",
             "RIGHTEAR"
         ],
-        "event_text": "m_c and r_c were practicing battle moves. r_c insisted they keep their claws out, and m_c got hurt.",
+        "event_text": "m_c and r_c were practicing battle moves. r_c insisted they keep their fangs bared, and m_c got hurt.",
         "history_text": {
             "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, during battle training.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor insisted on training with unsheathed claws."
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor insisted on training with fangs."
         },
         "cat_trait": null,
         "cat_skill": null,

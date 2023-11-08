@@ -9,7 +9,7 @@ import pygame
 from os.path import exists as path_exists
 
 from scripts.cat.history import History
-from scripts.clan import Clan
+from scripts.clan import Pack
 from scripts.utility import (
     get_personality_compatibility,
     check_relationship_value,
@@ -104,7 +104,7 @@ class Patrol():
         
         return self.determine_outcome(antagonize=(path == "antag"))
         
-    def add_patrol_cats(self, patrol_cats: List[Cat], clan: Clan) -> None:
+    def add_patrol_cats(self, patrol_cats: List[Cat], clan: Pack) -> None:
         """Add the list of cats to the patrol class and handles to set all needed values.
 
             Parameters
@@ -112,8 +112,8 @@ class Patrol():
             patrol_cats : list
                 list of cats which are on the patrol
             
-            clan: Clan
-                the Clan class of the game, this parameter is needed to make tests possible
+            clan: Pack
+                the Pack class of the game, this parameter is needed to make tests possible
 
             Returns
             ----------
@@ -292,7 +292,7 @@ class Patrol():
             elif hostile_rep:
                 possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_HOSTILE))
 
-        # other Clan patrols
+        # other Pack patrols
         if other_clan_chance == 1:
             if clan_neutral:
                 possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN))
@@ -961,7 +961,7 @@ class Patrol():
                         text = " ".join(modify)
                         break
 
-        text = text.replace('o_c_n', str(other_clan_name) + 'Clan')
+        text = text.replace('o_c_n', str(other_clan_name) + 'Pack')
 
         clan_name = game.clan.name
         s = 0
@@ -983,7 +983,7 @@ class Patrol():
                         text = " ".join(modify)
                         break
 
-        text = text.replace('c_n', str(game.clan.name) + 'Clan')
+        text = text.replace('c_n', str(game.clan.name) + 'Pack')
 
         # Prey lists for forest random prey patrols
         fst_tinyprey_singlular = ['shrew', 'robin', 'vole', 'dormouse', 'blackbird',

@@ -9,7 +9,7 @@ import pygame_gui
 import ujson
 
 from scripts.cat.cats import Cat
-from scripts.clan import Clan
+from scripts.clan import Pack
 from scripts.game_structure.discord_rpc import _DiscordRPC
 from scripts.game_structure.game_essentials import game, screen, screen_x, screen_y, MANAGER
 from scripts.game_structure.image_button import UIImageButton
@@ -53,7 +53,7 @@ class SwitchClanScreen(Screens):
 
                 for page in self.clan_buttons:
                     if event.ui_element in page:
-                        Clan.switch_clans(
+                        Pack.switch_clans(
                             self.clan_name[self.page][page.index(
                                 event.ui_element)])
 
@@ -108,7 +108,7 @@ class SwitchClanScreen(Screens):
                                        object_id="#main_menu_button",
                                        manager=MANAGER)
         self.info = pygame_gui.elements.UITextBox(
-            'Note: This will close the game.\n When you open it next, it should have the new Clan.',
+            'Note: This will close the game.\n When you open it next, it should have the new Pack.',
             # pylint: disable=line-too-long
             scale(pygame.Rect((200, 1200), (1200, 140))),
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
@@ -121,9 +121,9 @@ class SwitchClanScreen(Screens):
             manager=MANAGER)
         if game.clan:
             self.current_clan.set_text(
-                f"The currently loaded Clan is {game.clan.name}Clan")
+                f"The currently loaded Pack is {game.clan.name}Pack")
         else:
-            self.current_clan.set_text("There is no Clan currently loaded.")
+            self.current_clan.set_text("There is no Pack currently loaded.")
 
         self.clan_list = game.read_clans()
 
@@ -138,7 +138,7 @@ class SwitchClanScreen(Screens):
             self.clan_buttons[-1].append(
                 pygame_gui.elements.UIButton(scale(
                     pygame.Rect((600, y_pos), (400, 78))),
-                    clan + "Clan",
+                    clan + "Pack",
                     object_id="#saved_clan",
                     manager=MANAGER))
             self.delete_buttons[-1].append(

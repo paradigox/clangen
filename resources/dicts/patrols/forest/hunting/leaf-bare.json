@@ -30,7 +30,7 @@
                 ]
             },
             {
-                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
+                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every wolf carries something home, but nearly all of it was caught by s_c.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2"],
@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every cat to do their best for c_n.",
+                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every wolf to do their best for c_n.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -64,7 +64,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable wolf ball.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -78,7 +78,7 @@
                 ]
             },
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball. Still, when they return to camp r_c is cold and chilled.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable wolf ball. Still, when they return to camp r_c is cold and chilled.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -164,7 +164,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The cats retreat under some evergreen underbrush and cuddle together, sharing what little warmth they have. Each cat takes a turn on the most exposed side of the huddle, selflessly risking themselves.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The wolves retreat under some evergreen underbrush and cuddle together, sharing what little warmth they have. Each wolf takes a turn on the most exposed side of the huddle, selflessly risking themselves.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"],
@@ -195,7 +195,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats hide under the low hanging branches of a pine, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the cats make it though safely, closer than ever afterwards.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the wolves hide under the low hanging branches of a pine, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the wolves make it though safely, closer than ever afterwards.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -213,7 +213,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, their life slips away, and their distraught Clanmates are left to carry their body home.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the wolves huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, their life slips away, and their distraught Packmates are left to carry their body home.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -233,7 +233,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, the cats trudge back home, but r_c hasn't escaped unscathed, their body chilled and refusing to warm up properly.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, the wolves trudge back home, but r_c hasn't escaped unscathed, their body chilled and refusing to warm up properly.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -276,7 +276,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -291,7 +291,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -307,7 +307,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few wolves it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -349,7 +349,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the wolves give up on challenging for the food in favor of quickly helping r_c back to the medicine wolf den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -413,7 +413,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -428,7 +428,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -471,7 +471,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However, with so many cats to protect each other, there were no injuries.",
+                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However, with so many wolves to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -486,7 +486,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the wolves give up on challenging for the food in favor of quickly helping r_c back to the medicine wolf den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -550,7 +550,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarPack, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["large"],
@@ -642,7 +642,7 @@
                 ]
             },
             {
-                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The fox doesn't follow, happy enough to eat the fawn instead of the foolish cat.",
+                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The fox doesn't follow, happy enough to eat the fawn instead of the foolish wolf.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -712,7 +712,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The cats are only just smaller and outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "The wolves are only just smaller and outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -727,7 +727,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -743,7 +743,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few wolves it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -842,7 +842,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Your cats are only just smaller and heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are only just smaller and heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -857,7 +857,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -900,7 +900,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However, with so many cats to protect each other, there were no injuries.",
+                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However, with so many wolves to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -948,7 +948,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarPack, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["large"],
@@ -1037,7 +1037,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The gray fox doesn't follow, happy enough to eat the fawn instead of the foolish cat.",
+                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The gray fox doesn't follow, happy enough to eat the fawn instead of the foolish wolf.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1111,7 +1111,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c locates the mouse and begins to stalk. The mouse nibbles on a seed, unaware of the hunting cat. r_c waggles their haunches and leaps, pinning the mouse beneath a paw as they make the killing bite.",
+                "text": "r_c locates the mouse and begins to stalk. The mouse nibbles on a seed, unaware of the hunting wolf. r_c waggles their haunches and leaps, pinning the mouse beneath a paw as they make the killing bite.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
@@ -1192,7 +1192,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 catches scent of a mouse nearby. p_l congratulates them, and tries to prepare app1 for the stalk as best they can - if app1 can catch this mouse, this is the season where it will be most valuable for the Clan.",
+        "intro_text": "app1 catches scent of a mouse nearby. p_l congratulates them, and tries to prepare app1 for the stalk as best they can - if app1 can catch this mouse, this is the season where it will be most valuable for the Pack.",
         "decline_text": "Your patrol ignores the mouse.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1257,7 +1257,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "As the patrol heads out into the forest to hunt, r_c seems to be absolutely unconcerned with their duties, instead ambling along as through the prey is going to waltz into their paws.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The wolves are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
@@ -1347,7 +1347,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "As the patrol heads out into the forest to hunt, r_c suggests a good sheltered gully. It's a little far from camp, and the walk will be chilly, but the hunting around there is good, particularly for mice.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The wolves are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1366,7 +1366,7 @@
                 ]
             },
             {
-                "text": "Your cats sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
+                "text": "Your wolves sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],
@@ -1514,7 +1514,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says they smell squirrel. Though they don't want app1 to feel pressured, p_l makes sure they knows how valuable a leaf-bare squirrel would be to their Clanmates before asking what they want to do.",
+        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says they smell squirrel. Though they don't want app1 to feel pressured, p_l makes sure they knows how valuable a leaf-bare squirrel would be to their Packmates before asking what they want to do.",
         "decline_text": "app1 looks apprehensive, and quietly says they want to look for something easier.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1580,12 +1580,12 @@
             "deputy": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the patrol walks through the forest, a loud chittering from above interrupts them. One cat looks up just in time to get a shower of twigs and dead leaves to the face, while another exclaims aloud as they spot squirrels darting through the branches above.",
+        "intro_text": "As the patrol walks through the forest, a loud chittering from above interrupts them. One wolf looks up just in time to get a shower of twigs and dead leaves to the face, while another exclaims aloud as they spot squirrels darting through the branches above.",
         "decline_text": "Though they snort in amusement, the patrol decides to move on to easier prey, rather than waste their energy amongst the trees.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Before anyone can even speak, there's a loud crack from above. The cats scatter as a branch crashes down, bringing the squirrels down with it! The patrol thinks fast, and pounce on the squirrels before they can escape. They head home with their bounty, each cat feeling quite pleased with themself.",
+                "text": "Before anyone can even speak, there's a loud crack from above. The wolves scatter as a branch crashes down, bringing the squirrels down with it! The patrol thinks fast, and pounce on the squirrels before they can escape. They head home with their bounty, each wolf feeling quite pleased with themself.",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1600,7 +1600,7 @@
                 ]
             },
             {
-                "text": "A mischievous look in their eye, the deputy challenges their Clanmates - whoever catches one of the squirrels gets to skip dawn patrol for a whole moon. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph, proudly showing off the squirrel swinging from their jaws.",
+                "text": "A mischievous look in their eye, the deputy challenges their Packmates - whoever catches one of the squirrels gets to skip dawn patrol for a whole moon. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph, proudly showing off the squirrel swinging from their jaws.",
                 "exp": 40,
                 "weight": 5,
                 "prey": ["medium"],
@@ -1615,7 +1615,7 @@
                 ]
             },
             {
-                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then squirrel carcasses begin falling to the ground, one by one. s_c descends when they've finished with one last squirrel, curling their tail in pride at the looks on their Clanmates faces.",
+                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then squirrel carcasses begin falling to the ground, one by one. s_c descends when they've finished with one last squirrel, curling their tail in pride at the looks on their Packmates faces.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1648,7 +1648,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol fans out, some cats climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as they plummet from the branches and land heavily on the ground. Their Clanmates help them home and settle them into the medicine cat's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
+                "text": "The patrol fans out, some wolves climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as they plummet from the branches and land heavily on the ground. Their Packmates help them home and settle them into the medicine wolf's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1717,7 +1717,7 @@
                 ]
             },
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each cat carries multiple squirrels home.",
+                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each wolf carries multiple squirrels home.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1782,7 +1782,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "p_l nearly jumps out of their pelt when r_c materialises next to them. Where in StarClan have they been?! But no, r_c has found a corpse of trees so thick and overgrown that their branches have protected the leaf litter beneath them from the snowfall. If they can find prey anywhere, it'll be there.",
+                "text": "p_l nearly jumps out of their pelt when r_c materialises next to them. Where in StarPack have they been?! But no, r_c has found a corpse of trees so thick and overgrown that their branches have protected the leaf litter beneath them from the snowfall. If they can find prey anywhere, it'll be there.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -1812,7 +1812,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "This is bad. When they find r_c, there's barely any warmth left in their pelt, and p_l can't wake them. They're left with an impossible decision - leave r_c there in the snow, or risk everyone else. p_l chooses r_c, and the warmth of their Clanmates curling around them saves r_c's life, though none of the patrol can escape the consequences of the cold.",
+                "text": "This is bad. When they find r_c, there's barely any warmth left in their pelt, and p_l can't wake them. They're left with an impossible decision - leave r_c there in the snow, or risk everyone else. p_l chooses r_c, and the warmth of their Packmates curling around them saves r_c's life, though none of the patrol can escape the consequences of the cold.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1910,11 +1910,11 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 stand near the frozen stream, watching two rats fighting for the last bit of seed strewn along the edge.",
-        "decline_text": "Rats fighting over food can easily turn into rats fighting cats for a more filling meal. They wisely decide to hunt something else.",
+        "decline_text": "Rats fighting over food can easily turn into rats fighting wolves for a more filling meal. They wisely decide to hunt something else.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l and app1 dash out at the climax of the fight, taking down the two rats with a triumphant yowl!",
+                "text": "p_l and app1 dash out at the climax of the fight, taking down the two rats with a triumphant howl!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -1941,7 +1941,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "p_l leads the patrol towards the abandoned Twoleg nest, listening to r_c's plan. Rats were seen hiding inside to protect themselves from the snow and frost. Perhaps it would be a perfect hunting spot?",
-        "decline_text": "The other cats disagree with such a risk, and resume their normal hunting patrol.",
+        "decline_text": "The other wolves disagree with such a risk, and resume their normal hunting patrol.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1977,7 +1977,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leads the cats to the abandoned Twoleg nest, but as the cats search and search, all they can find are abandoned rats nests. r_c is scolded for wasting the patrol's valuable time.",
+                "text": "r_c leads the wolves to the abandoned Twoleg nest, but as the wolves search and search, all they can find are abandoned rats nests. r_c is scolded for wasting the patrol's valuable time.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1992,7 +1992,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c leads the cats to the abandoned Twoleg nest, but the rats seemed to be more lively than they thought. A harsh battle forces the patrol to retreat, r_c being the most harshly wounded.",
+                "text": "r_c leads the wolves to the abandoned Twoleg nest, but the rats seemed to be more lively than they thought. A harsh battle forces the patrol to retreat, r_c being the most harshly wounded.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2027,7 +2027,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "A legend has been sighted. Recently, warriors report a strange mass of rats stuck together by their tails, larger and more dangerous than anything the Clan has seen. Will p_l's patrol look for this legendary monster?",
+        "intro_text": "A legend has been sighted. Recently, warriors report a strange mass of rats stuck together by their tails, larger and more dangerous than anything the Pack has seen. Will p_l's patrol look for this legendary monster?",
         "decline_text": "No. Such a thing can't exist, right? It has to be an elder's imagination. p_l decides to take their patrol elsewhere to hunt.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2053,13 +2053,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There are more rats defending the rat king's lair than they thought. Fighting off waves of them, the patrol retreats back to the Clan with empty paws.",
+                "text": "There are more rats defending the rat king's lair than they thought. Fighting off waves of them, the patrol retreats back to the Pack with empty paws.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
             },
             {
-                "text": "The rat king and their minions overwhelm the patrol, biting into fur and limbs. p_l orders a retreat, and they hope the Clan can heal so many wounded.",
+                "text": "The rat king and their minions overwhelm the patrol, biting into fur and limbs. p_l orders a retreat, and they hope the Pack can heal so many wounded.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2073,7 +2073,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c knows they are one of the Clan's greatest hunters. They spot the rat king and charge into its lair. But the King proves too great a foe for a single cat, and it sends s_c back with wounds to tell their tale.",
+                "text": "s_c knows they are one of the Pack's greatest hunters. They spot the rat king and charge into its lair. But the King proves too great a foe for a single wolf, and it sends s_c back with wounds to tell their tale.",
                 "exp": 0,
                 "weight": 10,
                 "stat_skill": ["HUNTER,2"],
@@ -2100,7 +2100,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "A legend has been sighted. Recently, warriors report a strange mass of rats stuck together by their tails, larger and more dangerous than anything the Clan has seen. Will p_l's patrol look for this legendary monster?",
+        "intro_text": "A legend has been sighted. Recently, warriors report a strange mass of rats stuck together by their tails, larger and more dangerous than anything the Pack has seen. Will p_l's patrol look for this legendary monster?",
         "decline_text": "No. Such a thing cant exist, right? It has to be an elder's imagination. p_l decides to take their patrol elsewhere to hunt.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2126,7 +2126,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There are more rats defending the rat king's lair than they thought. Fighting off waves of them, the patrol retreats back to the Clan with empty paws.",
+                "text": "There are more rats defending the rat king's lair than they thought. Fighting off waves of them, the patrol retreats back to the Pack with empty paws.",
                 "exp": 0,
                 "weight": 20
             },
@@ -2140,7 +2140,7 @@
                 }
             },
             {
-                "text": "s_c knows they are one of the Clan's greatest hunters. They spot the rat king and charge into its lair. But the King proves too great a foe for a single cat, and it kills the would-be kingslayer.",
+                "text": "s_c knows they are one of the Pack's greatest hunters. They spot the rat king and charge into its lair. But the King proves too great a foe for a single wolf, and it kills the would-be kingslayer.",
                 "exp": 0,
                 "weight": 10,
                 "stat_skill": ["HUNTER,2"],
@@ -2163,7 +2163,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "While hunting through the snow-covered forest, a flash of scarlet catches p_l's eye. They freeze, tail-tip twitching, and scent the air for prey.",
-        "decline_text": "A cardinal would be paltry prey; the Clan needs more filling meals. p_l leaves it be, knowing they would expend too much precious energy trying to hunt the bird anyway.",
+        "decline_text": "A cardinal would be paltry prey; the Pack needs more filling meals. p_l leaves it be, knowing they would expend too much precious energy trying to hunt the bird anyway.",
         "chance_of_success": 65,
         "success_outcomes": [
             {
@@ -2305,7 +2305,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "The weather is sunny, yet cold, as r_c sets out on their hunting patrol, but as the day goes on, a snowstorm blows in. They're lost and shivering, but as they strain through the sound of the wind, they can hear a birdcall leading them on through the trees.",
-        "decline_text": "It's probably a trick of the wind. r_c ignores their growling belly and tries to retrace their pawsteps through the worsening snow. By the grace of StarClan, they manage to find their way back to camp before nightfall.",
+        "decline_text": "It's probably a trick of the wind. r_c ignores their growling belly and tries to retrace their pawsteps through the worsening snow. By the grace of StarPack, they manage to find their way back to camp before nightfall.",
         "chance_of_success": 35,
         "success_outcomes": [
             {
@@ -2323,14 +2323,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c follows the birdcall through the trees, but before long, can't make out the sounds of the prey from the whistling wind. Distraught and turned around, r_c has no choice but to try and burrow into the snow and pray to StarClan. Unfortunately, their prayers go unanswered, and their Clanmates find their frozen, snow-covered body the next day.",
+                "text": "r_c follows the birdcall through the trees, but before long, can't make out the sounds of the prey from the whistling wind. Distraught and turned around, r_c has no choice but to try and burrow into the snow and pray to StarPack. Unfortunately, their prayers go unanswered, and their Packmates find their frozen, snow-covered body the next day.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": { "reg_death": "m_c froze to death." }
             },
             {
-                "text": "r_c follows the birdcall through the trees, but before long, can't make out the sounds of the prey from the whistling wind. Distraught and turned around, r_c has no choice but to try and burrow into the snow and pray to StarClan until the storm passes. When the storm breaks by nightfall, the sound of their Clanmates' voices rouses them from sleep, and they're helped home, empty-pawed and frostbitten.",
+                "text": "r_c follows the birdcall through the trees, but before long, can't make out the sounds of the prey from the whistling wind. Distraught and turned around, r_c has no choice but to try and burrow into the snow and pray to StarPack until the storm passes. When the storm breaks by nightfall, the sound of their Packmates' voices rouses them from sleep, and they're helped home, empty-pawed and frostbitten.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2360,7 +2360,7 @@
         "chance_of_success": 65,
         "success_outcomes": [
             {
-                "text": "With a flick of their tail, p_l directs their Clanmates into a silent ring of hunters surrounding the oblivious birds. When the time is right, the cats spring in unison, catching half of the flock.",
+                "text": "With a flick of their tail, p_l directs their Packmates into a silent ring of hunters surrounding the oblivious birds. When the time is right, the wolves spring in unison, catching half of the flock.",
                 "exp": 15,
                 "weight": 20,
                 "prey": ["small"],
@@ -2375,7 +2375,7 @@
                 ]
             },
             {
-                "text": "p_l drops into a silent hunting crouch, and their Clanmates follow suit. They move into position like water around the oblivious songbirds, and when the time is right, a flick of p_l's ears tells the others to pounce. The patrol catches half of the flock!",
+                "text": "p_l drops into a silent hunting crouch, and their Packmates follow suit. They move into position like water around the oblivious songbirds, and when the time is right, a flick of p_l's ears tells the others to pounce. The patrol catches half of the flock!",
                 "exp": 15,
                 "weight": 5,
                 "prey": ["small"],
@@ -2392,7 +2392,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l tries to organize their Clanmates into a silent ring of hunters around the unsuspecting birds, but their efforts are in vain. The cats are disorganized and confused, and the birds fly away before the patrol can stop bickering with each other about how best to catch the flock.",
+                "text": "p_l tries to organize their Packmates into a silent ring of hunters around the unsuspecting birds, but their efforts are in vain. The wolves are disorganized and confused, and the birds fly away before the patrol can stop bickering with each other about how best to catch the flock.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2406,7 +2406,7 @@
                 ]
             },
             {
-                "text": "p_l tries to organize their Clanmates into a silent ring of hunters around he unsuspecting birds, and it works...until r_c misses their cue to pounce, and the flock flies away before anyone else can catch them.",
+                "text": "p_l tries to organize their Packmates into a silent ring of hunters around he unsuspecting birds, and it works...until r_c misses their cue to pounce, and the flock flies away before anyone else can catch them.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2452,7 +2452,7 @@
                 ]
             },
             {
-                "text": "It's very weird how the lizards won't wake, not even with cats ripping apart their burrow, but no one is going to argue with more prey for the fresh-kill pile.",
+                "text": "It's very weird how the lizards won't wake, not even with wolves ripping apart their burrow, but no one is going to argue with more prey for the fresh-kill pile.",
                 "exp": 15,
                 "weight": 5,
                 "prey": ["medium"],
@@ -2615,7 +2615,7 @@
                 ]
             },
             {
-                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
+                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every wolf carries something home, but nearly all of it was caught by s_c.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2"],
@@ -2631,7 +2631,7 @@
                 ]
             },
             {
-                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every cat to do their best for c_n.",
+                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every wolf to do their best for c_n.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -2649,7 +2649,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable wolf ball.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2663,7 +2663,7 @@
                 ]
             },
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball. Still, when they return to camp r_c is cold and chilled.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together under a bush, their pelts and tails and legs all tightly wrapped into one indistinguishable wolf ball. Still, when they return to camp r_c is cold and chilled.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2704,7 +2704,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The prey sure seem to agree that the weather is no barrier to feeding, and app1 proudly brings back three f_tp_p for the Clan, and hopefully for their own dinner.",
+                "text": "The prey sure seem to agree that the weather is no barrier to feeding, and app1 proudly brings back three f_tp_p for the Pack, and hopefully for their own dinner.",
                 "exp": 35,
                 "weight": 20,
                 "prey": ["medium"]
@@ -2798,7 +2798,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The cats retreat under some evergreen underbrush and cuddle together, sharing what little warmth they have. Each cat takes a turn on the most exposed side of the huddle, selflessly risking themselves.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The wolves retreat under some evergreen underbrush and cuddle together, sharing what little warmth they have. Each wolf takes a turn on the most exposed side of the huddle, selflessly risking themselves.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"],
@@ -2829,7 +2829,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats hide under the low hanging branches of a pine, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the cats make it though safely, closer than ever afterwards.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the wolves hide under the low hanging branches of a pine, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the wolves make it though safely, closer than ever afterwards.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -2847,7 +2847,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, their life slips away, and their distraught Clanmates are left to carry their body home.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the wolves huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, their life slips away, and their distraught Packmates are left to carry their body home.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -2867,7 +2867,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, the cats trudge back home, but r_c hasn't escaped unscathed, their body chilled and refusing to warm up properly.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, the wolves trudge back home, but r_c hasn't escaped unscathed, their body chilled and refusing to warm up properly.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2910,7 +2910,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -2925,7 +2925,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -2941,7 +2941,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few wolves it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2983,7 +2983,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the wolves give up on challenging for the food in favor of quickly helping r_c back to the medicine wolf den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3047,7 +3047,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3062,7 +3062,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a crippling injury.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a crippling injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -3105,7 +3105,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many cats to protect each other, there were no injuries.",
+                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many wolves to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3120,7 +3120,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the wolves give up on challenging for the food in favor of quickly helping r_c back to the medicine wolf den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3184,7 +3184,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarPack, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3276,7 +3276,7 @@
                 ]
             },
             {
-                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The fox doesn't follow, happy enough to eat the fawn instead of the foolish cat.",
+                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The fox doesn't follow, happy enough to eat the fawn instead of the foolish wolf.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3346,7 +3346,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The cats are only just smaller and outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "The wolves are only just smaller and outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3361,7 +3361,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -3377,7 +3377,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few wolves it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -3476,7 +3476,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Your cats are only just smaller and heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your wolves are only just smaller and heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarPack they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3491,7 +3491,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a crippling injury.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the wolves harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a crippling injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -3534,7 +3534,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many cats to protect each other, there were no injuries.",
+                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many wolves to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3582,7 +3582,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c may be smaller, alone, and half its weight, but the fox has a prize {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} willing to fight for. With a prayer to StarPack, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} into battle. The fox, already stuffed full of venison and unwilling to lose blood over it, leaves the kill with a grumble.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3671,7 +3671,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The gray fox doesn't follow, happy enough to eat the fawn instead of the foolish cat.",
+                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The gray fox doesn't follow, happy enough to eat the fawn instead of the foolish wolf.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3745,7 +3745,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c locates the mouse and begins to stalk. The mouse nibbles on a seed, unaware of the hunting cat. r_c waggles their haunches and leaps, pinning the mouse beneath a paw as they make the killing bite.",
+                "text": "r_c locates the mouse and begins to stalk. The mouse nibbles on a seed, unaware of the hunting wolf. r_c waggles their haunches and leaps, pinning the mouse beneath a paw as they make the killing bite.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
@@ -3826,7 +3826,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 catches scent of a mouse nearby. p_l congratulates them, and tries to prepare app1 for the stalk as best they can - if app1 can catch this mouse, this is the season where it will be most valuable for the Clan.",
+        "intro_text": "app1 catches scent of a mouse nearby. p_l congratulates them, and tries to prepare app1 for the stalk as best they can - if app1 can catch this mouse, this is the season where it will be most valuable for the Pack.",
         "decline_text": "Your patrol ignores the mouse.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -3891,7 +3891,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "As the patrol heads out into the forest to hunt, r_c seems to be absolutely unconcerned with their duties, instead ambling along as through the prey is going to waltz into their paws.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The wolves are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
@@ -3983,7 +3983,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "As the patrol heads out into the forest to hunt, r_c suggests a good sheltered gully. It's a little far from camp, and the walk will be chilly, but the hunting around there is good, particularly for mice.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The wolves are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -4002,7 +4002,7 @@
                 ]
             },
             {
-                "text": "Your cats sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
+                "text": "Your wolves sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],

@@ -3,12 +3,12 @@
         "id": "gen_dead_war_app",
         "thoughts": [
             "Is sad {PRONOUN/m_c/subject} never got {PRONOUN/m_c/poss} warrior name",
-            "Patrols StarClan's territory",
+            "Patrols StarPack's territory",
             "Imagines what {PRONOUN/m_c/poss} warrior ceremony would have been like",
             "Practices {PRONOUN/m_c/poss} battle moves in the starry fields",
             "Wonders what {PRONOUN/m_c/poss} warrior name would've been",
-            "Is glad that elders don't get ticks in StarClan",
-            "Wonders if the water ever freezes in StarClan",
+            "Is glad that elders don't get ticks in StarPack",
+            "Wonders if the water ever freezes in StarPack",
             "Sneaks close to the border of the Dark Forest but dares not go in"
         ],
         "random_living_status":[
@@ -20,7 +20,7 @@
         "id": "dead_app_to_dead_other",
         "thoughts": [
             "Laughs with r_c",
-            "Stalks through StarClan's forests with r_c",
+            "Stalks through StarPack's forests with r_c",
             "Encourages r_c to dip {PRONOUN/r_c/poss} paws into the cool water"
         ],
         "random_living_status": [

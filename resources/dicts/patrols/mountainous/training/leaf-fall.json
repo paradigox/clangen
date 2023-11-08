@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "text": "app1 finds a snowdrift, and over the course of an hour them and app2 turn it into a very respectable snow den, complete with short entrance tunnel. They're debating what to call the camp of their little Clan when their mentors arrive, congratulating them on running an excellent wilderness survival session without supervision.",
+                "text": "app1 finds a snowdrift, and over the course of an hour them and app2 turn it into a very respectable snow den, complete with short entrance tunnel. They're debating what to call the camp of their little Pack when their mentors arrive, congratulating them on running an excellent wilderness survival session without supervision.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -100,11 +100,11 @@
         },
         "weight": 20,
         "intro_text": "p_l brings them down the mountain, to where a little stream turns into a tiny cold bog.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a cat cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young cat, app1 doesn't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a wolf cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young wolf, app1 doesn't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "text": "As they approach the bog, app1 hears the yowl of a cat. An intruder! They go haring off, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a cat.",
+                "text": "As they approach the bog, app1 hears the howl of a wolf. An intruder! They go haring off, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a wolf.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a cat. app1 pokes s_c for an explanation. You see, an ancient cat, running from wolves, begged StarClan for help. StarClan gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
+                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a wolf. app1 pokes s_c for an explanation. You see, an ancient wolf, running from wolves, begged StarPack for help. StarPack gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -150,7 +150,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 refuses to believe that the cat cry they hear from the bog comes from a little towhee bird, and argues with p_l all the way back to camp.",
+                "text": "app1 refuses to believe that the wolf cry they hear from the bog comes from a little towhee bird, and argues with p_l all the way back to camp.",
                 "exp": 0,
                 "weight": 20
             }
@@ -171,11 +171,11 @@
         },
         "weight": 20,
         "intro_text": "p_l brings them down the mountain, to where a little stream turns into a tiny cold bog.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a cat cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young cat, app1 doesn't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a wolf cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young wolf, app1 doesn't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -189,7 +189,7 @@
                 ]
             },
             {
-                "text": "As they approach the bog, app1 hears the yowl of a cat. An intruder! They go haring off, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a cat.",
+                "text": "As they approach the bog, app1 hears the howl of a wolf. An intruder! They go haring off, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a wolf.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -203,7 +203,7 @@
                 ]
             },
             {
-                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps app1 from startling when the bird opens its beak and calls like a cat. It can be difficult to track intruders around c_n's territory, s_c explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
+                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps app1 from startling when the bird opens its beak and calls like a wolf. It can be difficult to track intruders around c_n's territory, s_c explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -221,7 +221,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 refuses to believe that the cat cry they hear from the bog comes from a little towhee bird, and argues with p_l all the way back to camp.",
+                "text": "app1 refuses to believe that the wolf cry they hear from the bog comes from a little towhee bird, and argues with p_l all the way back to camp.",
                 "exp": 0,
                 "weight": 20
             }
@@ -243,11 +243,11 @@
         },
         "weight": 20,
         "intro_text": "p_l brings them down the mountain, to where a little stream turns into a tiny cold bog.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a cat cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young cat, they don't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a wolf cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young wolf, they don't need to feel bad, it's just something to learn from.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -261,7 +261,7 @@
                 ]
             },
             {
-                "text": "As they approach the bog, app1 hears the yowl of a cat. An intruder! They go haring off with app2, shrieking with fury, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a cat.",
+                "text": "As they approach the bog, app1 hears the howl of a wolf. An intruder! They go haring off with app2, shrieking with fury, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a wolf.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -275,7 +275,7 @@
                 ]
             },
             {
-                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a cat. The apprentices poke s_c for an explanation. You see, an ancient cat, running from wolves, begged StarClan for help. StarClan gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
+                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a wolf. The apprentices poke s_c for an explanation. You see, an ancient wolf, running from wolves, begged StarPack for help. StarPack gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -293,7 +293,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 refuses to believe that the cat cry they hear from the bog comes from a little towhee bird, and argues with p_l and app2 all the way back to camp.",
+                "text": "app1 refuses to believe that the wolf cry they hear from the bog comes from a little towhee bird, and argues with p_l and app2 all the way back to camp.",
                 "exp": 0,
                 "weight": 20
             }
@@ -315,11 +315,11 @@
         },
         "weight": 20,
         "intro_text": "p_l brings them down the mountain, to where a little stream turns into a tiny cold bog.",
-        "decline_text": "Thinking better of it, the cats try to hunt instead.",
+        "decline_text": "Thinking better of it, the wolves try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a cat cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young cat, they don't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a wolf cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young wolf, they don't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "text": "As they approach the bog, app1 hears the yowl of a cat. An intruder! They go haring off with app2, shrieking with fury, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a cat.",
+                "text": "As they approach the bog, app1 hears the howl of a wolf. An intruder! They go haring off with app2, shrieking with fury, as p_l sighs and settles down to wait. When they eventually return, p_l teaches them about towhee birds, who can call like a wolf.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -347,7 +347,7 @@
                 ]
             },
             {
-                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps the apprentices from startling when the bird opens its beak and calls like a cat. It can be difficult to track intruders around c_n's territory, p_l explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
+                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps the apprentices from startling when the bird opens its beak and calls like a wolf. It can be difficult to track intruders around c_n's territory, p_l explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -365,7 +365,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 refuses to believe that the cat cry they hear from the bog comes from a little towhee bird, and argues with p_l and app2 all the way back to camp.",
+                "text": "app1 refuses to believe that the wolf cry they hear from the bog comes from a little towhee bird, and argues with p_l and app2 all the way back to camp.",
                 "exp": 0,
                 "weight": 20
             }

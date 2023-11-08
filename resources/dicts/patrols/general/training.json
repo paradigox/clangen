@@ -15,7 +15,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a head's up about the potentially dangerous bush.",
+                "text": "Unsure but remembering the puppy-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a head's up about the potentially dangerous bush.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "text": "After careful consideration and consulting with the other cats, r_c recognizes them as raspberries and brings the rare berries back to the medicine cat's den.",
+                "text": "After careful consideration and consulting with the other wolves, r_c recognizes them as raspberries and brings the rare berries back to the medicine wolf's den.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"],
@@ -119,12 +119,12 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, app1 avoids them and alerts the patrol, who, extremely worried, confirm that this a deathberry bush.",
+                "text": "Unsure but remembering the puppy-tales of red deathberries, app1 avoids them and alerts the patrol, who, extremely worried, confirm that this a deathberry bush.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"]
@@ -137,7 +137,7 @@
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN/r_c/subject/CAP} {VERB/r_c/collapse/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN/r_c/object}, having not identified deathberries before eating them.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN/r_c/subject/CAP} {VERB/r_c/collapse/collapses} on the way back to camp, and there's nothing any wolf can do for {PRONOUN/r_c/object}, having not identified deathberries before eating them.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -147,7 +147,7 @@
                 }
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine cat immediately starts work trying to save {PRONOUN/r_c/object} from deathberry poisoning.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine wolf immediately starts work trying to save {PRONOUN/r_c/object} from deathberry poisoning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -180,12 +180,12 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a head's up about the potentially dangerous bush.",
+                "text": "Unsure but remembering the puppy-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a head's up about the potentially dangerous bush.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "After careful consideration, r_c recognizes them as raspberries and brings the rare berries back to the medicine cat's den.",
+                "text": "After careful consideration, r_c recognizes them as raspberries and brings the rare berries back to the medicine wolf's den.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"]
@@ -204,7 +204,7 @@
                 "weight": 20
             },
             {
-                "text": "While plucking them from the bush, r_c finds them tasty, and eats a few, only for p_l to notice what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} eating. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} rushed back to camp, where the medicine cat might have a chance at saving {PRONOUN/r_c/object} from deathberry poisoning.",
+                "text": "While plucking them from the bush, r_c finds them tasty, and eats a few, only for p_l to notice what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} eating. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} rushed back to camp, where the medicine wolf might have a chance at saving {PRONOUN/r_c/object} from deathberry poisoning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -239,12 +239,12 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, app1 avoids them and alerts the patrol, who, extremely worried, confirm that this a deathberry bush.",
+                "text": "Unsure but remembering the puppy-tales of red deathberries, app1 avoids them and alerts the patrol, who, extremely worried, confirm that this a deathberry bush.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"]
@@ -257,7 +257,7 @@
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries, surprised at the pleasant taste, and swallow a few. {PRONOUN/r_c/subject/CAP} {VERB/r_c/collapse/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN/r_c/object}, having not identified deathberries before eating them.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the berries, surprised at the pleasant taste, and swallow a few. {PRONOUN/r_c/subject/CAP} {VERB/r_c/collapse/collapses} on the way back to camp, and there's nothing any wolf can do for {PRONOUN/r_c/object}, having not identified deathberries before eating them.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -267,7 +267,7 @@
                 }
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine cat immediately starts work trying to save {PRONOUN/r_c/object} from deathberry poisoning.",
+                "text": "Whatever. Identifying them is a medicine wolf problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine wolf immediately starts work trying to save {PRONOUN/r_c/object} from deathberry poisoning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -300,7 +300,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The sunlight feels great and the cats have a successful training session, swapping tips and advice as they stretch out and bask.",
+                "text": "The sunlight feels great and the wolves have a successful training session, swapping tips and advice as they stretch out and bask.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -314,7 +314,7 @@
                 ]
             },
             {
-                "text": "The sunlight energizes the cats for a training session, and soon everyone puts that energy to good use!",
+                "text": "The sunlight energizes the wolves for a training session, and soon everyone puts that energy to good use!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -328,7 +328,7 @@
                 ]
             },
             {
-                "text": "s_c makes sure everyone gets a good basking spot as the cats pause for a little break before resuming their training.",
+                "text": "s_c makes sure everyone gets a good basking spot as the wolves pause for a little break before resuming their training.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -417,7 +417,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The sunlight feels so warm on p_l's pelt, and {PRONOUN/p_l/subject} {VERB/p_l/stretch/stretches}, lazily lengthening into one long arc of cat. r_c's whiskers twitch with interest as {PRONOUN/r_c/subject} studiously {VERB/r_c/look/looks} elsewhere.",
+                "text": "The sunlight feels so warm on p_l's pelt, and {PRONOUN/p_l/subject} {VERB/p_l/stretch/stretches}, lazily lengthening into one long arc of wolf. r_c's tail twitches with interest as {PRONOUN/r_c/subject} studiously {VERB/r_c/look/looks} elsewhere.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -431,7 +431,7 @@
                 ]
             },
             {
-                "text": "The sunlight energizes the cats for a training session, and soon everyone puts that energy to good use!",
+                "text": "The sunlight energizes the wolves for a training session, and soon everyone puts that energy to good use!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -445,7 +445,7 @@
                 ]
             },
             {
-                "text": "s_c makes sure r_c gets a good basking spot as the cats pause for a little break before resuming their training.",
+                "text": "s_c makes sure r_c gets a good basking spot as the wolves pause for a little break before resuming their training.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -596,7 +596,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l smiles, inviting app1 to sit down. The apprentice is a little stiff at first, unsure how to act in front of the warrior, but that's actually what p_l wants to work on here. c_n contains cats of all ages, skills, and talents - it's important to work on being comfortable with everyone, just as important as working on respecting them. They're all c_n, after all.",
+                "text": "p_l smiles, inviting app1 to sit down. The apprentice is a little stiff at first, unsure how to act in front of the warrior, but that's actually what p_l wants to work on here. c_n contains wolves of all ages, skills, and talents - it's important to work on being comfortable with everyone, just as important as working on respecting them. They're all c_n, after all.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -624,7 +624,7 @@
                 ]
             },
             {
-                "text": "It's important to take time to rest, s_c tells app1, trying to hit a middle ground between advice and command. They've seen how hard app1 has been working, and commend them for it, but it'll do the Clan no good if app1 burns themself out. All things in their time.",
+                "text": "It's important to take time to rest, s_c tells app1, trying to hit a middle ground between advice and command. They've seen how hard app1 has been working, and commend them for it, but it'll do the Pack no good if app1 burns themself out. All things in their time.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -687,7 +687,7 @@
         "relationship_constraint": ["parent/child"],
         "success_outcomes": [
             {
-                "text": "p_l smiles, inviting app1 to sit down. A little embarrassed, app1 looks like they're going to object - but no, they're the only two cats around. They lie down, and p_l curls around them, settling down to wash app1's face like they did during their kithood. Their lovely young warrior is growing up so fast.",
+                "text": "p_l smiles, inviting app1 to sit down. A little embarrassed, app1 looks like they're going to object - but no, they're the only two wolves around. They lie down, and p_l curls around them, settling down to wash app1's face like they did during their puphood. Their lovely young warrior is growing up so fast.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -764,7 +764,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Settling down, p_l wants to know how app1 is finding their training - what do they think of the other young cats in the Clan? Any special friends, perhaps? app1 half melts into the ground with embarrassment.",
+                "text": "Settling down, p_l wants to know how app1 is finding their training - what do they think of the other young wolves in the Pack? Any special friends, perhaps? app1 half melts into the ground with embarrassment.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -946,7 +946,7 @@
                 ]
             },
             {
-                "text": "s_c rudely reminds the patrol cats to focus on their star-damned jobs and stop quarreling like kittens.",
+                "text": "s_c rudely reminds the patrol wolves to focus on their star-damned jobs and stop quarreling like puppies.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1061,7 +1061,7 @@
                 ]
             },
             {
-                "text": "s_c has no time for this spat and pulls the patrol to a halt to remind them that they have a star-damned job to do and quarreling like kittens will not be tolerated. The patrol returns to their work collecting nesting material with newfound vigor.",
+                "text": "s_c has no time for this spat and pulls the patrol to a halt to remind them that they have a star-damned job to do and quarreling like puppies will not be tolerated. The patrol returns to their work collecting nesting material with newfound vigor.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1116,7 +1116,7 @@
                 ]
             },
             {
-                "text": "s_c spends so much time listening sympathetically to every cat that the patrol gets nothing done, and as they return home, the quarrel continues.",
+                "text": "s_c spends so much time listening sympathetically to every wolf that the patrol gets nothing done, and as they return home, the quarrel continues.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1170,7 +1170,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young cat. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
+                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young wolf. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1257,7 +1257,7 @@
                 ]
             },
             {
-                "text": "Well, p_l won't be teaching app1, not until the less experienced cat comes back with a proper apology. That was some stars-damned disrespect if p_l has ever seen it!",
+                "text": "Well, p_l won't be teaching app1, not until the less experienced wolf comes back with a proper apology. That was some stars-damned disrespect if p_l has ever seen it!",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1303,7 +1303,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young cat. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
+                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young wolf. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1388,7 +1388,7 @@
                 ]
             },
             {
-                "text": "Well, p_l won't be teaching app1, not until the less experienced cat comes back with a proper apology. That was some stars-damned disrespect if p_l has ever seen it!",
+                "text": "Well, p_l won't be teaching app1, not until the less experienced wolf comes back with a proper apology. That was some stars-damned disrespect if p_l has ever seen it!",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1429,7 +1429,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the patrol gathers together to train under p_l's leadership, r_c admits {PRONOUN/r_c/subject} {VERB/r_c/think/thinks} {PRONOUN/r_c/subject} had a vision from StarClan last night.",
+        "intro_text": "As the patrol gathers together to train under p_l's leadership, r_c admits {PRONOUN/r_c/subject} {VERB/r_c/think/thinks} {PRONOUN/r_c/subject} had a vision from StarPack last night.",
         "decline_text": "The patrol doesn't talk about the vision.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -1520,7 +1520,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As they head out to work on their skills, r_c thinks about the dream {PRONOUN/r_c/subject} had last night... was it sent by StarClan?",
+        "intro_text": "As they head out to work on their skills, r_c thinks about the dream {PRONOUN/r_c/subject} had last night... was it sent by StarPack?",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/push/pushes} it from {PRONOUN/r_c/poss} mind.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -1535,7 +1535,7 @@
                 "weight": 5
             },
             {
-                "text": "s_c often feels like StarClan walks with them, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} home with a hard day's training done, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
+                "text": "s_c often feels like StarPack walks with them, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} home with a hard day's training done, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
                 "stat_trait": ["faithful"],
                 "stat_skill": ["STAR,2"],
                 "exp": 20,
@@ -1585,7 +1585,7 @@
                 ]
             },
             {
-                "text": "That's kinda odd. app1 hastens to add that that doesn't mean it's bad, but maybe {PRONOUN/app2/subject} should tell {PRONOUN/app2/poss} mentors about this. Maybe it's something to do with StarClan?",
+                "text": "That's kinda odd. app1 hastens to add that that doesn't mean it's bad, but maybe {PRONOUN/app2/subject} should tell {PRONOUN/app2/poss} mentors about this. Maybe it's something to do with StarPack?",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1645,7 +1645,7 @@
         },
         "weight": 20,
         "intro_text": "While app1 and p_l are out walking, app1 seems preoccupied. When p_l brings their patrol to a halt and asks what's wrong, {PRONOUN/app1/subject} {VERB/app1/reveal/reveals} {PRONOUN/app1/subject}{VERB/app1/'ve/'s} been having a hard time sleeping. {PRONOUN/app1/poss/CAP} dreams are filled with shadows and... images.",
-        "decline_text": "This is beyond p_l's sphere of teachable subjects, but {PRONOUN/p_l/subject} {VERB/p_l/promise/promises} that there'll be another cat back at camp who can help, and app1 should probably talk to a medicine cat.",
+        "decline_text": "This is beyond p_l's sphere of teachable subjects, but {PRONOUN/p_l/subject} {VERB/p_l/promise/promises} that there'll be another wolf back at camp who can help, and app1 should probably talk to a medicine wolf.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -1663,7 +1663,7 @@
                 ]
             },
             {
-                "text": "That... honestly sounds like it could be a vision. That's unusual - not to say that it's been particularly fun for app1 to deal with everything, p_l hastens to add, but it's not a bad thing. Those connected to StarClan in such ways are rare, and have been critical for protecting c_n in the past.",
+                "text": "That... honestly sounds like it could be a vision. That's unusual - not to say that it's been particularly fun for app1 to deal with everything, p_l hastens to add, but it's not a bad thing. Those connected to StarPack in such ways are rare, and have been critical for protecting c_n in the past.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1677,7 +1677,7 @@
                 ]
             },
             {
-                "text": "s_c listens to app1 talk with a deep sense of deja vu, in addition to {PRONOUN/s_c/poss} shock. This sounds like the trouble {PRONOUN/s_c/subject} had when {PRONOUN/s_c/subject} {VERB/s_c/were/was} young, plagued by contact with StarClan regardless of whether {PRONOUN/s_c/subject} wanted it or not, and {PRONOUN/s_c/subject} immediately {VERB/s_c/take/takes} app1 aside to give them {PRONOUN/s_c/poss} full attention and support.",
+                "text": "s_c listens to app1 talk with a deep sense of deja vu, in addition to {PRONOUN/s_c/poss} shock. This sounds like the trouble {PRONOUN/s_c/subject} had when {PRONOUN/s_c/subject} {VERB/s_c/were/was} young, plagued by contact with StarPack regardless of whether {PRONOUN/s_c/subject} wanted it or not, and {PRONOUN/s_c/subject} immediately {VERB/s_c/take/takes} app1 aside to give them {PRONOUN/s_c/poss} full attention and support.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["DREAM,2", "STAR,1", "CLAIRVOYANT,2", "PROPHET,2"],
@@ -1693,7 +1693,7 @@
                 ]
             },
             {
-                "text": "s_c cannot relate to the frankly nightmarish scenes app1 has been tormented by, but {PRONOUN/s_c/subject} can't believe their Clanmate has been going through so much without anybody noticing. Wrapping {PRONOUN/s_c/poss} tail around app1's shoulders, {PRONOUN/s_c/subject} tell app1 this will all be alright - {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} going to make sure that app1 doesn't have to shoulder this burden alone.",
+                "text": "s_c cannot relate to the frankly nightmarish scenes app1 has been tormented by, but {PRONOUN/s_c/subject} can't believe their Packmate has been going through so much without anybody noticing. Wrapping {PRONOUN/s_c/poss} paw around app1's shoulders, {PRONOUN/s_c/subject} tell app1 this will all be alright - {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} going to make sure that app1 doesn't have to shoulder this burden alone.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["calm", "compassionate", "empathetic", "faithful", "strange"],
@@ -1711,7 +1711,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 isn't a kit anymore, and though p_l tries to be gentle about it, {PRONOUN/p_l/subject} {VERB/p_l/make/makes} it clear that it's app1's responsibility to make sure {PRONOUN/app1/subject}{VERB/app1/'re/'s} well rested and attentive for {PRONOUN/app1/poss} training.",
+                "text": "app1 isn't a pup anymore, and though p_l tries to be gentle about it, {PRONOUN/p_l/subject} {VERB/p_l/make/makes} it clear that it's app1's responsibility to make sure {PRONOUN/app1/subject}{VERB/app1/'re/'s} well rested and attentive for {PRONOUN/app1/poss} training.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1725,7 +1725,7 @@
                 ]
             },
             {
-                "text": "Visions! From StarClan, perhaps? app1 should be thrilled, not upset, and s_c sweeps past them, telling app1 just how {PRONOUN/app1/subject} should use this unexpected ability.",
+                "text": "Visions! From StarPack, perhaps? app1 should be thrilled, not upset, and s_c sweeps past them, telling app1 just how {PRONOUN/app1/subject} should use this unexpected ability.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["ambitious", "cold", "righteous"],
@@ -1760,7 +1760,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Despite the tense mood, the patrol is successful, and as the afternoon wears on, the cats relax with each other.",
+                "text": "Despite the tense mood, the patrol is successful, and as the afternoon wears on, the wolves relax with each other.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1788,7 +1788,7 @@
                 ]
             },
             {
-                "text": "s_c sees the patrol competing to scare each other, and derails it completely. Instead {PRONOUN/s_c/subject} {VERB/s_c/spin/spins} a tale of truth, bringing the story of one of c_n's warrior ancestors to life. With how clear {PRONOUN/s_c/poss} words are, it's almost like {PRONOUN/s_c/subject} {VERB/s_c/know/knows} the StarClan cat, even though that's impossible.",
+                "text": "s_c sees the patrol competing to scare each other, and derails it completely. Instead {PRONOUN/s_c/subject} {VERB/s_c/spin/spins} a tale of truth, bringing the story of one of c_n's warrior ancestors to life. With how clear {PRONOUN/s_c/poss} words are, it's almost like {PRONOUN/s_c/subject} {VERB/s_c/know/knows} the StarPack wolf, even though that's impossible.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STAR,2"],
@@ -1860,7 +1860,7 @@
                 ]
             },
             {
-                "text": "app1 wonders aloud if one of the ghost stories is true... the other cats gather close and comfort {PRONOUN/app1/object}. Time for the silly game to end, before someone actually gets upset.",
+                "text": "app1 wonders aloud if one of the ghost stories is true... the other wolves gather close and comfort {PRONOUN/app1/object}. Time for the silly game to end, before someone actually gets upset.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1881,7 +1881,7 @@
                 ]
             },
             {
-                "text": "s_c looks around, and with a deep breath, shakes off the tense vibe. Instead {PRONOUN/s_c/subject} {VERB/s_c/start/starts} telling tall tales of long ago cats, completely disregarding anything approaching truth, so that the other cats on patrol start laughing and purring again.",
+                "text": "s_c looks around, and with a deep breath, shakes off the tense vibe. Instead {PRONOUN/s_c/subject} {VERB/s_c/start/starts} telling tall tales of long ago wolves, completely disregarding anything approaching truth, so that the other wolves on patrol start laughing and wagging again.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1913,7 +1913,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 tries to look brave in front of the other cats, but hears a rustle behind {PRONOUN/app1/object} and startles so badly {PRONOUN/app1/subject} {VERB/app1/fall/falls} over.",
+                "text": "app1 tries to look brave in front of the other wolves, but hears a rustle behind {PRONOUN/app1/object} and startles so badly {PRONOUN/app1/subject} {VERB/app1/fall/falls} over.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2142,7 +2142,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c ignores {PRONOUN/s_c/poss} rumbling belly, and dutifully brings the prey back to camp, only for {PRONOUN/s_c/poss} mentor to tell {PRONOUN/s_c/object} to pick out a bite to eat before {PRONOUN/s_c/poss} stomach wakes every cat in camp. This would've all been much quicker if {PRONOUN/s_c/subject}'d eaten it when {PRONOUN/s_c/subject} first caught it.",
+                "text": "s_c ignores {PRONOUN/s_c/poss} rumbling belly, and dutifully brings the prey back to camp, only for {PRONOUN/s_c/poss} mentor to tell {PRONOUN/s_c/object} to pick out a bite to eat before {PRONOUN/s_c/poss} stomach wakes every wolf in camp. This would've all been much quicker if {PRONOUN/s_c/subject}'d eaten it when {PRONOUN/s_c/subject} first caught it.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2183,7 +2183,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c ignores {PRONOUN/s_c/poss} rumbling belly, and dutifully brings the prey back to camp. {PRONOUN/s_c/poss/CAP} mentor congratulates {PRONOUN/s_c/object} on the catch, and {PRONOUN/s_c/subject} {VERB/s_c/get/gets} to share it with all {PRONOUN/s_c/poss} friends, feeling a warm glow in {PRONOUN/s_c/poss} heart at feeding {PRONOUN/s_c/poss} Clan.",
+                "text": "s_c ignores {PRONOUN/s_c/poss} rumbling belly, and dutifully brings the prey back to camp. {PRONOUN/s_c/poss/CAP} mentor congratulates {PRONOUN/s_c/object} on the catch, and {PRONOUN/s_c/subject} {VERB/s_c/get/gets} to share it with all {PRONOUN/s_c/poss} friends, feeling a warm glow in {PRONOUN/s_c/poss} heart at feeding {PRONOUN/s_c/poss} Pack.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2238,12 +2238,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice teamwork.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice teamwork.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Everyone has a nice practice session and their coordination and trust in their Clanmates grows stronger.",
+                "text": "Everyone has a nice practice session and their coordination and trust in their Packmates grows stronger.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2257,7 +2257,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are using each other as springboards, practicing breaking a Clanmate's fall, and working on treading exactly in each other's pawsteps.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are using each other as springboards, practicing breaking a Packmate's fall, and working on treading exactly in each other's pawsteps.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -2298,7 +2298,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session, and their trust and coordination with each other grows stronger.",
+                "text": "Both wolves have a nice practice session, and their trust and coordination with each other grows stronger.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2312,7 +2312,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one cat.",
+                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one wolf.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -2329,7 +2329,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. It's a little awkward, but they wander back to camp to attend to other duties.",
+                "text": "Unfortunately, neither wolf steps up to teach. It's a little awkward, but they wander back to camp to attend to other duties.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2349,12 +2349,12 @@
             "all apprentices": [1, 1]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice teamwork, particularly with app1.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice teamwork, particularly with app1.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Everyone has a nice practice session and their coordination with their Clanmates grows stronger. app1 really gets into it, and is praised for {PRONOUN/app1/poss} focus and enthusiasm.",
+                "text": "Everyone has a nice practice session and their coordination with their Packmates grows stronger. app1 really gets into it, and is praised for {PRONOUN/app1/poss} focus and enthusiasm.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2368,7 +2368,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are using each other as springboards, practicing breaking a Clanmate's fall, and working on treading exactly in each other's pawsteps.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are using each other as springboards, practicing breaking a Packmate's fall, and working on treading exactly in each other's pawsteps.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,2"],
@@ -2411,7 +2411,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session and their coordination with each other grows stronger. p_l really helps app1 gain confidence working with other cats.",
+                "text": "Both wolves have a nice practice session and their coordination with each other grows stronger. p_l really helps app1 gain confidence working with other wolves.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2425,7 +2425,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one cat. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
+                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one wolf. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,2"],
@@ -2443,7 +2443,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. app1 looks disappointed - what was p_l expecting, for {PRONOUN/app1/object} to lead the training?",
+                "text": "Unfortunately, neither wolf steps up to teach. app1 looks disappointed - what was p_l expecting, for {PRONOUN/app1/object} to lead the training?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2473,7 +2473,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As p_l sets the cats up to practice together, app1 and app2 sit in the back, hiding their lashing tails as they plan their prank.",
+        "intro_text": "As p_l sets the wolves up to practice together, app1 and app2 sit in the back, hiding their wagging tails as they plan their prank.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2543,7 +2543,7 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2562,7 +2562,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing their stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing their stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2579,7 +2579,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2610,7 +2610,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session, swapping their best tips and tricks with each other.",
+                "text": "Both wolves have a nice practice session, swapping their best tips and tricks with each other.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2641,7 +2641,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, neither wolf steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2671,7 +2671,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with app1 present.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques, particularly with app1 present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2690,7 +2690,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2708,7 +2708,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2742,7 +2742,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session, with app1 soaking up all p_l's best tips and tricks.",
+                "text": "Both wolves have a nice practice session, with app1 soaking up all p_l's best tips and tricks.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -2774,7 +2774,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. app1 looks disappointed - what was p_l expecting, for {PRONOUN/app1/object} to lead the training?",
+                "text": "Unfortunately, neither wolf steps up to teach. app1 looks disappointed - what was p_l expecting, for {PRONOUN/app1/object} to lead the training?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2804,7 +2804,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques, particularly with apprentices present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2823,7 +2823,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2841,7 +2841,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2871,7 +2871,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques, particularly with apprentices present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2890,7 +2890,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2908,7 +2908,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2938,7 +2938,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques, particularly with apprentices present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2957,7 +2957,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2975,7 +2975,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3005,7 +3005,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new hunting techniques, particularly with apprentices present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3024,7 +3024,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing stalking on each other, sharing tips about different terrain types, and discussing prey selection.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -3042,7 +3042,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3070,7 +3070,7 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3089,7 +3089,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3106,7 +3106,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3137,7 +3137,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session, swapping their best tips and tricks with each other.",
+                "text": "Both wolves have a nice practice session, swapping their best tips and tricks with each other.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -3168,7 +3168,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, neither wolf steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3198,7 +3198,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with app1 here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques, particularly with app1 here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3217,7 +3217,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3235,7 +3235,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3269,7 +3269,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Both cats have a nice practice session, with app1 soaking up all p_l's best tips and tricks.",
+                "text": "Both wolves have a nice practice session, with app1 soaking up all p_l's best tips and tricks.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -3301,7 +3301,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. app1 looks disappointed - what was p_l expecting, for them to lead the training?",
+                "text": "Unfortunately, neither wolf steps up to teach. app1 looks disappointed - what was p_l expecting, for them to lead the training?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3331,7 +3331,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques, particularly with the apprentices here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3350,7 +3350,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3368,7 +3368,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3398,7 +3398,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques, particularly with the apprentices here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3417,7 +3417,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3435,7 +3435,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3465,7 +3465,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques, particularly with the apprentices here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3484,7 +3484,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3502,7 +3502,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3532,7 +3532,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the wolves to practice new fighting techniques, particularly with the apprentices here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3551,7 +3551,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, tricks, and tumbles.",
+                "text": "s_c takes charge and coordinates exercises for the training patrol. Soon wolves are practicing trips, tricks, and tumbles.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3569,7 +3569,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, no one steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3647,7 +3647,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, neither wolf steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20
             }
@@ -3671,7 +3671,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The two cats set up in the sparring area. p_l can't lay a paw on r_c, {PRONOUN/p_l/poss} focus completely disrupted as r_c whips {PRONOUN/r_c/poss} tail along p_l's throat teasingly.",
+                "text": "The two wolves set up in the sparring area. p_l can't lay a paw on r_c, {PRONOUN/p_l/poss} focus completely disrupted as r_c whips {PRONOUN/r_c/poss} tail along p_l's throat teasingly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3685,7 +3685,7 @@
                 ]
             },
             {
-                "text": "r_c takes p_l down with a fantastic pounce, and p_l hits the ground with an audible gasp, shocked and impressed.",
+                "text": "r_c takes p_l down with a fantastic strike, and p_l hits the ground with an audible gasp, shocked and impressed.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3716,7 +3716,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, neither cat steps up to teach. It makes everything feel awkward and a waste of time, and the cats give up and return to camp a little irritated.",
+                "text": "Unfortunately, neither wolf steps up to teach. It makes everything feel awkward and a waste of time, and the wolves give up and return to camp a little irritated.",
                 "exp": 0,
                 "weight": 20
             }
@@ -3740,7 +3740,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "As p_l nods along sympathetically, r_c describes a recent stupid decision {PRONOUN/r_c/subject} made. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} not looking to be absolved, but {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} p_l what {PRONOUN/p_l/subject}'d do in r_c's place in order to fix it - and p_l feels a lot of pride to be the cat r_c chooses to confide in.",
+                "text": "As p_l nods along sympathetically, r_c describes a recent stupid decision {PRONOUN/r_c/subject} made. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} not looking to be absolved, but {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} p_l what {PRONOUN/p_l/subject}'d do in r_c's place in order to fix it - and p_l feels a lot of pride to be the wolf r_c chooses to confide in.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3754,7 +3754,7 @@
                 ]
             },
             {
-                "text": "Maybe it's a stupid idea, this vague plan r_c has been thinking about for getting more fresh-kill. But p_l reassures {PRONOUN/r_c/object}, making {PRONOUN/r_c/object} feel listened to and valued, and the cats work on the idea, evolving it together.",
+                "text": "Maybe it's a stupid idea, this vague plan r_c has been thinking about for getting more fresh-kill. But p_l reassures {PRONOUN/r_c/object}, making {PRONOUN/r_c/object} feel listened to and valued, and the wolves work on the idea, evolving it together.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3805,7 +3805,7 @@
         },
         "weight": 20,
         "intro_text": "Quietly, r_c brings p_l aside as they work on their chores, asking for help with wording something difficult.",
-        "decline_text": "Both of them are interrupted by a request from a Clanmate - this conversation will have to wait.",
+        "decline_text": "Both of them are interrupted by a request from a Packmate - this conversation will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -3823,7 +3823,7 @@
                 ]
             },
             {
-                "text": "r_c talks about how, sometimes, often even, {PRONOUN/r_c/subject} {VERB/r_c/feel/feels} like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} tripping over {PRONOUN/r_c/poss} own tongue, never able to say anything helpful or pretty. But p_l meows that no way, r_c says such meaningful and beautiful things! {PRONOUN/p_l/subject/CAP} {VERB/p_l/don't/doesn't} want r_c to change.",
+                "text": "r_c talks about how, sometimes, often even, {PRONOUN/r_c/subject} {VERB/r_c/feel/feels} like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} tripping over {PRONOUN/r_c/poss} own tongue, never able to say anything helpful or pretty. But p_l says that no way, r_c says such meaningful and beautiful things! {PRONOUN/p_l/subject/CAP} {VERB/p_l/don't/doesn't} want r_c to change.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3875,11 +3875,11 @@
         },
         "weight": 20,
         "intro_text": "During an odd moment of downtime, r_c asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} a good teacher.",
-        "decline_text": "They are interrupted by some Clanmates who need help, and go off to attend to their duties.",
+        "decline_text": "They are interrupted by some Packmates who need help, and go off to attend to their duties.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Helping {PRONOUN/r_c/poss} Clanmates is so important, and r_c feels like {PRONOUN/r_c/subject} never {VERB/r_c/do/does} a good enough job. p_l interrupts {PRONOUN/r_c/object}, shocked - {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} always thought r_c has done great! r_c looks away with a purr and hides {PRONOUN/r_c/poss} nose in {PRONOUN/r_c/poss} paws.",
+                "text": "Helping {PRONOUN/r_c/poss} Packmates is so important, and r_c feels like {PRONOUN/r_c/subject} never {VERB/r_c/do/does} a good enough job. p_l interrupts {PRONOUN/r_c/object}, shocked - {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} always thought r_c has done great! r_c looks away with a purr and hides {PRONOUN/r_c/poss} nose in {PRONOUN/r_c/poss} paws.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3907,7 +3907,7 @@
                 ]
             },
             {
-                "text": "s_c describes {PRONOUN/s_c/poss} personal approach to teaching other cats, and r_c admires {PRONOUN/s_c/object} for how much thought {PRONOUN/s_c/subject} {VERB/s_c/put/puts} into it - it's a whole lot of work!",
+                "text": "s_c describes {PRONOUN/s_c/poss} personal approach to teaching other wolves, and r_c admires {PRONOUN/s_c/object} for how much thought {PRONOUN/s_c/subject} {VERB/s_c/put/puts} into it - it's a whole lot of work!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -3952,12 +3952,12 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l gets taken aside by r_c as {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} why {PRONOUN/r_c/subject} {VERB/r_c/feel/feels} like StarClan ignores {PRONOUN/r_c/object}.",
+        "intro_text": "p_l gets taken aside by r_c as {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} why {PRONOUN/r_c/subject} {VERB/r_c/feel/feels} like StarPack ignores {PRONOUN/r_c/object}.",
         "decline_text": "Neither of them have the time for such a conversation today - it'll have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "It is easy to wonder why StarClan places their paws on some cats and not others. r_c is comforted to know p_l feels that too sometimes, and they end up spending the afternoon discussing it together, both cats feeling validated and reassured.",
+                "text": "It is easy to wonder why StarPack places their paws on some wolves and not others. r_c is comforted to know p_l feels that too sometimes, and they end up spending the afternoon discussing it together, both wolves feeling validated and reassured.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3971,7 +3971,7 @@
                 ]
             },
             {
-                "text": "p_l tells r_c that one day StarClan will call on {PRONOUN/r_c/object}, for all {PRONOUN/r_c/poss} many talents and {PRONOUN/r_c/poss} drive and determination to help c_n. r_c ducks {PRONOUN/r_c/poss} head, embarrassed and pleased.",
+                "text": "p_l tells r_c that one day StarPack will call on {PRONOUN/r_c/object}, for all {PRONOUN/r_c/poss} many talents and {PRONOUN/r_c/poss} drive and determination to help c_n. r_c ducks {PRONOUN/r_c/poss} head, embarrassed and pleased.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -4004,7 +4004,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l tells r_c {PRONOUN/r_c/subject} should be glad to escape StarClan's attention, and r_c pads away, disappointed.",
+                "text": "p_l tells r_c {PRONOUN/r_c/subject} should be glad to escape StarPack's attention, and r_c pads away, disappointed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4101,7 +4101,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat's back was broken after attempting to enter the forbidden tunnels."
+                    "scar": "This wolf's back was broken after attempting to enter the forbidden tunnels."
                 },
                 "relationships": [
                     {
@@ -4262,17 +4262,17 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. The cats see a strange face with glowing eyes in the distance, baring its fangs and smelling of smoke. p_l creeps up to the face to find that it belongs to a pumpkin! Startled and somewhat scared, r_c suggests heading back to camp to report this bizarre finding to the Clan. p_l agrees, not wanting to be near this... thing... any longer.",
+                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. The wolves see a strange face with glowing eyes in the distance, baring its fangs and smelling of smoke. p_l creeps up to the face to find that it belongs to a pumpkin! Startled and somewhat scared, r_c suggests heading back to camp to report this bizarre finding to the Pack. p_l agrees, not wanting to be near this... thing... any longer.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Twolegs and smoke. Upon closer inspection it seems that these foolish Twoleg kits are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Twoleg kits, hissing, spitting, and doing their best to scare them off. Thankfully the kits scatter before they set the pumpkin ablaze.",
+                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Twolegs and smoke. Upon closer inspection it seems that these foolish Twoleg pups are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Twoleg pups, barking, growling, and doing their best to scare them off. Thankfully the pups scatter before they set the pumpkin ablaze.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "As the patrol heads in the direction of the sinister glare of strange, unmoving eyes, the scent of smoke creeps up on the patrol. s_c darts forward, finding the smoke scent coming from an odd pumpkin with some sort of... face? Thinking quickly {PRONOUN/s_c/subject} {VERB/s_c/scratch/scratches} dirt into the holes on the pumpkin, extinguishing the small flames, but leaving the patrol wondering what in the name of StarClan they're looking at.",
+                "text": "As the patrol heads in the direction of the sinister glare of strange, unmoving eyes, the scent of smoke creeps up on the patrol. s_c darts forward, finding the smoke scent coming from an odd pumpkin with some sort of... face? Thinking quickly {PRONOUN/s_c/subject} {VERB/s_c/scratch/scratches} dirt into the holes on the pumpkin, extinguishing the small flames, but leaving the patrol wondering what in the name of StarPack they're looking at.",
                 "exp": 15,
                 "weight": 10,
                 "stat_trait": [
@@ -4289,7 +4289,7 @@
                 ]
             },
             {
-                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c lets out a mrrow of laughter! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that this is a Twoleg ritual performed around the start of leaf-bare. p_l is glad to have a cat with s_c's understanding of Twolegs on this patrol. With this knowledge, unneeded panic was surely avoided!",
+                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c lets out a mrrow of laughter! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that this is a Twoleg ritual performed around the start of leaf-bare. p_l is glad to have a wolf with s_c's understanding of Twolegs on this patrol. With this knowledge, unneeded panic was surely avoided!",
                 "exp": 15,
                 "weight": 10,
                 "stat_skill": [
@@ -4306,12 +4306,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. As they get closer to what seems to be some sort of pumpkin, a group of Twoleg kits springs out of nowhere and chases the frightened cats off! The patrol runs until the Twolegs stop following. Panting and defeated, they return to camp with not much information about the strange face.",
+                "text": "The patrol cautiously heads in the direction of the strange, unmoving eyes. As they get closer to what seems to be some sort of pumpkin, a group of Twoleg pups springs out of nowhere and chases the frightened wolves off! The patrol runs until the Twolegs stop following. Panting and defeated, they return to camp with not much information about the strange face.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "As r_c slowly creeps towards the disturbing face, s_c huffs with frustration. Tail lashing, s_c calls r_c a mouse-heart and stomps in the direction of the unblinking eyes without a shred of fear. s_c rolls {PRONOUN/s_c/poss} eyes and knocks over the harmless pumpkin, ignoring the strange face and the smell of smoke wafting around it.",
+                "text": "As r_c slowly creeps towards the disturbing face, s_c huffs with frustration. Tail arcing, s_c calls r_c a mouse-heart and stomps in the direction of the unblinking eyes without a shred of fear. s_c rolls {PRONOUN/s_c/poss} eyes and knocks over the harmless pumpkin, ignoring the strange face and the smell of smoke wafting around it.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -4354,7 +4354,7 @@
     	"pl_skill_constraint": ["OMEN,3"],
     	"success_outcomes": [
         	{
-            	"text": "That- that's a Death's Head Moth, and suddenly p_l is running, charging, pelting forward towards the training grounds where r_c and the others said they'd be training today. {PRONOUN/p_l/subject/CAP} {VERB/p_l/skid/skids} forward, bursting into the area, barging into the training group and knocking cats aside - stop the exercise, stop training, STOP EVERYTHING!",
+            	"text": "That- that's a Death's Head Moth, and suddenly p_l is running, charging, pelting forward towards the training grounds where r_c and the others said they'd be training today. {PRONOUN/p_l/subject/CAP} {VERB/p_l/skid/skids} forward, bursting into the area, barging into the training group and knocking wolves aside - stop the exercise, stop training, STOP EVERYTHING!",
             	"exp": 50,
             	"weight": 20,
             	"relationships": [
@@ -4370,7 +4370,7 @@
     	],
     	"fail_outcomes": [
         	{
-            	"text": "Surely, surely it's nothing - but p_l can't deny {PRONOUN/p_l/poss} instincts. This Death's Head Moth is an omen, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} off running, sprinting towards the training arena where {PRONOUN/p_l/poss} Clanmates said they'd be. But it's too late. By the time p_l arrives, r_c is choking on {PRONOUN/r_c/poss} last breaths, victim of a terrible accident.",
+            	"text": "Surely, surely it's nothing - but p_l can't deny {PRONOUN/p_l/poss} instincts. This Death's Head Moth is an omen, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} off running, sprinting towards the training arena where {PRONOUN/p_l/poss} Packmates said they'd be. But it's too late. By the time p_l arrives, r_c is choking on {PRONOUN/r_c/poss} last breaths, victim of a terrible accident.",
             	"exp": 0,
             	"weight": 20,
                 "dead_cats": ["r_c"],

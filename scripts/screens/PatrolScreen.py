@@ -223,7 +223,7 @@ class PatrolScreen(Screens):
 
     def screen_switches(self):
         self.set_disabled_menu_buttons(["patrol_screen"])
-        self.update_heading_text(f'{game.clan.name}Clan')
+        self.update_heading_text(f'{game.clan.name}Pack')
         self.show_menu_buttons()
         self.open_choose_cats_screen()
 
@@ -380,8 +380,8 @@ class PatrolScreen(Screens):
         self.patrol_screen = 'patrol_cats'  # List
 
         self.elements["info"] = pygame_gui.elements.UITextBox(
-            'Choose up to six cats to take on patrol.\n'
-            'Smaller patrols help cats gain more experience, but larger patrols are safer.',
+            'Choose up to six wolves to take on patrol.\n'
+            'Smaller patrols help wolves gain more experience, but larger patrols are safer.',
             scale(pygame.Rect((375, 190), (850, 200))), object_id=get_text_box_theme("#text_box_22_horizcenter"))
         self.elements["cat_frame"] = pygame_gui.elements.UIImage(scale(pygame.Rect((600, 330), (400, 550))),
                                                                  pygame.image.load(
@@ -516,7 +516,7 @@ class PatrolScreen(Screens):
                         pygame.transform.scale(
                             self.patrol_obj.get_patrol_art(), (600, 600))
                     )
-        
+
 
         # Prepare Intro Text
         # adjusting text for solo patrols
@@ -809,7 +809,7 @@ class PatrolScreen(Screens):
                                                                                "#text_box_30_horizcenter"),
                                                                            manager=MANAGER)
 
-            self.elements['selected_bio'] = pygame_gui.elements.UITextBox(str(self.selected_cat.status) +
+            self.elements['selected_bio'] = pygame_gui.elements.UITextBox(str(self.selected_cat.status).replace("cat", "wolf") +
                                                                           "\n" + str(self.selected_cat.personality.trait) +
                                                                           "\n" + str(self.selected_cat.skills.skill_string(short=True)) +
                                                                           "\n" + str(

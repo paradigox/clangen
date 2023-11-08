@@ -13,7 +13,7 @@
             "Is feeling proud of the progress {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} made",
             "Practices {PRONOUN/m_c/poss} hunting on a smooth rock {PRONOUN/m_c/subject} found",
             "Feels disappointed after a missed catch",
-            "Hopes there's a juicy mouse left on the fresh-kill pile for {PRONOUN/m_c/object}",
+            "Hopes there's a juicy elk leg left on the fresh-kill pile for {PRONOUN/m_c/object}",
             "Tries to recite the Warrior Code from memory",
             "Feels nervous about an upcoming assessment",
             "Practices {PRONOUN/m_c/poss} highest jump",
@@ -25,11 +25,11 @@
             "Fell into the nearby creek yesterday and is still feeling damp",
             "Is having a hard time keeping up with {PRONOUN/m_c/poss} training",
             "Was tasked with lining nests with fresh moss today",
-            "Is dreaming of someday making {PRONOUN/m_c/poss} Clan proud",
+            "Is dreaming of someday making {PRONOUN/m_c/poss} Pack proud",
             "Is thinking about the time {PRONOUN/m_c/subject} caught a huge rabbit",
             "Practices some battle moves",
             "Is helping to reinforce the camp wall with brambles",
-            "Is daydreaming about having a mate and kits someday",
+            "Is daydreaming about having a mate and pups someday",
             "Had quite the adventure today",
             "Is thinking about how cool it will be when {PRONOUN/m_c/subject} {VERB/m_c/are/is} a warrior",
             "Wants to become a fierce warrior someday",
@@ -153,12 +153,12 @@
     {
         "id": "apprentice_alive_kits",
         "thoughts":[
-            "Leaves fresh-kill outside the nursery for the kits",
+            "Leaves fresh-kill outside the nursery for the pups",
             "Is showing r_c the proper way to do a hunter's crouch",
             "Tries not to giggle as r_c fails at a hunting crouch",
             "Looks at r_c and wonders if {PRONOUN/m_c/subject} {VERB/m_c/were/was} ever that small",
-            "Brought back some feathers for the kits to play with",
-            "Is showing off {PRONOUN/m_c/poss} new battle moves to the kits",
+            "Brought back some feathers for the pups to play with",
+            "Is showing off {PRONOUN/m_c/poss} new battle moves to the pups",
             "Wonders if r_c can be {PRONOUN/m_c/poss} apprentice someday",
             "Wants to be a warrior before r_c is an apprentice",
             "Hopes r_c will be an apprentice with {PRONOUN/m_c/object}",
@@ -189,7 +189,7 @@
             "Got scolded for eating what {PRONOUN/m_c/subject} caught",
             "Has some trouble adjusting",
             "Forgets the Warrior Code sometimes",
-            "Wants to prove to the Clan that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to be a good warrior",
+            "Wants to prove to the Pack that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to be a good warrior",
             "Doesn't want to run into any rogues while on patrol",
             "Doesn't miss being a rogue",
             "Is happy to be training as a warrior instead of living as a rogue"
@@ -256,14 +256,14 @@
             "Is showing off {PRONOUN/m_c/poss} new battle moves",
             "Is pushing hard for more battle training",
             "Was recently chastised by {PRONOUN/m_c/poss} mentor for reckless behaviour out on patrol",
-            "Practiced battle moves with {PRONOUN/m_c/poss} claws out",
-            "Is keeping {PRONOUN/m_c/poss} claws extra sharp",
-            "Is hissing at r_c",
+            "Practiced battle moves with {PRONOUN/m_c/poss} teeth bared",
+            "Is keeping {PRONOUN/m_c/poss} fangs extra sharp",
+            "Is snarling at r_c",
             "Is always looking for a fight",
             "Is hoping to be sent to battle",
             "Is picking a fight with r_c",
             "Is bored during a hunting patrol",
-            "Is in trouble after scratching r_c during an argument"
+            "Is in trouble after nipping r_c during an argument"
         ],
         "main_trait_constraint": [
             "fierce"
@@ -290,7 +290,7 @@
     {
         "id": "bold_warrior_apprentice",
         "thoughts": [
-            "Taunted a rival Clan's apprentice at the border",
+            "Taunted a rival Pack's apprentice at the border",
             "Took the biggest piece of prey from the pile",
             "Is claiming to be ready for {PRONOUN/m_c/poss} assessment early",
             "Assigns {PRONOUN/m_c/self} to a patrol",
@@ -331,12 +331,12 @@
             "Drew blood during {PRONOUN/m_c/poss} battle training",
             "Sinks {PRONOUN/m_c/poss} teeth into prey, pretending its another cat's pelt",
             "Is caught playing with {PRONOUN/m_c/poss} prey instead of hunting",
-            "Is cleaning blood from {PRONOUN/m_c/poss} claws",
-            "Is hissing defiantly at r_c",
-            "Wants to scratch r_c's whiskers off",
+            "Is cleaning blood from {PRONOUN/m_c/poss} teeth",
+            "Is snarling defiantly at r_c",
+            "Wants to snap r_c's nose off",
             "Is glaring at r_c",
             "Is covered in prey-blood after hunting",
-            "Is clawing up moss for fun",
+            "Is digging up moss for fun",
             "Is asking what deathberries look like... for safety reasons of course",
             "Hopes to get a scar from battle"
 

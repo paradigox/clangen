@@ -17,8 +17,13 @@
         "m_c no longer has greencough."
     ],
     "kittencough": [
-        "m_c is free of kittencough, once again able to play and frolick.",
-        "m_c has recovered from kittencough.",
+        "m_c is free of puppycough, once again able to play and frolick.",
+        "m_c has recovered from puppycough.",
+        "m_c no longer has whitecough."
+    ],
+    "puppycough": [
+        "m_c is free of puppycough, once again able to play and frolick.",
+        "m_c has recovered from puppycough.",
         "m_c no longer has whitecough."
     ],
     "an infected wound": [

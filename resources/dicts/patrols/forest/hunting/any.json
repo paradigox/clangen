@@ -25,14 +25,14 @@
                 "weight": 5
             },
             {
-                "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Clan will be impressed by this hefty fresh-kill.",
+                "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Pack will be impressed by this hefty fresh-kill.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2", "CLEVER,2"],
                 "prey": ["huge"]
             },
             {
-                "text": "s_c has the ingenious idea to follow the porcupine from a distance and collect dropped quills to bring back to camp. The quills could be woven into the Clan's defenses to strengthen them.",
+                "text": "s_c has the ingenious idea to follow the porcupine from a distance and collect dropped quills to bring back to camp. The quills could be woven into the Pack's defenses to strengthen them.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"]
@@ -45,7 +45,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c gets closer to the porcupine, intending to impress the rest of the patrol with their bravery. All the cats recoil as a horrible smell comes from the porcupine and they back off before it can charge at them.  The patrol returns to camp, the smelly evidence of their encounter still clinging to s_c's pelt.",
+                "text": "s_c gets closer to the porcupine, intending to impress the rest of the patrol with their bravery. All the wolves recoil as a horrible smell comes from the porcupine and they back off before it can charge at them.  The patrol returns to camp, the smelly evidence of their encounter still clinging to s_c's pelt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bold", "daring", "confident", "adventurous"]
@@ -92,7 +92,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "r_c encounters a porcupine, bristling with quills.",
-        "decline_text": "The patrol steers clear of the porcupine, they don't have enough cats to confront this creature safely.",
+        "decline_text": "The patrol steers clear of the porcupine, they don't have enough wolves to confront this creature safely.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -106,14 +106,14 @@
                 "weight": 5
             },
             {
-                "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Clan will be impressed by this hefty fresh-kill.",
+                "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Pack will be impressed by this hefty fresh-kill.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["HUNTER,3", "CLEVER,3"],
                 "prey": ["huge"]
             },
             {
-                "text": "s_c has the ingenious idea to follow the porcupine from a distance and collect dropped quills to bring back to camp.  The quills could be woven into the Clan's defenses to strengthen them.",
+                "text": "s_c has the ingenious idea to follow the porcupine from a distance and collect dropped quills to bring back to camp.  The quills could be woven into the Pack's defenses to strengthen them.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"]
@@ -215,7 +215,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg pups scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -223,14 +223,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg pups wandering around are unimpressed by the patrol and chase the wolves for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "A Twoleg kit approaches the patrol, and they send it away squawking with it's blood on their claws.",
+                "text": "A Twoleg pup approaches the patrol, and they send it away squawking with it's blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -252,7 +252,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol cats split up, using sentries to ensure that the Twolegs don't disturb their hunts.",
+                "text": "The patrol wolves split up, using sentries to ensure that the Twolegs don't disturb their hunts.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
@@ -266,7 +266,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits stomp through the woods, scaring away prey and ruining the hunt.",
+                "text": "Twoleg pups stomp through the woods, scaring away prey and ruining the hunt.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -274,14 +274,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg pups wandering around are unimpressed by the patrol and chase the wolves for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Finding a Twoleg kit wandering alone, the cats harass it until it flees squawking, it's blood on their claws.",
+                "text": "Finding a Twoleg pup wandering alone, the wolves harass it until it flees squawking, it's blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -315,7 +315,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c is quick on the jump! Though the squirrels notice the cats and begin scampering away, s_c easily cuts them off and kills both squirrels.",
+                "text": "s_c is quick on the jump! Though the squirrels notice the wolves and begin scampering away, s_c easily cuts them off and kills both squirrels.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -376,7 +376,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Inside the burrow is a rabbit, curled up and alone. Perhaps a buck recently kicked from his birth warren? Whatever the case, this rabbit will feed the Clan now.",
+                "text": "Inside the burrow is a rabbit, curled up and alone. Perhaps a buck recently kicked from his birth warren? Whatever the case, this rabbit will feed the Pack now.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -397,7 +397,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "Oh no! The burrow was home to a wolverine, now angry at the disturbance. The patrol bolts away to escape its wrath, but r_c doesn't quite move fast enough and is caught in its claws until another cat turns back to help.",
+                "text": "Oh no! The burrow was home to a wolverine, now angry at the disturbance. The patrol bolts away to escape its wrath, but r_c doesn't quite move fast enough and is caught in its claws until another wolf turns back to help.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -436,7 +436,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Inside the burrow is a rabbit, curled up and alone. Perhaps a buck recently kicked from his birth warren? Whatever the case, this rabbit will feed the Clan now.",
+                "text": "Inside the burrow is a rabbit, curled up and alone. Perhaps a buck recently kicked from his birth warren? Whatever the case, this rabbit will feed the Pack now.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -455,7 +455,7 @@
                 "stat_trait": ["bold", "ambitious", "childish", "impulsive"]
             },
             {
-                "text": "Oh no! The burrow was home to a wolverine, now angry at the disturbance. r_c bolts away to escape its wrath, but doesn't quite move fast enough and is caught in its claws.  With no other cats around to help, r_c is quickly killed by the predator.",
+                "text": "Oh no! The burrow was home to a wolverine, now angry at the disturbance. r_c bolts away to escape its wrath, but doesn't quite move fast enough and is caught in its claws.  With no other wolves around to help, r_c is quickly killed by the predator.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -524,13 +524,13 @@
                 "weight": 20
             },
             {
-                "text": "They track the noise to a coyote. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Clanmate while a coyote is about.",
+                "text": "They track the noise to a coyote. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Packmate while a coyote is about.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "The patrol finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the cats, proves to be fiercely protective of its meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
+                "text": "The patrol finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the wolves, proves to be fiercely protective of its meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -541,7 +541,7 @@
                 }
             },
             {
-                "text": "The sound leads them to a coyote, scavenging from a carcass. The coyote notices them before they can hide and lunges, making it clear that this food has been claimed.  r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Clanmate.",
+                "text": "The sound leads them to a coyote, scavenging from a carcass. The coyote notices them before they can hide and lunges, making it clear that this food has been claimed.  r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Packmate.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -617,13 +617,13 @@
                 "weight": 20
             },
             {
-                "text": "They track the noise to a coyote. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Clanmate while a coyote is about.",
+                "text": "They track the noise to a coyote. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Packmate while a coyote is about.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "The patrol finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the cats, proves to be fiercely protective of its meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
+                "text": "The patrol finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the wolves, proves to be fiercely protective of its meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -634,7 +634,7 @@
                 }
             },
             {
-                "text": "The sound leads them to a coyote, scavenging from a carcass. The coyote notices them before they can hide and lunges, making it clear that this food has been claimed.  r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Clanmate.",
+                "text": "The sound leads them to a coyote, scavenging from a carcass. The coyote notices them before they can hide and lunges, making it clear that this food has been claimed.  r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Packmate.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -666,7 +666,7 @@
         },
         "weight": 20,
         "intro_text": "r_c hears distant howling and wonders whether to investigate the noise.",
-        "decline_text": "r_c decides not to investigate the source of the noise. Whatever is making it will not be friendly to them and they are only one cat.",
+        "decline_text": "r_c decides not to investigate the source of the noise. Whatever is making it will not be friendly to them and they are only one wolf.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -716,7 +716,7 @@
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "r_c finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the cat, proves to be fiercely protective of its meal.  They doesn't move fast enough and with no Clanmates to save them, r_c is quickly killed.",
+                "text": "r_c finds a coyote at the source of the noise. It seems to be scavenging from an old carcass and upon seeing the wolf, proves to be fiercely protective of its meal.  They doesn't move fast enough and with no Packmates to save them, r_c is quickly killed.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -785,13 +785,13 @@
                 "weight": 20
             },
             {
-                "text": "They track the noise to a wolf. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away. The patrol follows anxiously, not wanting to lose sight of their Clanmate while a wolf is about.",
+                "text": "They track the noise to a wolf. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away. The patrol follows anxiously, not wanting to lose sight of their Packmate while a wolf is about.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "The patrol finds a wolf pack at the source of the noise. The wolves are tearing into a dead deer and upon seeing the cats, proves to be fiercely protective of their meal. The patrol doesn't move fast enough and r_c is killed before they can run.",
+                "text": "The patrol finds a wolf pack at the source of the noise. The wolves are tearing into a dead deer and upon seeing the wolves, proves to be fiercely protective of their meal. The patrol doesn't move fast enough and r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -802,7 +802,7 @@
                 }
             },
             {
-                "text": "The sound leads them to a wolf, scavenging from a carcass. The wolf notices them before they can hide and lunges, making it clear that this food has been claimed. r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Clanmate.",
+                "text": "The sound leads them to a wolf, scavenging from a carcass. The wolf notices them before they can hide and lunges, making it clear that this food has been claimed. r_c is momentarily caught in its jaws before the patrol retaliates and drives it off their Packmate.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -878,13 +878,13 @@
                 "weight": 20
             },
             {
-                "text": "They track the noise to a wolf. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Clanmate while a wolf is about.",
+                "text": "They track the noise to a wolf. Before the patrol can investigate further, s_c whimpers in terror at the sight of the beast and dashes away.  The patrol follows anxiously, not wanting to lose sight of their Packmate while a wolf is about.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "The patrol finds a wolf pack at the source of the noise. The wolves are busy eating from the carcass of a deer, and upon seeing the cats, prove to be fiercely protective of their meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
+                "text": "The patrol finds a wolf pack at the source of the noise. The wolves are busy eating from the carcass of a deer, and upon seeing the wolves, prove to be fiercely protective of their meal.  The patrol doesn't move fast enough and r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -909,7 +909,7 @@
         },
         "weight": 20,
         "intro_text": "r_c hears distant howling and wonders whether to investigate the noise.",
-        "decline_text": "r_c decides not to investigate the source of the noise.  Whatever is making it will not be friendly to them and they are only one cat.",
+        "decline_text": "r_c decides not to investigate the source of the noise.  Whatever is making it will not be friendly to them and they are only one wolf.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -959,7 +959,7 @@
                 "stat_trait": ["nervous", "insecure"]
             },
             {
-                "text": "r_c finds a wolf pack at the source of the noise. The pack is tearing into a deer carcass and upon seeing the cat, prove to be fiercely protective of their meal. r_c doesn't move fast enough and with no Clanmates to save them, is quickly killed.",
+                "text": "r_c finds a wolf pack at the source of the noise. The pack is tearing into a deer carcass and upon seeing the wolf, prove to be fiercely protective of their meal. r_c doesn't move fast enough and with no Packmates to save them, is quickly killed.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -1145,7 +1145,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "While on the hunt, r_c tumbles right down a steep slope while their attention is elsewhere. Bruised and sore, r_c has to report to the medicine cat den when they return to camp.",
+                "text": "While on the hunt, r_c tumbles right down a steep slope while their attention is elsewhere. Bruised and sore, r_c has to report to the medicine wolf den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1181,7 +1181,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Clanmates.",
+                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Packmates.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -1194,7 +1194,7 @@
                 "prey": ["large"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1251,7 +1251,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Clanmates. Purring, they take the opportunity for a small moment of peace, relaxing with their friends.",
+                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Packmates. Purring, they take the opportunity for a small moment of peace, relaxing with their friends.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -1264,7 +1264,7 @@
                 "prey": ["large"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1321,7 +1321,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Clanmates. Purring, they take the opportunity for a small moment of peace, relaxing with their friends.",
+                "text": "r_c finds a fat, dumb, slow rabbit, and they can barely drag the thing back to camp, but by the stars it's juicy when they sit down to eat it with their Packmates. Purring, they take the opportunity for a small moment of peace, relaxing with their friends.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -1334,7 +1334,7 @@
                 "prey": ["large"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1397,7 +1397,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk!  The poor cat ends up stinking for days after the unfortunate incident.",
+                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk!  The poor wolf ends up stinking for days after the unfortunate incident.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -1455,7 +1455,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk! The poor cat ends up stinking for days after the unfortunate incident.",
+                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk! The poor wolf ends up stinking for days after the unfortunate incident.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1466,7 +1466,7 @@
                 "stat_trait": ["daring", "bold", "ambitious"]
             },
             {
-                "text": "r_c takes the lead in checking the source of the noise and comes face to face with a snarling wolverine! r_c yowls for their patrol but the other cats aren't quick enough to stop the wolverine from killing r_c in one quick and deadly swipe.",
+                "text": "r_c takes the lead in checking the source of the noise and comes face to face with a snarling wolverine! r_c yowls for their patrol but the other wolves aren't quick enough to stop the wolverine from killing r_c in one quick and deadly swipe.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -1517,7 +1517,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, before darting forward and making off with a sandwich in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, before darting forward and making off with a sandwich in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -1592,7 +1592,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, before darting forward and making off with a large lump of meat in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, before darting forward and making off with a large lump of meat in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -1667,7 +1667,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, before darting forward and making off with a sandwich in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, before darting forward and making off with a sandwich in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
@@ -1696,13 +1696,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol mostly ignores the Twolegs. But as they hunt, the cats encounter appealing, delicious smelling mush in little burrows. Some of the patrol investigates, and doors slam down behind them. There's nothing they or the rest of the patrol can do to get them out - eventually the Twolegs notice, and the trapped cats are taken.",
+                "text": "The patrol mostly ignores the Twolegs. But as they hunt, the wolves encounter appealing, delicious smelling mush in little burrows. Some of the patrol investigates, and doors slam down behind them. There's nothing they or the rest of the patrol can do to get them out - eventually the Twolegs notice, and the trapped wolves are taken.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["multi"]
             },
             {
-                "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c pauses - are they hurt? Do they want to make friends? They wander closer, drawing more of the patrol in with them. Before they can decide whether to step away, there's a swoosh, and a net falls around the cats. They fight desperately, but the Twolegs take them away in the monster.",
+                "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c pauses - are they hurt? Do they want to make friends? They wander closer, drawing more of the patrol in with them. Before they can decide whether to step away, there's a swoosh, and a net falls around the wolves. They fight desperately, but the Twolegs take them away in the monster.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1742,7 +1742,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "A friendly Twoleg makes a psspsspss noise, and pours kittypet food on the ground for r_c. They've always wondered what it might taste like... dry, is the answer. Very odd.",
+                "text": "A friendly Twoleg makes a psspsspss noise, and pours pet food on the ground for r_c. They've always wondered what it might taste like... dry, is the answer. Very odd.",
                 "exp": 20,
                 "weight": 5
             },
@@ -1831,7 +1831,7 @@
                 "prey": ["small", "medium"]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for app1. They've always wondered what it might taste like... dry, is the answer. It's strangely appealing.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for app1. They've always wondered what it might taste like... dry, is the answer. It's strangely appealing.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
@@ -1913,7 +1913,7 @@
                 ]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for r_c. They fetch p_l, and both cats investigate the food, loudly proclaiming how much better fresh-kill is, but both a little thrilled by the experience.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for r_c. They fetch p_l, and both wolves investigate the food, loudly proclaiming how much better fresh-kill is, but both a little thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"],
@@ -1928,7 +1928,7 @@
                 ]
             },
             {
-                "text": "s_c shows the other cat all around the outskirts of the Twoleg dens, showing off how much they know about the strange animals and their weird behavior, and enjoying getting to feel clever.",
+                "text": "s_c shows the other wolf all around the outskirts of the Twoleg dens, showing off how much they know about the strange animals and their weird behavior, and enjoying getting to feel clever.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -1971,7 +1971,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Carelessly, r_c is seen by Twolegs, and is taken hissing and spitting to be locked in a monster's den. Overnight, they hear p_l yowling from outside, and the two cats manage to craft an escape plan through a broken window. Shivering, r_c presses their pelt against p_l on the way back to c_n.",
+                "text": "Carelessly, r_c is seen by Twolegs, and is taken hissing and spitting to be locked in a monster's den. Overnight, they hear p_l yowling from outside, and the two wolves manage to craft an escape plan through a broken window. Shivering, r_c presses their pelt against p_l on the way back to c_n.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2060,7 +2060,7 @@
                 ]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for app2. They fetch app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for app2. They fetch app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"],
@@ -2075,7 +2075,7 @@
                 ]
             },
             {
-                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling over gardens with their belly low to the ground. app2 tries to be even sneakier, and so app1 ups their game, until they're both probably the most obvious pair of cats in the neighborhood.",
+                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling over gardens with their belly low to the ground. app2 tries to be even sneakier, and so app1 ups their game, until they're both probably the most obvious pair of wolves in the neighborhood.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2103,7 +2103,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Carelessly, app2 is seen by Twolegs, and is taken hissing and spitting to be locked in a monster's den. Overnight, they hear app1 yowling from outside, and the two cats manage to craft an escape plan through a broken window. Shivering, app2 presses their pelt against app1 as they pad home.",
+                "text": "Carelessly, app2 is seen by Twolegs, and is taken hissing and spitting to be locked in a monster's den. Overnight, they hear app1 yowling from outside, and the two wolves manage to craft an escape plan through a broken window. Shivering, app2 presses their pelt against app1 as they pad home.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2516,13 +2516,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As the group crosses the Thunderpath, a speeding monster appears out of nowhere. The cats run panicked in all directions, and several of them get hit and die.",
+                "text": "As the group crosses the Thunderpath, a speeding monster appears out of nowhere. The wolves run panicked in all directions, and several of them get hit and die.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
                     "scar": "m_c was heavily injured by a monster, and carries the scars from it.",
-                    "reg_death": "This cat was hit by a monster and killed.",
+                    "reg_death": "This wolf was hit by a monster and killed.",
                     "lead_death": "{VERB/m_c/were/was} hit by a monster"
                 }
             },
@@ -2539,7 +2539,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was heavily injured by a monster, and carries the scars from it.",
-                    "reg_death": "This cat was hit by a monster and killed.",
+                    "reg_death": "This wolf was hit by a monster and killed.",
                     "lead_death": "{VERB/m_c/were/was} hit by a monster"
                 }
             }
@@ -2605,7 +2605,7 @@
                 "weight": 20
             },
             {
-                "text": "As the group crosses the Thunderpath, a speeding monster appears out of nowhere. The cats run panicked in all directions, and several of them get hit as the monster swerves to hit them deliberately, killing them instantly.",
+                "text": "As the group crosses the Thunderpath, a speeding monster appears out of nowhere. The wolves run panicked in all directions, and several of them get hit as the monster swerves to hit them deliberately, killing them instantly.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
@@ -2819,7 +2819,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a huge leap, app1 darts sideways and pulls the tail off a blackbird taking flight into the air. A missed catch, but new nest lining? They toss some of the feathers at app2, and the two apprentices end up scuffling like kits.",
+                "text": "With a huge leap, app1 darts sideways and pulls the tail off a blackbird taking flight into the air. A missed catch, but new nest lining? They toss some of the feathers at app2, and the two apprentices end up scuffling like pups.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3091,11 +3091,11 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "Padding through the forest at night on a dare, the apprentices gasp as light streaks across the sky. A StarClan cat has fallen!",
-        "decline_text": "Before the apprentices can pursue the fallen StarClan cat, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
+        "intro_text": "Padding through the forest at night on a dare, the apprentices gasp as light streaks across the sky. A StarPack wolf has fallen!",
+        "decline_text": "Before the apprentices can pursue the fallen StarPack wolf, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
         "success_outcomes": [
             {
-                "text": "Scrambling up the hill, app1 shoves app2 up a slightly too big step, both of them panting eagerly as they run. The mist swirls around them, stinking strangely as they search for the StarClan cat, until app2 bumps into a huge, tall pillar, one that blinks down with slow, glowing red eyes.",
+                "text": "Scrambling up the hill, app1 shoves app2 up a slightly too big step, both of them panting eagerly as they run. The mist swirls around them, stinking strangely as they search for the StarPack wolf, until app2 bumps into a huge, tall pillar, one that blinks down with slow, glowing red eyes.",
                 "exp": 0,
                 "weight": 20
             }

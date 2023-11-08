@@ -28,11 +28,11 @@ class NewCatEvents:
             other_clan = enemy_clan
         else:
             other_clan = random.choice(game.clan.all_clans)
-        other_clan_name = f'{other_clan.name}Clan'
+        other_clan_name = f'{other_clan.name}Pack'
 
         if other_clan_name == 'None':
             other_clan = game.clan.all_clans[0]
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}Pack'
 
         
         #Determine
@@ -41,11 +41,11 @@ class NewCatEvents:
                 outside_cat = NewCatEvents.select_outside_cat()
                 backstory = outside_cat.status
                 outside_cat = NewCatEvents.update_cat_properties(outside_cat)
-                event_text = f"A {backstory} named {outside_cat.name} waits on the border, asking to join the Clan."
+                event_text = f"A {backstory} named {outside_cat.name} waits on the border, asking to join the Pack."
                 name_change = random.choice([1, 2])
-                if name_change == 1 or backstory == 'former Clancat':
+                if name_change == 1 or backstory == 'former Packwolf':
                     event_text = event_text + f" They decide to keep their name."
-                elif name_change == 2 and backstory != 'former Clancat':
+                elif name_change == 2 and backstory != 'former Packwolf':
                     outside_cat.name = Name(outside_cat.status, 
                                             colour=outside_cat.pelt.colour,
                                             eyes=outside_cat.pelt.eye_colour,
@@ -111,7 +111,7 @@ class NewCatEvents:
                                       Relationship,
                                       new_cat_event.new_name,
                                       new_cat_event.loner,
-                                      new_cat_event.kittypet,
+                                      new_cat_event.pet,
                                       new_cat_event.kit,
                                       new_cat_event.litter,
                                       new_cat_event.other_clan,
@@ -125,7 +125,7 @@ class NewCatEvents:
             # relation-tracking purposes
             thought = "Is happy their kits are safe"
             blood_parent = create_new_cat(Cat, Relationship,
-                                          status=random.choice(["loner", "kittypet"]),
+                                          status=random.choice(["loner", "pet"]),
                                           alive=False,
                                           thought=thought,
                                           age=random.randint(15,120),
@@ -250,12 +250,12 @@ class NewCatEvents:
 
     @staticmethod
     def has_outside_cat():
-        outside_cats = [i for i in Cat.all_cats.values() if i.status in ["kittypet", "loner", "rogue", "former Clancat"] and not i.dead and i.outside]
+        outside_cats = [i for i in Cat.all_cats.values() if i.status in ["pet", "loner", "rogue", "former Packwolf"] and not i.dead and i.outside]
         return any(outside_cats)
 
     @staticmethod
     def select_outside_cat():
-        outside_cats = [i for i in Cat.all_cats.values() if i.status in ["kittypet", "loner", "rogue", "former Clancat"] and not i.dead and i.outside]
+        outside_cats = [i for i in Cat.all_cats.values() if i.status in ["pet", "loner", "rogue", "former Packwolf"] and not i.dead and i.outside]
         if outside_cats:
             return random.choice(outside_cats)
         else:

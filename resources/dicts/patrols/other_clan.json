@@ -13,7 +13,7 @@
         },
         "weight": 20,
         "intro_text": "While walking along the border, your patrol notices a o_c_n patrol renewing their scent marks up ahead.",
-        "decline_text": "Your patrol decides to avoid the other Clan cats.",
+        "decline_text": "Your patrol decides to avoid the other Pack wolves.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -23,20 +23,20 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l approaches the other Clan patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n cats' kindness to the leader once the patrol has returned to camp.",
+                "text": "p_l approaches the other Pack patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n wolves' kindness to the leader once the patrol has returned to camp.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Clan.",
+                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Pack.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Clan.",
+                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Pack.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "calm", "charismatic", "confident", "wise"],
@@ -51,7 +51,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Clan cats. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
+                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Pack wolves. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "strange", "playful", "daring", "childish"],
@@ -60,7 +60,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -68,7 +68,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -89,7 +89,7 @@
         },
         "weight": 20,
         "intro_text": "While walking along the border, your patrol notices a o_c_n patrol renewing their scent marks up ahead.",
-        "decline_text": "Your patrol decides to avoid the other Clan cats.",
+        "decline_text": "Your patrol decides to avoid the other Pack wolves.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -99,7 +99,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l approaches the other Clan patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n cats' kindness to the leader once the patrol has returned to camp.",
+                "text": "p_l approaches the other Pack patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n wolves' kindness to the leader once the patrol has returned to camp.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -135,7 +135,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pins {PRONOUN/s_c/poss} ears at the sight of the o_c_n cats. As the patrols cross paths, s_c's aggression is obvious and the other patrol definitely notices. While they don't remark on the hostility, your patrol gets the sense that the rude behavior has been noted.",
+                "text": "s_c pins {PRONOUN/s_c/poss} ears at the sight of the o_c_n wolves. As the patrols cross paths, s_c's aggression is obvious and the other patrol definitely notices. While they don't remark on the hostility, your patrol gets the sense that the rude behavior has been noted.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["vengeful", "bloodthirsty", "righteous", "vengeful", "cold"],
@@ -144,7 +144,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -152,7 +152,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -170,12 +170,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c spies a fat rabbit on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to hunt on a different Clan's territory.",
+        "intro_text": "r_c spies a fat rabbit on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to hunt on a different Pack's territory.",
         "decline_text": "Your patrol decides that one rabbit isn't worth making an enemy.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from {PRONOUN/r_c/poss} muzzle, but it seems there aren't any o_c_n cats nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in tow and transgression unnoticed.",
+                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from {PRONOUN/r_c/poss} muzzle, but it seems there aren't any o_c_n wolves nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in tow and transgression unnoticed.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
@@ -187,14 +187,14 @@
                 "prey": ["small"]
             },
             {
-                "text": "r_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats bristle at the trespass and a fight seems to be brewing. Thankfully, s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Clans.",
+                "text": "r_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n wolves bristle at the trespass and a fight seems to be brewing. Thankfully, s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Packs.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "prey": ["small"]
             },
             {
-                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n cats that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
+                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n wolves that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Pack.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -210,14 +210,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n wolf watching {PRONOUN/r_c/object} from the other side of the border. The other wolf knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"],
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. s_c is promptly chased back over the border and the other cat glares, hissing and spitting, until your patrol leaves the area.",
+                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n wolf. s_c is promptly chased back over the border and the other wolf glares, snarlings intensely, until your patrol leaves the area.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -232,7 +232,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c pounces with no hesitation! {PRONOUN/r_c/subject/CAP} easily {VERB/r_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. After a short tussle, r_c flees back over the border and limps {PRONOUN/r_c/poss} way home; that rabbit certainly wasn't worth the trouble.",
+                "text": "r_c pounces with no hesitation! {PRONOUN/r_c/subject/CAP} easily {VERB/r_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n wolf. After a short tussle, r_c flees back over the border and limps {PRONOUN/r_c/poss} way home; that rabbit certainly wasn't worth the trouble.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -251,7 +251,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat laughs at the pathetic display and turns to walk deeper into their own territory. They seem to be unfazed and unimpressed by the sad attempt.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n wolf watching {PRONOUN/r_c/object} from the other side of the border. The other wolf laughs at the pathetic display and turns to walk deeper into their own territory. They seem to be unfazed and unimpressed by the sad attempt.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -259,7 +259,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of {PRONOUN/r_c/poss} deed behind. That will show those o_c_n cats just how confident c_n is in {PRONOUN/r_c/poss} own power.",
+                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of {PRONOUN/r_c/poss} deed behind. That will show those o_c_n wolves just how confident c_n is in {PRONOUN/r_c/poss} own power.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -280,7 +280,7 @@
         },
         "weight": 20,
         "intro_text": "While walking along the border, your patrol notices a o_c_n patrol renewing their scent marks up ahead.",
-        "decline_text": "Your patrol decides to avoid the other Clan cats.",
+        "decline_text": "Your patrol decides to avoid the other Pack wolves.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -290,20 +290,20 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "The other patrol greets p_l respectfully, remarking on the weather and enquiring politely about the youngest members of the Clan. p_l smiles, impressed with them.",
+                "text": "The other patrol greets p_l respectfully, remarking on the weather and enquiring politely about the youngest members of the Pack. p_l smiles, impressed with them.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Clan.",
+                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Pack.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Clan.",
+                "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks feeling confident in their good relations with the opposite Pack.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "calm", "charismatic", "confident", "wise"],
@@ -318,7 +318,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Clan cats. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
+                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Pack wolves. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "strange", "playful", "daring", "childish"],
@@ -327,7 +327,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -335,7 +335,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -356,7 +356,7 @@
         },
         "weight": 20,
         "intro_text": "While walking along the border, your patrol notices a o_c_n patrol renewing their scent marks up ahead.",
-        "decline_text": "Your patrol decides to avoid the other Clan cats.",
+        "decline_text": "Your patrol decides to avoid the other Pack wolves.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -366,7 +366,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "The other patrol greets p_l respectfully, remarking on the weather and enquiring politely about the youngest members of the Clan. p_l smiles, impressed with them.",
+                "text": "The other patrol greets p_l respectfully, remarking on the weather and enquiring politely about the youngest members of the Pack. p_l smiles, impressed with them.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -402,7 +402,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pins their ears at the sight of the o_c_n cats. As the patrols cross paths, s_c's aggression is obvious and the other patrol definitely notices. While they don't remark on the hostility, your patrol gets the sense that the rude behavior has been noted.",
+                "text": "s_c pins their ears at the sight of the o_c_n wolves. As the patrols cross paths, s_c's aggression is obvious and the other patrol definitely notices. While they don't remark on the hostility, your patrol gets the sense that the rude behavior has been noted.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["vengeful", "bloodthirsty", "righteous", "vengeful", "cold"],
@@ -411,7 +411,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -419,7 +419,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n wolves with insults and threats. They need to be sure that o_c_n knows how strong c_n wolves are. r_c snaps and snarls until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -447,21 +447,21 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "They pad over to the border and hesitate only momentarily before crossing. They quickly gather some of the berries, making sure to leave plenty for o_c_n's medicine cat if they need some, too.",
+                "text": "They pad over to the border and hesitate only momentarily before crossing. They quickly gather some of the berries, making sure to leave plenty for o_c_n's medicine wolf if they need some, too.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "They pad to the border and pause for a heartbeat to scent the air. o_c_n's scent is very strong, but there's something else... o_c_n's medicine cat appears at that moment. They're walking towards the raspberries when they spot p_l and wave their tail in greeting. They invite p_l to gather some, as there's plenty. p_l gratefully accepts.",
+                "text": "They pad to the border and pause for a heartbeat to scent the air. o_c_n's scent is very strong, but there's something else... o_c_n's medicine wolf appears at that moment. They're walking towards the raspberries when they spot p_l and wave their tail in greeting. They invite p_l to gather some, as there's plenty. p_l gratefully accepts.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l is about to step over the border when a hiss stops them in {PRONOUN/p_l/poss} tracks. A o_c_n warrior bounds into view, bristling. They quickly explain that they're the medicine cat and the warrior code allows them to cross the border and assure that they won't take many of the berries. The warrior looks torn, but agrees to this.",
+                "text": "p_l is about to step over the border when a snarl stops them in {PRONOUN/p_l/poss} tracks. A o_c_n warrior bounds into view, bristling. They quickly explain that they're the medicine wolf and the warrior code allows them to cross the border and assure that they won't take many of the berries. The warrior looks torn, but agrees to this.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["MEDIATOR,1"],
@@ -471,13 +471,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l starts to step over the border but a hiss stops them in {PRONOUN/p_l/poss} tracks. A o_c_n patrol is running {PRONOUN/p_l/poss} way. They force {PRONOUN/p_l/poss} fur to lie flat as the patrol approaches and swiftly blurt out that they're a medicine cat. One of the warrior snarls that they can't spare any herbs for other Clans and p_l needs to leave. They oblige quickly.",
+                "text": "p_l starts to step over the border but a snarl stops them in {PRONOUN/p_l/poss} tracks. A o_c_n patrol is running {PRONOUN/p_l/poss} way. They force {PRONOUN/p_l/poss} fur to lie flat as the patrol approaches and swiftly blurt out that they're a medicine wolf. One of the warrior snarls that they can't spare any herbs for other Packs and p_l needs to leave. They oblige quickly.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "p_l starts to step over the border but a hiss stops them in {PRONOUN/p_l/poss} tracks. A o_c_n patrol is running {PRONOUN/p_l/poss} way. They force {PRONOUN/p_l/poss} fur to lie flat as the patrol approaches and swiftly blurt out that they're a medicine cat. The warriors either don't hear them or don't care and they get in a good scratch before the medicine cat can retreat.",
+                "text": "p_l starts to step over the border but a snarl stops them in {PRONOUN/p_l/poss} tracks. A o_c_n patrol is running {PRONOUN/p_l/poss} way. They force {PRONOUN/p_l/poss} fur to lie flat as the patrol approaches and swiftly blurt out that they're a medicine wolf. The warriors either don't hear them or don't care and they get in a good scratch before the medicine wolf can retreat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -525,14 +525,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n cat is grateful for the rescue.",
+                "text": "Your patrol follows the scent to a o_c_n wolf taking refuge up a tree. The wolf yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a cougar jumps at the patrol! s_c rallies the patrol to drive the cougar away, thankfully avoiding any injuries. The o_c_n wolf is grateful for the rescue.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol at least escort the wounded warrior to the border.",
+                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the wolf had been caught by a bear and chased into c_n territory. The bear is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol at least escort the wounded warrior to the border.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -554,19 +554,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning, but they aren't quick enough and a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
+                "text": "Your patrol follows the scent to a o_c_n wolf taking refuge up a tree. The wolf yowls a warning, but they aren't quick enough and a cougar suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and {VERB/m_c/were/was} scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing wolf and {VERB/m_c/were/was} scarred by a cougar.",
+                    "reg_death": "m_c followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar.",
+                    "lead_death": "followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
+                "text": "Your patrol follows the scent to a o_c_n wolf taking refuge up a tree. The wolf yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a cougar jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -577,9 +577,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and {VERB/m_c/were/was} scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing wolf and {VERB/m_c/were/was} scarred by a cougar.",
+                    "reg_death": "m_c followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar.",
+                    "lead_death": "followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar"
                 },
                 "other_clan_rep": -1
             }
@@ -631,7 +631,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists on helping the warrior back to the border.",
+                "text": "s_c follows the scent and finds a wounded o_c_n warrior. It seems the wolf had been caught by a bear and chased into c_n territory. The bear is gone now, but the warrior can't make it back across the border on their own. s_c insists on helping the warrior back to the border.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -653,19 +653,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning, but they aren't quick enough and a large dog suddenly descends upon r_c. r_c is killed before they can run.",
+                "text": "r_c follows the scent to a o_c_n wolf taking refuge up a tree. The wolf yowls a warning, but they aren't quick enough and a cougar suddenly descends upon r_c. r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing wolf and was scarred by a cougar.",
+                    "reg_death": "m_c followed the scent of a trespassing wolf and was killed by a cougar.",
+                    "lead_death": "followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a large dog jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
+                "text": "r_c follows the scent to a o_c_n wolf taking refuge up a tree. The wolf yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a cougar jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -676,9 +676,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing wolf and was scarred by a cougar.",
+                    "reg_death": "m_c followed the scent of a trespassing wolf and was killed by a cougar.",
+                    "lead_death": "followed the scent of a trespassing wolf and {VERB/m_c/were/was} killed by a cougar"
                 },
                 "other_clan_rep": -1
             }
@@ -724,7 +724,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. They see the younger cat off with a furious yowl, claiming the prey for c_n. Impressed by the catch but not by the antics, r_c feels a begrudging respect for o_c_n, as they return home to report this to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. They see the younger wolf off with a furious yowl, claiming the prey for c_n. Impressed by the catch but not by the antics, r_c feels a begrudging respect for o_c_n, as they return home to report this to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -737,7 +737,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, who goes round-eyed and fluffy at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, who goes round-eyed and fluffy at encountering a real c_n wolf! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -762,7 +762,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
+                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -817,7 +817,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl {PRONOUN/r_c/poss} anger. The young cat turns tail and flees, r_c hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl {PRONOUN/r_c/poss} anger. The young wolf turns tail and flees, r_c hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -830,7 +830,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -855,7 +855,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
+                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -926,7 +926,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl their anger. The young cat turns tail and flees, r_c hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl their anger. The young wolf turns tail and flees, r_c hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -939,7 +939,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c gently coaxes them out. s_c praises the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c gently coaxes them out. s_c praises the little apprentice to their mentor, who wags gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -964,7 +964,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
+                "text": "s_c is marking along the territory line when they encounter a o_c_n patrol, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends. Though no words are exchanged, the tension is palpable.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1048,7 +1048,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young cat's training is progressing before parting ways.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young wolf's training is progressing before parting ways.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1125,7 +1125,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young cat's training is progressing before parting ways.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young wolf's training is progressing before parting ways.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1187,7 +1187,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding precious prey. They see the young cat off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding precious prey. They see the young wolf off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -1200,7 +1200,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n wolf! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1225,7 +1225,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1279,7 +1279,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1304,7 +1304,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1372,7 +1372,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who wags gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1397,7 +1397,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1465,7 +1465,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1528,7 +1528,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1578,7 +1578,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young wolf off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"],
@@ -1592,7 +1592,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n wolf! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1618,7 +1618,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1688,7 +1688,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1713,7 +1713,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1797,7 +1797,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who wags gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1822,7 +1822,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1906,7 +1906,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1983,7 +1983,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2047,7 +2047,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The young cat seems distraught when they realize their mistake and apologizes profusely. r_c escorts them back to the o_c_n camp and explains the situation to their deputy, who thanks them for their restraint.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The young wolf seems distraught when they realize their mistake and apologizes profusely. r_c escorts them back to the o_c_n camp and explains the situation to their deputy, who thanks them for their restraint.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -2060,7 +2060,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n wolf! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2085,13 +2085,13 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young wolf off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 5,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2159,7 +2159,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2184,7 +2184,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2252,7 +2252,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who wags gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2277,7 +2277,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2345,7 +2345,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2408,7 +2408,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2455,7 +2455,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young wolf off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -2468,7 +2468,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n wolf! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2493,7 +2493,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2561,7 +2561,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor wags gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2586,7 +2586,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2670,7 +2670,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who wags gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2695,7 +2695,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2779,7 +2779,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2856,7 +2856,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young wolf's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [

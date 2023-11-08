@@ -40,9 +40,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life when a hawk attempted to grab and lift {PRONOUN/m_c/object}.",
+        "death_text": "m_c lost a life when a moose ran into {PRONOUN/m_c/object}.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} grabbed by a hawk"
+            "lead_death": "{VERB/m_c/were/was} run over by a moose"
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -95,9 +95,9 @@
             "respect",
             "trust"
         ],
-        "death_text": "m_c lost a life defending r_c from a hawk.",
+        "death_text": "m_c lost a life defending r_c from a bear.",
         "history_text": {
-            "lead_death": "defended r_c from a hawk"
+            "lead_death": "defended r_c from a bear"
         },
         "cat_trait": [
             "altruistic",
@@ -131,9 +131,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c was carried off by a hawk, never to be seen again.",
+        "death_text": "m_c was dragged away by a cougar, never to be seen again.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} carried away by a hawk"
+            "lead_death": "{VERB/m_c/were/was} dragged away by a cougar"
         },
         "cat_trait": null,
         "cat_skill": null,

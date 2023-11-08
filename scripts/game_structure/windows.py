@@ -43,7 +43,7 @@ class SaveCheck(UIWindow):
 
         self.clan_name = "UndefinedClan"
         if game.clan:
-            self.clan_name = f"{game.clan.name}Clan"
+            self.clan_name = f"{game.clan.name}Pack"
         self.last_screen = last_screen
         self.isMainMenu = isMainMenu
         self.mm_btn = mm_btn
@@ -159,7 +159,7 @@ class DeleteCheck(UIWindow):
         self.reloadscreen = reloadscreen
 
         self.delete_check_message = UITextBoxTweaked(
-            f"Do you wish to delete {str(self.clan_name + 'Clan')}? This is permanent and cannot be undone.",
+            f"Do you wish to delete {str(self.clan_name + 'Pack')}? This is permanent and cannot be undone.",
             scale(pygame.Rect((40, 40), (520, -1))),
             line_spacing=1,
             object_id="#text_box_30_horizcenter",
@@ -205,7 +205,7 @@ class DeleteCheck(UIWindow):
                 elif os.path.exists(rempath + 'clan.txt'):
                     os.remove(rempath + "clan.txt")
                 else:
-                    print("No clan.json/txt???? Clan prolly wasnt initalized kekw")
+                    print("No clan.json/txt???? Pack prolly wasnt initalized kekw")
                 self.kill()
                 self.reloadscreen('switch clan screen')
 
@@ -226,7 +226,7 @@ class GameOver(UIWindow):
                          resizable=False)
         self.set_blocking(True)
         game.switches['window_open'] = True
-        self.clan_name = str(game.clan.name + 'Clan')
+        self.clan_name = str(game.clan.name + 'Pack')
         self.last_screen = last_screen
         self.game_over_message = UITextBoxTweaked(
             f"{self.clan_name} has died out. For now, this is where their story ends. Perhaps it's time to tell a new "
@@ -281,7 +281,7 @@ class ChangeCatName(UIWindow):
 
     def __init__(self, cat):
         super().__init__(scale(pygame.Rect((600, 430), (800, 370))),
-                         window_display_title='Change Cat Name',
+                         window_display_title='Change Wolf Name',
                          object_id='#change_cat_name_window',
                          resizable=False)
         game.switches['window_open'] = True
@@ -336,13 +336,13 @@ class ChangeCatName(UIWindow):
         # 636
         self.toggle_spec_block_on = UIImageButton(scale(pygame.Rect((405 + x_pos, 160 + y_pos), (68, 68))), "",
                                                   object_id="#unchecked_checkbox",
-                                                  tool_tip_text=f"Remove the cat's special suffix",
+                                                  tool_tip_text=f"Remove the wolf's special suffix",
                                                   manager=MANAGER,
                                                   container=self)
 
         self.toggle_spec_block_off = UIImageButton(scale(pygame.Rect((405 + x_pos, 160 + y_pos), (68, 68))), "",
                                                    object_id="#checked_checkbox",
-                                                   tool_tip_text="Re-enable the cat's special suffix", manager=MANAGER,
+                                                   tool_tip_text="Re-enable the wolf's special suffix", manager=MANAGER,
                                                    container=self)
 
         if self.the_cat.name.status in self.the_cat.name.names_dict["special_suffixes"]:
@@ -463,7 +463,7 @@ class SpecifyCatGender(UIWindow):
 
     def __init__(self, cat):
         super().__init__(scale(pygame.Rect((600, 430), (800, 370))),
-                         window_display_title='Change Cat Gender',
+                         window_display_title='Change Wolf Gender',
                          object_id='#change_cat_gender_window',
                          resizable=False)
         game.switches['window_open'] = True
@@ -523,7 +523,7 @@ class KillCat(UIWindow):
 
     def __init__(self, cat):
         super().__init__(scale(pygame.Rect((600, 400), (900, 400))),
-                         window_display_title='Kill Cat',
+                         window_display_title='Kill Wolf',
                          object_id='#change_cat_gender_window',
                          resizable=False)
         self.history = History()
@@ -542,7 +542,7 @@ class KillCat(UIWindow):
         cat_dict = {
             "m_c": (str(self.the_cat.name), choice(self.the_cat.pronouns))
         }
-        self.heading = pygame_gui.elements.UITextBox(f"<b>-- How did this cat die? --</b>",
+        self.heading = pygame_gui.elements.UITextBox(f"<b>-- How did this wolf die? --</b>",
                                                      scale(pygame.Rect(
                                                          (20, 20), (860, 150))),
                                                      object_id="#text_box_30_horizcenter_spacing_95",
@@ -575,7 +575,7 @@ class KillCat(UIWindow):
                                              container=self)
 
             self.prompt = process_text(
-                'This cat died when {PRONOUN/m_c/subject}...', cat_dict)
+                'This wolf died when {PRONOUN/m_c/subject}...', cat_dict)
             self.initial = process_text(
                 '{VERB/m_c/were/was} killed by a higher power.', cat_dict)
 
@@ -603,9 +603,9 @@ class KillCat(UIWindow):
             # This should only occur for retired leaders.
 
             self.prompt = process_text(
-                'This cat died when {PRONOUN/m_c/subject}...', cat_dict)
+                'This wolf died when {PRONOUN/m_c/subject}...', cat_dict)
             self.initial = process_text(
-                '{VERB/m_c/were/was} killed by something unknowable to even StarClan', cat_dict)
+                '{VERB/m_c/were/was} killed by something unknowable to even StarPack', cat_dict)
             self.all_lives_check.hide()
             self.one_life_check.hide()
 
@@ -627,7 +627,7 @@ class KillCat(UIWindow):
                                              manager=MANAGER,
                                              container=self)
         else:
-            self.initial = 'This cat was killed by a higher power.'
+            self.initial = 'This wolf was killed by a higher power.'
             self.prompt = None
             self.all_lives_check.hide()
             self.one_life_check.hide()
@@ -785,7 +785,7 @@ class UpdateAvailablePopup(UIWindow):
             get_version_info().version_number)
 
         self.game_over_message = UITextBoxTweaked(
-            f"<strong>Update to ClanGen {latest_version_number}</strong>",
+            f"<strong>Update to AwooGen {latest_version_number}</strong>",
             scale(pygame.Rect((20, 160), (800, -1))),
             line_spacing=.8,
             object_id="#update_popup_title",
@@ -927,7 +927,7 @@ class ChangelogPopup(UIWindow):
         else:
             with open("changelog.txt", "r") as read_file:
                 file_cont = read_file.read()
-
+        
         if get_version_info().is_dev() and not get_version_info().is_source_build:
             dynamic_changelog = True
 
@@ -1292,7 +1292,7 @@ class ChangeCatToggles(UIWindow):
 
     def __init__(self, cat):
         super().__init__(scale(pygame.Rect((600, 430), (800, 370))),
-                         window_display_title='Change Cat Name',
+                         window_display_title='Change Wolf Name',
                          object_id='#change_cat_name_window',
                          resizable=False)
         game.switches['window_open'] = True
@@ -1313,7 +1313,7 @@ class ChangeCatToggles(UIWindow):
                                                     object_id="#text_box_30_horizleft_pad_0_8",
                                                     container=self)
         
-        self.text_2 = pygame_gui.elements.UITextBox("Prevent kits", scale(pygame.Rect(110, 110, -1, 50)), 
+        self.text_2 = pygame_gui.elements.UITextBox("Prevent pups", scale(pygame.Rect(110, 110, -1, 50)), 
                                                     object_id="#text_box_30_horizleft_pad_0_8",
                                                     container=self)
         
@@ -1340,10 +1340,10 @@ class ChangeCatToggles(UIWindow):
             tool_tip = "The afterlife guide can never fade."
         elif self.the_cat.prevent_fading:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevents cat from fading away after being dead for 202 moons."
+            tool_tip = "Prevents wolf from fading away after being dead for 202 moons."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevents cat from fading away after being dead for 202 moons."
+            tool_tip = "Prevents wolf from fading away after being dead for 202 moons."
         
         # Fading
         self.checkboxes["prevent_fading"] = UIImageButton(scale(pygame.Rect(45, 50, 68, 68)), "",
@@ -1358,10 +1358,10 @@ class ChangeCatToggles(UIWindow):
         #No Kits
         if self.the_cat.no_kits:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the wolf from adopting or having puppies."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the wolf from adopting or having puppies."
         
         self.checkboxes["prevent_kits"] = UIImageButton(scale(pygame.Rect(45, 100, 68, 68)), "",
                                                         container=self,
@@ -1371,10 +1371,10 @@ class ChangeCatToggles(UIWindow):
         #No Retire
         if self.the_cat.no_retire:
             box_type = "#checked_checkbox"
-            tool_tip = "Allow cat to retiring automatically."
+            tool_tip = "Allow wolf to retire automatically."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent cat from retiring automatically."
+            tool_tip = "Prevent wolf from retiring automatically."
         
         self.checkboxes["prevent_retire"] = UIImageButton(scale(pygame.Rect(45, 150, 68, 68)), "",
                                                           container=self,
@@ -1384,10 +1384,10 @@ class ChangeCatToggles(UIWindow):
         #No mates
         if self.the_cat.no_mates:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevent cat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
+            tool_tip = "Prevent wolf from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent cat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
+            tool_tip = "Prevent wolf from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
         
         self.checkboxes["prevent_mates"] = UIImageButton(scale(pygame.Rect(45, 200, 68, 68)), "",
                                                          container=self,

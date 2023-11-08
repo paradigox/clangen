@@ -104,7 +104,8 @@
         "other_cat_trait": null,
         "other_cat_skill": null,
         "accessories": [
-            "COLLAR"
+            "COLLAR",
+			"BANDANA"
         ]
     },
     {
@@ -117,7 +118,7 @@
             "other_clan",
             "rel_up"
         ],
-        "event_text": "m_c was seen speaking calmly to a cat from o_c.",
+        "event_text": "m_c was seen speaking calmly to a wolf from o_c.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -133,7 +134,7 @@
             "other_clan",
             "rel_down"
         ],
-        "event_text": "m_c was seen arguing, and borderline-fighting, with a cat from o_c.",
+        "event_text": "m_c was seen arguing, and borderline-fighting, with a wolf from o_c.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -163,7 +164,7 @@
             "Leaf-bare",
             "other_clan"
         ],
-        "event_text": "m_c was loitering around o_c's border, looking for a specific cat.",
+        "event_text": "m_c was loitering around o_c's border, looking for a specific wolf.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -177,7 +178,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways.",
+        "event_text": "m_c was seen talking calmly to a loner, before both wolves went their separate ways.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -234,7 +235,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached.",
+        "event_text": "m_c was seen in a very serious conversation with a pet, who ran away when another patrol approached.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -248,7 +249,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen chasing a kittypet off of the territory.",
+        "event_text": "m_c was seen chasing a pet off of the territory.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -290,7 +291,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen playing with a kittypet over the border.",
+        "event_text": "m_c was seen playing with a pet over the border.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -308,7 +309,12 @@
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
-        "other_cat_skill": null
+        "other_cat_skill": null,
+		"accessories": [
+            "COLLAR",
+			"HARNESSES",
+			"RADIO"
+        ]
     },
     {
         "camp": "any",
@@ -332,7 +338,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol.",
+        "event_text": "m_c was caught sharing prey with a pet, who was chased off by a patrol.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -346,10 +352,27 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen touching noses with a kittypet. Scandalous!",
+        "event_text": "m_c was seen touching noses with a pet. Scandalous!",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
         "other_cat_skill": null
+    },
+	{
+        "camp": "any",
+        "tags": [
+            "Newleaf",
+            "Greenleaf",
+            "Leaf-fall",
+            "Leaf-bare"
+        ],
+        "event_text": "m_c disappeared for a few hours, but nobody knows what happened.",
+        "cat_trait": null,
+        "cat_skill": null,
+        "other_cat_trait": null,
+        "other_cat_skill": null,
+		"accessories": [
+			"RADIO"
+        ]
     }
 ]

@@ -28,7 +28,7 @@ class MiscEvents():
         
         other_clan_name = None
         if other_clan:
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}Pack'
 
         possible_events = GenerateEvents.possible_short_events(cat.status, cat.age, "misc_events")
         acc_checked_events = []
@@ -173,17 +173,16 @@ class MiscEvents():
             acc_list.extend(Pelt.plant_accessories)
         if "COLLAR" in possible_accs:
             acc_list.extend(Pelt.collars)
+        if "RADIO" in possible_accs:
+            acc_list.extend(Pelt.radiocollars)
+        if "HARNESS" in possible_accs:
+            acc_list.extend(Pelt.harnesses)
+        if "BANDANA" in possible_accs:
+            acc_list.extend(Pelt.bandanas)
 
         for acc in possible_accs:
-            if acc not in ["WILD", "PLANT", "COLLAR"]:
+            if acc not in ["WILD", "PLANT", "COLLAR", "COLLARS", "RADIO", "HARNESS", "BANDANA", "RADIOCOLLARS", "RADIOCOLLAR", "HARNESSES", "BANDANAS"]:
                 acc_list.append(acc)
-
-        if "NOTAIL" in cat.pelt.scars or "HALFTAIL" in cat.pelt.scars:
-            for acc in Pelt.tail_accessories:
-                try:
-                    acc_list.remove(acc)
-                except ValueError:
-                    print(f'attempted to remove {acc} from possible acc list, but it was not in the list!')
 
 
         cat.pelt.accessory = random.choice(acc_list)

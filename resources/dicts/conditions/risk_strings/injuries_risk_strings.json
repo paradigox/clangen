@@ -15,7 +15,7 @@
     },
     "cat bite": {
         "an infected wound": [
-            "The cat bite feels hot, and m_c winces as r_c cleans it. It's becoming infected.",
+            "The bite feels hot, and m_c winces as r_c cleans it. It's becoming infected.",
             "m_c's skin is starting to feel feverish around the area of {PRONOUN/m_c/poss} wound. It looks a bit worse than it did yesterday."
         ]
     },
@@ -67,7 +67,7 @@
     },
     "mangled leg": {
         "an infected wound": [
-            "r_c wonders if {PRONOUN/r_c/subject} might need to consult with a medicine cat from another Clan. m_c's mangled leg has become infected and swollen, and {PRONOUN/r_c/subject} {VERB/r_c/need/needs} more ideas.",
+            "r_c wonders if {PRONOUN/r_c/subject} might need to consult with a medicine wolf from another Pack. m_c's mangled leg has become infected and swollen, and {PRONOUN/r_c/subject} {VERB/r_c/need/needs} more ideas.",
             "As if the injury wasn't bad enough, the skin around m_c's mangled leg has started to swell and feel feverish."
 
         ]
@@ -210,7 +210,7 @@
             "m_c awakes with a dull, throbbing pain in {PRONOUN/m_c/poss} head. {PRONOUN/m_c/poss/CAP} head injury doesn't appear to be healing as {PRONOUN/m_c/subject} hoped. "
         ],
         "severe headache": [
-            "m_c yowls with pain, begging r_c for any relief. The damage to {PRONOUN/m_c/poss} head must have been severe to cause such painful headaches. ",
+            "m_c screams with pain, begging r_c for any relief. The damage to {PRONOUN/m_c/poss} head must have been severe to cause such painful headaches. ",
             "m_c can't focus on anything but the searing pain in {PRONOUN/m_c/poss} head. {PRONOUN/m_c/poss/CAP} head injury must have rattled something deep in {PRONOUN/m_c/poss} skull."
         ]
     }

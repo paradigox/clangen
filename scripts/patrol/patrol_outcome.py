@@ -11,7 +11,7 @@ if TYPE_CHECKING:
     from scripts.patrol.patrol import Patrol
 
 from scripts.cat.history import History
-from scripts.clan import HERBS, Clan
+from scripts.clan import HERBS, Pack
 from scripts.utility import (
     event_text_adjust,
     change_clan_relations,
@@ -295,7 +295,7 @@ class PatrolOutcome():
     def get_outcome_art(self):
         """Return outcome art, if not None. Return's None if there is no outcome art, or if outcome art can't be found.  """
         root_dir = "resources/images/patrol_art/"
-        
+
         if game.settings.get("gore") and self.outcome_art_clean:
             file_name = self.outcome_art_clean
         else:
@@ -303,9 +303,9 @@ class PatrolOutcome():
 
         if not isinstance(file_name, str) or not path_exists(f"{root_dir}{file_name}.png"):
             return None
-            
+
         return pygame.image.load(f"{root_dir}{file_name}.png")
-        
+    
     # ---------------------------------------------------------------------------- #
     #                                   HANDLERS                                   #
     # ---------------------------------------------------------------------------- #
@@ -691,7 +691,7 @@ class PatrolOutcome():
         else:
             insert = "worsened"
             
-        return f"Your Clan's reputation towards Outsiders has {insert}."
+        return f"Your Pack's reputation towards Outsiders has {insert}."
     
     def _handle_other_clan_relations(self, patrol:'Patrol') -> str:
         """ Handles relations changes with other clans"""
@@ -975,16 +975,16 @@ class PatrolOutcome():
                 
         
         # CAT TYPES AND BACKGROUND
-        if "kittypet" in attribute_list:
-            cat_type = "kittypet"
+        if "pet" in attribute_list:
+            cat_type = "pet"
         elif "rogue" in attribute_list:
             cat_type = "rogue"
         elif "loner" in attribute_list:
             cat_type = "loner"
         elif "clancat" in attribute_list:
-            cat_type = "former Clancat"
+            cat_type = "former Packwolf"
         else:
-            cat_type = choice(['kittypet', 'loner', 'former Clancat'])
+            cat_type = choice(['pet', 'loner', 'former Packwolf'])
         
         # LITTER
         litter = False
@@ -996,12 +996,12 @@ class PatrolOutcome():
         # CHOOSE DEFAULT BACKSTORY BASED ON CAT TYPE, STATUS.
         if status in ("kitten", "newborn"):
             chosen_backstory = choice(BACKSTORIES["backstory_categories"]["abandoned_backstories"])
-        elif status == "medicine cat" and cat_type == "former Clancat":
+        elif status == "medicine cat" and cat_type == "former Packwolf":
             chosen_backstory = choice(["medicine_cat", "disgraced1"])
         elif status == "medicine cat":
             chosen_backstory = choice(["wandering_healer1", "wandering_healer2"])
         else:
-            if cat_type == "former Clancat":
+            if cat_type == "former Packwolf":
                 x = "former_clancat"
             else:
                 x = cat_type
@@ -1028,7 +1028,7 @@ class PatrolOutcome():
             outside = True
             status = cat_type
             new_name = False
-            thought = "Is wondering about the new cats they just met"
+            thought = "Is wondering about the new wolves they just met"
             
         # IS THE CAT DEAD?
         alive = True
@@ -1043,8 +1043,8 @@ class PatrolOutcome():
                                 Relationship,
                                 new_name=new_name,
                                 loner=cat_type in ["loner", "rogue"],
-                                kittypet=cat_type == "kittypet",
-                                other_clan=cat_type == 'former Clancat',
+                                pet=cat_type == "pet",
+                                other_clan=cat_type == 'former Packwolf',
                                 kit=False if litter else status in ["kitten", "newborn"],  # this is for singular kits, litters need this to be false
                                 litter=litter,
                                 backstory=chosen_backstory,

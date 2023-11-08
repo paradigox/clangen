@@ -10,7 +10,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -20,12 +20,12 @@
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone cat. {PRONOUN/s_c/subject/CAP} {VERB/m_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone wolf. {PRONOUN/s_c/subject/CAP} {VERB/m_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -78,7 +78,7 @@
                 }
             },
             {
-                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, snarling with outrage, but the rogue that did it has already turned and run.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -107,7 +107,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -117,12 +117,12 @@
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN/s_c/subject/CAP} yowl a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
+                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the wolf to start a rockslide. {PRONOUN/s_c/subject/CAP} barks a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -158,7 +158,7 @@
                 "weight": 20
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, snarling furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -175,7 +175,7 @@
                 }
             },
             {
-                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, snarling with outrage, but the rogue that did it has already turned and run.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -206,7 +206,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -223,12 +223,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN/app1/subject} {VERB/app1/are/is} alone. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN/app1/subject} {VERB/app1/are/is} alone. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other wolves.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off huffily back over the border.",
+                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other wolf, who walks off huffily back over the border.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -294,7 +294,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -304,12 +304,12 @@
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone cat. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone wolf. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -351,7 +351,7 @@
                 "stat_skill": ["CLEVER,1"]
             },
             {
-                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, spitting with outrage, but the rogue that did it has already turned and run from the patrol.",
+                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, snarling with outrage, but the rogue that did it has already turned and run from the patrol.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -378,7 +378,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -397,7 +397,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -411,7 +411,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN/s_c/subject/CAP} yowl a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
+                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the wolf to start a rockslide. {PRONOUN/s_c/subject/CAP} barks a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -474,7 +474,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, snarling furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -489,7 +489,7 @@
                 ]
             },
             {
-                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "Nose to the ground following the trail, r_c doesn't see the blow coming. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} to {PRONOUN/r_c/poss} feet, snarling with outrage, but the rogue that did it has already turned and run.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -525,7 +525,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -560,7 +560,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that {PRONOUN/app1/poss} patrol is so small. Less eyes watching that embarrassing moment. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} don't want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that {PRONOUN/app1/poss} patrol is so small. Less eyes watching that embarrassing moment. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} don't want to look dumb in front of other wolves.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -574,7 +574,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off huffily back over the border.",
+                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other wolf, who walks off huffily back over the border.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -607,7 +607,7 @@
                 ]
             },
             {
-                "text": "Nose to the ground following the trail, app1 doesn't see the blow coming. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} to {PRONOUN/app1/poss} feet feet, squealing with pain, and run for home.",
+                "text": "Nose to the ground following the trail, app1 doesn't see the blow coming. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} to {PRONOUN/app1/poss} feet, squealing with pain, and run for home.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -641,7 +641,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} decide not to investigate.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -651,12 +651,12 @@
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone cat. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, leaping from the rocky outcrops above, and quickly overwhelms the lone wolf. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} the rogue's surrender graciously, and escort them out of c_n territory promptly.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -710,7 +710,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -729,7 +729,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that there are pawprints smelling of fox cubs. One must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c soon realizes that there are pawprints smelling of bear cubs. One must have wandered through this section of the border recently, but it's not a threat.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -743,7 +743,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN/s_c/subject/CAP} yowl a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
+                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the wolf to start a rockslide. {PRONOUN/s_c/subject/CAP} barks a warning and the rogue scrambles out of the way, but it's enough warning. The intruder leaves the mountains.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -806,7 +806,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
+                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, snarling furiously, but this is one battle hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject} would like to think. The rogue manages to escape {PRONOUN/s_c/poss} grasp and run off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -835,7 +835,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a cat not from c_n.",
+        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something here smells like a wolf not from c_n.",
         "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} not to investigate.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -870,7 +870,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, and can't meet the eyes of the rest of the patrol. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, and can't meet the eyes of the rest of the patrol. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other wolves.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -884,7 +884,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off huffily back over the border.",
+                "text": "Boldly, s_c follows the scent to a trespassing rogue, and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} what the rogue is doing in c_n territory. It seems to embarrass the other wolf, who walks off huffily back over the border.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [

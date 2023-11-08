@@ -31,7 +31,7 @@ from scripts.cat.sprites import sprites
 from sys import exit  # pylint: disable=redefined-builtin
 
 
-class Clan():
+class Pack():
     """
 
     TODO: Docs
@@ -336,7 +336,7 @@ class Clan():
             return _
 
         else:
-            return 'No Clan'
+            return 'No Pack'
 
     def new_leader(self, leader):
         """
@@ -452,7 +452,7 @@ class Clan():
         clan_data["patrolled_cats"] = [str(i) for i in game.patrolled]
 
         # OTHER CLANS
-        # Clan Names
+        # Pack Names
         clan_data["other_clans_names"] = ",".join(
             [str(i.name) for i in self.all_clans])
         clan_data["other_clans_relations"] = ",".join(
@@ -570,7 +570,7 @@ class Clan():
                 general[7] = 'classic'
             elif general[8] == 'None':
                 general[8] = 50
-            game.clan = Clan(general[0],
+            game.clan = Pack(general[0],
                              Cat.all_cats[leader_info[0]],
                              Cat.all_cats.get(deputy_info[0], None),
                              Cat.all_cats.get(med_cat_info[0], None),
@@ -585,7 +585,7 @@ class Clan():
                 general[4] = 0
             elif general[7] == 'None':
                 general[7] = 'classic'
-            game.clan = Clan(
+            game.clan = Pack(
                 general[0],
                 Cat.all_cats[leader_info[0]],
                 Cat.all_cats.get(deputy_info[0], None),
@@ -599,7 +599,7 @@ class Clan():
                 general[4] = 0
             elif general[3] == 'None':
                 general[3] = 'camp1'
-            game.clan = Clan(
+            game.clan = Pack(
                 general[0],
                 Cat.all_cats[leader_info[0]],
                 Cat.all_cats.get(deputy_info[0], None),
@@ -608,12 +608,12 @@ class Clan():
                 camp_bg=general[3],
             )
         elif len(general) == 3:
-            game.clan = Clan(general[0], Cat.all_cats[leader_info[0]],
+            game.clan = Pack(general[0], Cat.all_cats[leader_info[0]],
                              Cat.all_cats.get(deputy_info[0], None),
                              Cat.all_cats.get(med_cat_info[0], None),
                              general[2])
         else:
-            game.clan = Clan(general[0], Cat.all_cats[leader_info[0]],
+            game.clan = Pack(general[0], Cat.all_cats[leader_info[0]],
                              Cat.all_cats.get(deputy_info[0], None),
                              Cat.all_cats.get(med_cat_info[0], None))
         game.clan.age = int(general[1])
@@ -701,7 +701,7 @@ class Clan():
         else:
             med_cat = None
 
-        game.clan = Clan(clan_data["clanname"],
+        game.clan = Pack(clan_data["clanname"],
                          leader,
                          deputy,
                          med_cat,
@@ -803,7 +803,7 @@ class Clan():
                 clan.herbs = ujson.loads(read_file.read())
 
         else:
-            # generate a random set of herbs since the Clan didn't have any saved
+            # generate a random set of herbs since the Pack didn't have any saved
             herbs = {}
             random_herbs = random.choices(HERBS, k=random.randrange(3, 8))
             for herb in random_herbs:
@@ -1017,8 +1017,8 @@ class Clan():
     @property
     def temperament(self):
         """Temperment is determined whenever it's accessed. This makes sure it's always accurate to the 
-            current cats in the Clan. However, determining Clan temperment is slow! 
-            Clan temperment should be used as sparcely as possible, since
+            current cats in the Pack. However, determining Pack temperment is slow! 
+            Pack temperment should be used as sparcely as possible, since
             it's pretty resource-intensive to determine it. """
         
         all_cats = [i for i in Cat.all_cats_list if 
@@ -1063,7 +1063,7 @@ class Clan():
     
     @temperament.setter
     def temperament(self, val):
-        #print("Clan temperment set by member personality --> you can not set it externally.", val)
+        #print("Pack temperment set by member personality --> you can not set it externally.", val)
         return
             
 
@@ -1085,7 +1085,7 @@ class OtherClan():
             self.temperament = choice(temperament_list)
 
     def __repr__(self):
-        return f"{self.name}Clan"
+        return f"{self.name}Pack"
 
 
 class StarClan():
@@ -1123,7 +1123,7 @@ class StarClan():
         return white
 
 
-clan_class = Clan()
+clan_class = Pack()
 clan_class.remove_cat(cat_class.ID)
 
 HERBS = None

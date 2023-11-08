@@ -116,7 +116,7 @@ class GenerateEvents:
 
                     # new cat event only
                     loner=event["loner"] if "loner" in event else False,
-                    kittypet=event["kittypet"] if "kittypet" in event else False,
+                    pet=event["pet"] if "pet" in event else False,
                     other_clan=event["other_clan"] if "other_clan" in event else False,
                     kit=event["kit"] if "kit" in event else False,
                     new_name=event["new_name"] if "new_name" in event else False,
@@ -354,7 +354,7 @@ class GenerateEvents:
             elif "medicine_cat_app" in event.tags and cat.status != "medicine cat apprentice":
                 continue
 
-            # other Clan related checks
+            # other Pack related checks
             if "other_clan" in event.tags:
                 if "war" in event.tags and not war:
                     continue
@@ -365,7 +365,7 @@ class GenerateEvents:
                 elif "hostile" in event.tags and int(other_clan.relations) > 7:
                     continue
 
-            # check if Clan has kits
+            # check if Pack has kits
             if "clan_kits" in event.tags and not alive_kits:
                 continue
             
@@ -632,7 +632,7 @@ class ShortEvent:
             injury=None,
             loner=False,
             new_name=False,
-            kittypet=False,
+            pet=False,
             kit=False,
             litter=False,
             backstory=None,
@@ -660,7 +660,7 @@ class ShortEvent:
         # for new cat events
         self.loner = loner
         self.new_name = new_name
-        self.kittypet = kittypet
+        self.pet = pet
         self.kit = kit
         self.litter = litter
         self.backstory = backstory
@@ -708,7 +708,7 @@ Tagging Guidelines: (if you add more tags, please add guidelines for them here)
 
 "other_cat_own_app", "other_cat_mentor" < mark the other cat has having to be the m_c's mentor or app respectively
 
-"clan_kits" < Clan must have kits for this event to appear
+"clan_kits" < Pack must have kits for this event to appear
 
 **Relationship tags do not work for New Cat events**
 mc_to_rc < change mc's relationship values towards rc

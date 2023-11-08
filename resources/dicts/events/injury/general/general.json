@@ -201,7 +201,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a dog approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
+        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a moose approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
         "cat_trait": [
             "nervous",
             "wise",
@@ -225,7 +225,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a fox approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
+        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} smelled a bear approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
         "cat_trait": [
             "nervous",
             "wise",
@@ -425,10 +425,10 @@
             "scar",
             "MANTAIL"
         ],
-        "event_text": "m_c's tail was badly injured by a dog.",
+        "event_text": "m_c's tail was badly injured by a bear.",
         "history_text": {
-            "scar": "m_c was scarred by a dog.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a dog."
+            "scar": "m_c was scarred by a bear.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a bear."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -448,10 +448,10 @@
             "scar",
             "MANTAIL"
         ],
-        "event_text": "m_c's tail was badly injured by a fox.",
+        "event_text": "m_c's tail was badly injured by a cougar.",
         "history_text": {
-            "scar": "m_c was scarred by a fox.",
-            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a fox."
+            "scar": "m_c was scarred by a cougar.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a cougar."
         },
         "cat_skill": null,
         "other_cat_trait": null,

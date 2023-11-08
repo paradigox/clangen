@@ -19,9 +19,9 @@ class OutsiderEvents:
         if cat.outside:
             if random.getrandbits(6) == 1 and not cat.dead:
                 if cat.exiled:
-                    text = f'Rumors reach your Clan that the exiled {cat.name} has died recently.'
-                elif cat.status in ['kittypet', 'loner', 'rogue', 'former Clancat']:
-                    text = f'Rumors reach your Clan that the {cat.status} ' \
+                    text = f'Rumors reach your Pack that the exiled {cat.name} has died recently.'
+                elif cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
+                    text = f'Rumors reach your Pack that the {cat.status} ' \
                            f'{cat.name} has died recently.'
                 else:
                     cat.outside = False
@@ -45,7 +45,7 @@ class OutsiderEvents:
     @staticmethod
     def become_kittypet(cat: Cat):
         # TODO: Make backstory for all of these + for exiled cats
-        cat.status = 'kittypet'
+        cat.status = 'pet'
 
     @staticmethod
     def become_loner(cat: Cat):

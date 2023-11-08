@@ -26,12 +26,12 @@ class Death_Events():
             other_clan = enemy_clan
         else:
             other_clan = random.choice(game.clan.all_clans)
-        other_clan_name = f'{other_clan.name}Clan'
+        other_clan_name = f'{other_clan.name}Pack'
         current_lives = int(game.clan.leader_lives)
 
         if other_clan_name == 'None':
             other_clan = game.clan.all_clans[0]
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}Pack'
 
         possible_short_events = GenerateEvents.possible_short_events(cat.status, cat.age, "death")
 
@@ -170,7 +170,7 @@ class Death_Events():
         """
         on hold until personality rework because i'd rather not have to figure this out a second time
         tentative plan is to have capability for a cat to witness the murder and then have a reaction based off trait
-        and perhaps reveal it to other Clan members
+        and perhaps reveal it to other Pack members
         """
         witness = None
         # choose the witness

@@ -252,8 +252,8 @@ OLD
     History text[2] is death text for leaders
         
 -- PATROL ABBREVIATIONS --
-    Clan name - c_n
-    Other Clan name - o_c_n
+    Pack name - c_n
+    Other Pack name - o_c_n
     Random cat - r_c
     Patrol leader - p_l
     Stat Cat - s_c (this is the cat with relevant skills/traits for the situation)
@@ -389,15 +389,15 @@ OLD
 
     - RELATIONSHIP TAGS -
         I think all of these can be used together. the tag for which relationships are increased should ALSO be used
-        # whole Clan gains relationship towards p_l - "clan_to_p_l"
-        # whole Clan gains relationship towards s_c - "clan_to_r_c" (triggers to be s_c if s_c is present)
-        # whole Clan gains relationship towards r_c - "clan_to_r_c"
+        # whole Pack gains relationship towards p_l - "clan_to_p_l"
+        # whole Pack gains relationship towards s_c - "clan_to_r_c" (triggers to be s_c if s_c is present)
+        # whole Pack gains relationship towards r_c - "clan_to_r_c"
         # patrol gains relationship towards p_l - "patrol_to_p_l"
         # patrol gains relationship towards s_c - "patrol_to_r_c" (triggers to be s_c if s_c is present)
         # patrol gains relationship towards r_c - "patrol_to_r_c"
         # "p_l_to_r_c" is for specifically pl and rc gaining relationship with EACH OTHER
         # two apps gain relationship towards each other - "rel_two_apps"
-        # whole Clan gains relationship towards patrol - "clan_to_patrol"
+        # whole Pack gains relationship towards patrol - "clan_to_patrol"
         # whole patrol gains relationship with each other - "rel_patrol" 
         (also default, so if you don't add any other tags, it goes to this. If you want this outcome, 
         you don't need to add any tags, this is just if you need to add one of the other tags)
@@ -417,7 +417,7 @@ OLD
         ^^^ On a success, the above tagged values will increase (or if values are dislike and jealousy, 
         they will decrease).  On a fail, the tagged values will decrease (or if values are dislike and jealousy, they will increase)
         
-        "sacrificial" is for fail outcomes where a cat valiantly sacrifices themselves for the Clan 
+        "sacrificial" is for fail outcomes where a cat valiantly sacrifices themselves for the Pack 
         (such as the single cat big dog patrol) this will give the tagged for group ("clan_to_r_c", "patrol_to_r_c", etc) 
         a big boost to respect and trust in that cat even though they failed (if the cat survives lol) Other tagged for values 
         will be disregarded for these fail outcomes.
