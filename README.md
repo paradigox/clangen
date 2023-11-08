@@ -14,20 +14,20 @@ You must run Awoogen using source code for now - similar to installing the full 
 
 ## Themes
 Currently there are two themes:
--Moonlight - default Awoogen theme. It's a blue-purple theme
--Classic - Awoogen with Clangen's classic brown theme. Still deciding where I'm putting this but it is ready!
+Moonlight - default Awoogen theme. It's a blue-purple theme
+Classic - Awoogen with Clangen's classic brown theme. Still deciding where I'm putting this but it is ready!
 
 ## Running from Source Code
 Simply download from Github and install requirements.txt with any method you're comfortable with, then run with main.py
 You do not need to install requirements.txt if you have already done so with Clangen or another mod.
 
 Not sure how to do this? Read here:
--Download from Github. You can do this by clicking the green Code button, and selecting download ZIP
--Extract to where you'd like to keep Awoogen. Saves will be kept wherever you extract to. When updating Awoogen, I recommend deleting the old contents entirely, except your saves, and extracting the new version. Overwriting the old one may lead to crashes.
--If you've never used source code from any version of clangen or a mod, you should download Thonny. This will allow you to run from source with less complication typically.
--Open Thonny and follow these instructions:
+Download from Github. You can do this by clicking the green Code button, and selecting download ZIP
+Extract to where you'd like to keep Awoogen. Saves will be kept wherever you extract to. When updating Awoogen, I recommend deleting the old contents entirely, except your saves, and extracting the new version. Overwriting the old one may lead to crashes.
+If you've never used source code from any version of clangen or a mod, you should download Thonny. This will allow you to run from source with less complication typically.
+Open Thonny and follow these instructions:
 go to tools (top left) > manage packages > click 'here' (under install requirements file) > find requirements.txt, click and then click open > allow it to install
--If everything worked, run using main.py from now on
+If everything worked, run using main.py from now on
 
 ## Crashes and Bugs
 Reminder that Awoogen comes with all of the bugs of Clangen dev, along with many of my own creation. If you care about your saves, back them up occasionally!
