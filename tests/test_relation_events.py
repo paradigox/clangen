@@ -9,7 +9,7 @@ from scripts.cat_relations.relationship import Relationship
 from scripts.events_module.relationship.pregnancy_events import Pregnancy_Events
 from scripts.events_module.relationship.romantic_events import Romantic_Events
 from scripts.cat.cats import Cat
-from scripts.clan import Clan
+from scripts.clan import Pack
 
 class CanHaveKits(unittest.TestCase):
     def test_prevent_kits(self):
@@ -23,7 +23,7 @@ class CanHaveKits(unittest.TestCase):
     @patch('scripts.events_module.relationship.pregnancy_events.Pregnancy_Events.check_if_can_have_kits')
     def test_no_kit_setting(self, check_if_can_have_kits):
         # given
-        test_clan = Clan(name="clan")
+        test_clan = Pack(name="clan")
         test_clan.pregnancy_data = {}
         cat1 = Cat(gender = 'female')
         cat1.no_kits = True
@@ -73,7 +73,7 @@ class Pregnancy(unittest.TestCase):
     @patch('scripts.events_module.relationship.pregnancy_events.Pregnancy_Events.check_if_can_have_kits')
     def test_single_cat_female(self, check_if_can_have_kits):
         # given
-        clan = Clan(name="clan")
+        clan = Pack(name="clan")
         cat = Cat(gender = 'female')
         clan.pregnancy_data = {}
 
@@ -87,7 +87,7 @@ class Pregnancy(unittest.TestCase):
     @patch('scripts.events_module.relationship.pregnancy_events.Pregnancy_Events.check_if_can_have_kits')
     def test_pair(self, check_if_can_have_kits):
         # given
-        clan = Clan(name="clan")
+        clan = Pack(name="clan")
         cat1 = Cat(gender = 'female')
         cat2 = Cat(gender = 'male')
 
